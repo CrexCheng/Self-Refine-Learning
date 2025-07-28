@@ -1,0 +1,96 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where there is a high rate of property crimes and a significant number of vacant houses",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "low",
+                "profession": "unemployed",
+                "income": 0,
+                "temperament": "desperate, impulsive",
+                "hobby": "gambling",
+                "goal": "finding a place to stay and some valuables to sell"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "seeking help from a shelter or social services",
+                    "benefits": "receives temporary accommodation and possibly some financial aid",
+                    "costs": "may have to follow strict norms and regulations, potential stigma",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "unlawfully entering a vacant house",
+                    "benefits": "finds a place to stay and possibly some valuables to sell",
+                    "costs": "risk of imprisonment up to 1 year or fine",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 35,
+                "gender": "female",
+                "education": "college",
+                "moral_level": "high",
+                "profession": "social worker",
+                "income": 40000,
+                "temperament": "empathetic, diligent",
+                "hobby": "volunteering",
+                "goal": "helping those in need"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "offering John Doe assistance and guiding him to a shelter",
+                    "benefits": "helps John Doe find a legitimate solution, fulfills her professional duty",
+                    "costs": "time and effort spent on John Doe, potential emotional strain",
+                    "benefits_probability": "60%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's situation",
+                    "benefits": "saves time and effort, avoids potential emotional strain",
+                    "costs": "moral guilt, potential professional repercussions if discovered",
+                    "benefits_probability": "90%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 40,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "medium",
+                "profession": "security guard",
+                "income": 30000,
+                "temperament": "alert, responsible",
+                "hobby": "watching sports",
+                "goal": "ensuring the security of the properties he guards"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting John Doe to the authorities if he attempts to unlawfully enter a dwelling",
+                    "benefits": "maintains security, fulfills his professional duty",
+                    "costs": "potential confrontation with John Doe, time spent dealing with authorities",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "turning a blind eye to John Doe's actions",
+                    "benefits": "avoids confrontation, saves time",
+                    "costs": "risk of losing his job if discovered, moral guilt",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

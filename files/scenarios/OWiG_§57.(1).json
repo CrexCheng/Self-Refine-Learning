@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where officials are required to carry identification at all times while performing their duties",
+    "norm_base": "Official Exercising authority under \u00a756 for administrative authority in field service without identification Fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 35,
+                "gender": "male",
+                "education": "Master's degree in Public Administration",
+                "moral_level": "high",
+                "profession": "Field Service Officer",
+                "income": 60000,
+                "temperament": "responsible, diligent",
+                "hobby": "reading",
+                "goal": "ensure compliance with regulations"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "carrying identification while performing field service duties",
+                    "benefits": "avoids legal consequences, maintains professional integrity",
+                    "costs": "none",
+                    "benefits_probability": "100%",
+                    "costs_probability": "0%"
+                },
+                "illegal": {
+                    "illegal_action": "performing field service duties without identification",
+                    "benefits": "none",
+                    "costs": "fine",
+                    "benefits_probability": "0%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 40,
+                "gender": "female",
+                "education": "Bachelor's degree in Law",
+                "moral_level": "high",
+                "profession": "Legal Advisor",
+                "income": 70000,
+                "temperament": "meticulous, cautious",
+                "hobby": "gardening",
+                "goal": "ensure legal compliance"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising John Doe to always carry identification",
+                    "benefits": "ensures John Doe's compliance, avoids legal issues",
+                    "costs": "none",
+                    "benefits_probability": "100%",
+                    "costs_probability": "0%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's lack of identification",
+                    "benefits": "none",
+                    "costs": "fine if discovered",
+                    "benefits_probability": "0%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 50,
+                "gender": "male",
+                "education": "Bachelor's degree in Business Administration",
+                "moral_level": "medium",
+                "profession": "Field Service Supervisor",
+                "income": 80000,
+                "temperament": "pragmatic, authoritative",
+                "hobby": "fishing",
+                "goal": "ensure team efficiency"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "ensuring all team members carry identification",
+                    "benefits": "maintains team compliance, avoids legal issues",
+                    "costs": "time spent on checks",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "overlooking identification checks",
+                    "benefits": "saves time, increases efficiency",
+                    "costs": "fine if discovered",
+                    "benefits_probability": "80%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

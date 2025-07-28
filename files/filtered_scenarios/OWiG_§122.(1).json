@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, known for its vibrant nightlife and numerous bars and clubs",
+    "norm_base": "Offender Intentionally or negligently becoming intoxicated and committing an offense punishable by fine in this state Fine corresponding to the offense committed while intoxicated",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "marketing executive",
+                "income": 60000,
+                "temperament": "sociable, impulsive",
+                "hobby": "partying",
+                "goal": "enjoy a night out with friends"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "drinking responsibly and not committing any offenses",
+                    "benefits": "enjoys the night out without any legal trouble",
+                    "costs": "may not experience the full thrill of intoxication",
+                    "benefits_probability": "100%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "becoming intoxicated and committing an offense (e.g., vandalism)",
+                    "benefits": "experiences the thrill of intoxication and reckless behavior",
+                    "costs": "fine corresponding to the offense committed while intoxicated",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 27,
+                "gender": "female",
+                "education": "college graduate",
+                "moral_level": "high",
+                "profession": "lawyer",
+                "income": 70000,
+                "temperament": "responsible, cautious",
+                "hobby": "reading",
+                "goal": "ensure friends stay out of trouble"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "keeping an eye on John and ensuring he drinks responsibly",
+                    "benefits": "friends stay out of legal trouble, maintains a safe environment",
+                    "costs": "may not fully enjoy the night out herself",
+                    "benefits_probability": "90%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John's behavior and letting him get intoxicated",
+                    "benefits": "enjoys the night out without worrying about others",
+                    "costs": "if John commits an offense, she may feel guilty and responsible",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 30,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "low",
+                "profession": "bartender",
+                "income": 40000,
+                "temperament": "carefree, indifferent",
+                "hobby": "playing video games",
+                "goal": "make money from selling drinks"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "refusing to serve John more drinks if he appears intoxicated",
+                    "benefits": "prevents potential legal issues for the bar, ensures customer safety",
+                    "costs": "may lose out on potential sales and tips",
+                    "benefits_probability": "70%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "continuing to serve John drinks despite his intoxication",
+                    "benefits": "increases sales and tips, keeps the customer happy",
+                    "costs": "if John commits an offense, the bar may face legal consequences",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where counterfeit currency incidents have been on the rise, leading to increased vigilance by law enforcement",
+    "norm_base": "Offender Producing or distributing printed materials that could be confused with currency Fine up to 10000 euros",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "questionable",
+                "profession": "graphic designer",
+                "income": 2500,
+                "temperament": "creative, risk-taker",
+                "hobby": "collecting rare items",
+                "goal": "make quick money to fund his rare item collection"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "designing and selling legitimate graphic art",
+                    "benefits": "earning money legally, building a reputable portfolio",
+                    "costs": "slower income growth, more effort required",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "producing and distributing printed materials that resemble currency",
+                    "benefits": "quick and substantial financial gain",
+                    "costs": "fine up to 10000 euros if caught",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "police officer",
+                "income": 3000,
+                "temperament": "diligent, observant",
+                "hobby": "reading crime novels",
+                "goal": "maintain law and order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "monitoring and investigating suspicious activities",
+                    "benefits": "upholding the law, preventing crime",
+                    "costs": "time-consuming, potential danger",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring suspicious activities for personal gain",
+                    "benefits": "receiving bribes, less workload",
+                    "costs": "risk of being caught and losing job",
+                    "benefits_probability": "20%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "moderate",
+                "profession": "printer shop owner",
+                "income": 4000,
+                "temperament": "practical, cautious",
+                "hobby": "photography",
+                "goal": "expand his business"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "refusing to print suspicious materials",
+                    "benefits": "maintaining business integrity, avoiding legal trouble",
+                    "costs": "losing potential business, possible conflict with clients",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "printing suspicious materials for extra income",
+                    "benefits": "earning extra money",
+                    "costs": "risk of being fined up to 10000 euros if caught",
+                    "benefits_probability": "50%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

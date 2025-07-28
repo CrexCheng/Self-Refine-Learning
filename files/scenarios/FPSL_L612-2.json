@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where security companies are highly regulated and monitored by the government",
+    "norm_base": "Security Companies Carrying out activities not related to surveillance Withdrawal of authorization",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 35,
+                "gender": "male",
+                "education": "bachelor's degree in criminal justice",
+                "moral_level": "high",
+                "profession": "security officer",
+                "income": 40000,
+                "temperament": "calm, responsible",
+                "hobby": "reading mystery novels",
+                "goal": "maintain high standards of security service"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "focusing solely on surveillance activities",
+                    "benefits": "maintains company's authorization, ensures job security",
+                    "costs": "may miss out on additional income opportunities",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "engaging in activities not related to surveillance, such as private investigations",
+                    "benefits": "additional income from private investigations",
+                    "costs": "withdrawal of company's authorization, loss of job",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "associate degree in security management",
+                "moral_level": "moderate",
+                "profession": "security officer",
+                "income": 35000,
+                "temperament": "ambitious, proactive",
+                "hobby": "fitness training",
+                "goal": "earn extra income"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "focusing solely on surveillance activities",
+                    "benefits": "maintains company's authorization, ensures job security",
+                    "costs": "may miss out on additional income opportunities",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "engaging in activities not related to surveillance, such as private investigations",
+                    "benefits": "additional income from private investigations",
+                    "costs": "withdrawal of company's authorization, loss of job",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 45,
+                "gender": "male",
+                "education": "high school diploma",
+                "moral_level": "high",
+                "profession": "security supervisor",
+                "income": 50000,
+                "temperament": "strict, disciplined",
+                "hobby": "gardening",
+                "goal": "ensure compliance with regulations"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "ensuring all security officers focus solely on surveillance activities",
+                    "benefits": "maintains company's authorization, ensures job security for all",
+                    "costs": "may face resistance from officers seeking extra income",
+                    "benefits_probability": "100%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "turning a blind eye to officers engaging in non-surveillance activities",
+                    "benefits": "maintains good relations with officers, avoids conflict",
+                    "costs": "withdrawal of company's authorization, loss of job",
+                    "benefits_probability": "90%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where there is a high demand for rental housing due to a large influx of migrant workers",
+    "norm_base": "Housing Lessors Renting housing to persons without ID or failing to register tenants' names, ID types and numbers Fine of 200-500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 45,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "landlord",
+                "income": 20000,
+                "temperament": "pragmatic, cautious",
+                "hobby": "real estate investment",
+                "goal": "maximize rental income"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "renting housing only to persons with ID and registering tenants' names, ID types, and numbers",
+                    "benefits": "compliance with the law, avoiding fines",
+                    "costs": "time and effort spent verifying IDs and registering tenants",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "renting housing to persons without ID or failing to register tenants' names, ID types, and numbers",
+                    "benefits": "quickly filling vacancies, potentially higher rental income",
+                    "costs": "fine of 200-500 yuan if caught",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 38,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "property manager",
+                "income": 5000,
+                "temperament": "responsible, diligent",
+                "hobby": "gardening",
+                "goal": "ensure property compliance"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "ensuring all tenants have valid IDs and are properly registered",
+                    "benefits": "maintains property compliance, avoids fines",
+                    "costs": "time and effort spent verifying IDs and registering tenants",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring the verification and registration process",
+                    "benefits": "saves time and effort",
+                    "costs": "fine of 200-500 yuan if caught",
+                    "benefits_probability": "90%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 50,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "real estate agent",
+                "income": 15000,
+                "temperament": "ambitious, persuasive",
+                "hobby": "networking",
+                "goal": "close rental deals quickly"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "ensuring all rental agreements comply with ID verification and registration requirements",
+                    "benefits": "maintains professional reputation, avoids fines",
+                    "costs": "time and effort spent verifying IDs and registering tenants",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "closing rental deals without verifying IDs or registering tenants",
+                    "benefits": "quickly closing deals, potentially higher commissions",
+                    "costs": "fine of 200-500 yuan if caught",
+                    "benefits_probability": "85%",
+                    "costs_probability": "4%"
+                }
+            }
+        }
+    }
+}

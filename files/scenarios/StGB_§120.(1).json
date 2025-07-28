@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where crime rates are high and prisons are heavily guarded",
+    "norm_base": "Offender Freeing prisoner, inducing or assisting escape Imprisonment up to 3 years or fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "low",
+                "profession": "unemployed",
+                "income": 0,
+                "temperament": "desperate, cunning",
+                "hobby": "gambling",
+                "goal": "free his imprisoned friend"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "not attempting to free his friend from prison",
+                    "benefits": "avoids legal consequences, stays out of further trouble",
+                    "costs": "friend remains in prison, emotional distress",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "attempting to free his friend from prison",
+                    "benefits": "friend is freed, emotional satisfaction",
+                    "costs": "imprisonment up to 3 years or fine",
+                    "benefits_probability": "10%",
+                    "costs_probability": "8%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "college",
+                "moral_level": "high",
+                "profession": "prison guard",
+                "income": 4000,
+                "temperament": "strict, vigilant",
+                "hobby": "reading",
+                "goal": "maintain prison security"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "preventing any escape attempts",
+                    "benefits": "maintains job security, ensures prison safety",
+                    "costs": "increased stress, potential conflict with prisoners",
+                    "benefits_probability": "90%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "accepting bribe to assist in escape",
+                    "benefits": "financial gain",
+                    "costs": "imprisonment up to 3 years or fine if caught",
+                    "benefits_probability": "5%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 40,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "medium",
+                "profession": "mechanic",
+                "income": 3000,
+                "temperament": "helpful, cautious",
+                "hobby": "fishing",
+                "goal": "help his friend John"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising John against freeing his friend",
+                    "benefits": "avoids legal trouble, maintains moral integrity",
+                    "costs": "strained friendship with John",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "helping John plan the escape",
+                    "benefits": "strengthens friendship with John, emotional satisfaction",
+                    "costs": "imprisonment up to 3 years or fine if caught",
+                    "benefits_probability": "10%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

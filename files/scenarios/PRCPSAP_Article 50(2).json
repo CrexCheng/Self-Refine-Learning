@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where citizens are known for their active participation in community matters and sometimes confront state functionaries during their duties",
+    "norm_base": "Citizens Obstructing state functionaries in performing their duties Warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "shop owner",
+                "income": 40000,
+                "temperament": "assertive, community-oriented",
+                "hobby": "volunteering",
+                "goal": "protect community interests"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "cooperating with state functionaries while expressing concerns",
+                    "benefits": "community interests are considered, maintains good relations with authorities",
+                    "costs": "may not fully achieve desired outcome, time-consuming",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "obstructing state functionaries in performing their duties",
+                    "benefits": "immediate attention to community concerns, potential halt of unwanted actions",
+                    "costs": "warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "teacher",
+                "income": 30000,
+                "temperament": "calm, rational",
+                "hobby": "reading",
+                "goal": "support community initiatives"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising John to cooperate with state functionaries",
+                    "benefits": "maintains peace, ensures community concerns are heard",
+                    "costs": "may not fully achieve desired outcome, time-consuming",
+                    "benefits_probability": "60%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging John to obstruct state functionaries",
+                    "benefits": "immediate attention to community concerns, potential halt of unwanted actions",
+                    "costs": "warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "50%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 42,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "police officer",
+                "income": 50000,
+                "temperament": "strict, duty-bound",
+                "hobby": "fishing",
+                "goal": "maintain law and order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "performing duties while addressing community concerns",
+                    "benefits": "maintains law and order, builds trust with community",
+                    "costs": "time-consuming, potential conflict with community members",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring community concerns and focusing solely on duties",
+                    "benefits": "quick completion of duties, avoids potential conflict",
+                    "costs": "community distrust, potential escalation of conflict",
+                    "benefits_probability": "70%",
+                    "costs_probability": "10%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where social media usage is prevalent and online harassment is a growing concern",
+    "norm_base": "Citizens Repeatedly sending obscene, insulting, threatening or other messages that interfere with normal life Detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 25,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "freelance writer",
+                "income": 4000,
+                "temperament": "introverted, sensitive",
+                "hobby": "blogging",
+                "goal": "increase blog readership"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "promoting blog through legitimate means such as SEO and social media marketing",
+                    "benefits": "increased readership, positive reputation",
+                    "costs": "time and effort spent on marketing strategies",
+                    "benefits_probability": "70%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "sending obscene, insulting, or threatening messages to competitors to drive their audience away",
+                    "benefits": "potentially increased readership by reducing competitors' audience",
+                    "costs": "detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "30%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 30,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "social media manager",
+                "income": 6000,
+                "temperament": "outgoing, ethical",
+                "hobby": "volunteering",
+                "goal": "maintain a positive online community"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting any obscene, insulting, or threatening messages to platform moderators",
+                    "benefits": "maintains a positive online community, avoids legal issues",
+                    "costs": "time spent on reporting and monitoring",
+                    "benefits_probability": "80%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring obscene, insulting, or threatening messages",
+                    "benefits": "saves time and effort",
+                    "costs": "if discovered, potential job loss or legal consequences",
+                    "benefits_probability": "90%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "low",
+                "profession": "content creator",
+                "income": 5000,
+                "temperament": "ambitious, competitive",
+                "hobby": "gaming",
+                "goal": "become the top content creator in his niche"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "collaborating with other content creators to grow his audience",
+                    "benefits": "increased audience, positive reputation",
+                    "costs": "time and effort spent on collaborations",
+                    "benefits_probability": "60%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "sending obscene, insulting, or threatening messages to competitors to intimidate them",
+                    "benefits": "potentially reduced competition, increased audience",
+                    "costs": "detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "40%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

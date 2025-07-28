@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where firearms regulations are strict, and shipping companies are required to follow stringent protocols for handling firearms.",
+    "norm_base": "Any person Ship firearms via common carrier without written notice Fine and/or imprisonment up to 5 years",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 32,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "freelance writer",
+                "income": 4000,
+                "temperament": "calm but opportunistic",
+                "hobby": "collecting antique firearms",
+                "goal": "ship an antique firearm to a buyer in another state"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Provide written notice to the carrier about the firearm shipment",
+                    "benefits": "Complies with the law, avoids legal consequences, and ensures safe delivery of the firearm",
+                    "costs": "Additional paperwork and potential delays in shipment",
+                    "benefits_probability": "100%",
+                    "costs_probability": "80%"
+                },
+                "illegal": {
+                    "illegal_action": "Ship the firearm without providing written notice to the carrier",
+                    "benefits": "Saves time and effort, avoids potential scrutiny or delays",
+                    "costs": "Fine and/or imprisonment up to 5 years if discovered",
+                    "benefits_probability": "95%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Sarah Lee",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "shipping company employee",
+                "income": 2500,
+                "temperament": "diligent and cautious",
+                "hobby": "reading mystery novels",
+                "goal": "Ensure all shipments comply with company policies and legal regulations"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Verify the contents of the shipment and request written notice for firearms",
+                    "benefits": "Maintains compliance with the law and company policies, avoids personal liability",
+                    "costs": "Spends extra time inspecting shipments, potential conflict with customers",
+                    "benefits_probability": "90%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignore the lack of written notice and process the shipment",
+                    "benefits": "Saves time and avoids conflict with the customer",
+                    "costs": "If discovered, could face disciplinary action or legal consequences",
+                    "benefits_probability": "80%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 45,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "low",
+                "profession": "firearms dealer",
+                "income": 7000,
+                "temperament": "shrewd and persuasive",
+                "hobby": "hunting",
+                "goal": "Facilitate the sale and shipment of firearms to maximize profit"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Advise John to provide written notice to the carrier about the firearm shipment",
+                    "benefits": "Ensures the transaction is legal and avoids legal consequences for both parties",
+                    "costs": "Potential delay in completing the sale, additional effort required",
+                    "benefits_probability": "85%",
+                    "costs_probability": "60%"
+                },
+                "illegal": {
+                    "illegal_action": "Encourage John to ship the firearm without written notice to expedite the process",
+                    "benefits": "Speeds up the transaction and avoids scrutiny, leading to quicker profit",
+                    "costs": "If discovered, could face legal consequences including fines or imprisonment",
+                    "benefits_probability": "90%",
+                    "costs_probability": "4%"
+                }
+            }
+        }
+    }
+}

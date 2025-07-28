@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where a recent rise in organized crime has led to an increase in coercion-related incidents among citizens.",
+    "norm_base": "Citizens Acting under verbal threat of harm might face Partial excuse defense",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Alex Carter",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "high",
+                "profession": "graphic designer",
+                "income": 45000,
+                "temperament": "calm, analytical",
+                "hobby": "photography",
+                "goal": "protect his family from harm"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Reporting the threat to law enforcement and seeking protection",
+                    "benefits": "Ensures personal and family safety through legal means, avoids criminal involvement",
+                    "costs": "Risk of retaliation from the threatening party, potential delay in law enforcement response",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "Complying with the coercer's demand to commit a minor theft under threat of immediate harm.",
+                    "benefits": "Avoids immediate harm to self and family, fulfills coercer's demand",
+                    "costs": "Partial excuse defense",
+                    "benefits_probability": "90%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jordan Lee",
+                "age": 35,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "low",
+                "profession": "enforcer for a local gang",
+                "income": 20000,
+                "temperament": "aggressive, manipulative",
+                "hobby": "gambling",
+                "goal": "enforce gang's control and intimidate targets"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Leaving Alex alone and not issuing threats",
+                    "benefits": "Avoids potential legal consequences, maintains a low profile",
+                    "costs": "Fails to fulfill gang's demands, risks losing status within the gang",
+                    "benefits_probability": "50%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "Threatening Alex with immediate harm to coerce him into committing theft",
+                    "benefits": "Fulfills gang's demands, maintains status within the gang",
+                    "costs": "Risk of being reported to law enforcement, potential legal consequences",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Emily Davis",
+                "age": 30,
+                "gender": "female",
+                "education": "master's degree",
+                "moral_level": "high",
+                "profession": "social worker",
+                "income": 40000,
+                "temperament": "empathetic, proactive",
+                "hobby": "volunteering",
+                "goal": "help Alex find a safe and legal solution"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Advising Alex to report the threat to law enforcement and offering emotional support",
+                    "benefits": "Helps Alex avoid criminal involvement, strengthens trust and community safety",
+                    "costs": "Time and emotional energy spent on assisting Alex, potential risk of being targeted by the coercer",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "Encouraging Alex to comply with the coercer's demands to avoid immediate harm",
+                    "benefits": "Avoids immediate harm to Alex and his family, avoids confrontation with the coercer",
+                    "costs": "Compromises moral integrity, risks enabling further coercion and criminal activity",
+                    "benefits_probability": "90%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

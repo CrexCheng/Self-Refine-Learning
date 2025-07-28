@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where many people own pets and there are strict regulations regarding pet supervision",
+    "norm_base": "Responsible Person As supervisor, failing to take necessary precautions for animal supervision Fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "pet shop owner",
+                "income": 50000,
+                "temperament": "responsible, caring",
+                "hobby": "animal care",
+                "goal": "ensure the safety and well-being of the animals in his care"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "implementing strict supervision and safety measures for all animals in the shop",
+                    "benefits": "ensures the safety of the animals, avoids legal consequences",
+                    "costs": "requires time, effort, and financial resources",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "neglecting to implement necessary supervision and safety measures",
+                    "benefits": "saves time and resources",
+                    "costs": "risk of animal harm, legal fines",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "pet shop assistant",
+                "income": 30000,
+                "temperament": "diligent, compassionate",
+                "hobby": "volunteering at animal shelters",
+                "goal": "ensure the well-being of the animals in the shop"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "assisting John in implementing strict supervision and safety measures",
+                    "benefits": "ensures the safety of the animals, maintains job security",
+                    "costs": "requires time and effort",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "neglecting to assist in implementing necessary supervision and safety measures",
+                    "benefits": "saves time and effort",
+                    "costs": "risk of animal harm, potential job loss",
+                    "benefits_probability": "80%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "veterinarian",
+                "income": 70000,
+                "temperament": "calm, professional",
+                "hobby": "reading veterinary journals",
+                "goal": "ensure the health of the animals in the shop"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "regularly checking the health and safety conditions of the animals",
+                    "benefits": "ensures the health and safety of the animals, maintains professional reputation",
+                    "costs": "requires time and effort",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "neglecting regular health and safety checks",
+                    "benefits": "saves time and effort",
+                    "costs": "risk of animal health issues, potential legal consequences",
+                    "benefits_probability": "80%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where schools have strict regulations on safety and weapon possession is prohibited on school premises unless for legitimate work purposes.",
+    "norm_base": "Citizens Having blade or weapon on school premises for use at work Legal defense if proven",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 35,
+                "gender": "male",
+                "education": "vocational training",
+                "moral_level": "average",
+                "profession": "chef",
+                "income": 4000,
+                "temperament": "calm and focused",
+                "hobby": "cooking and knife collecting",
+                "goal": "to prepare a cooking demonstration at a school event"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Obtaining prior approval to bring cooking knives to the school for the demonstration",
+                    "benefits": "Able to conduct the demonstration without legal issues, maintains professional reputation",
+                    "costs": "Time spent on obtaining approval and additional paperwork",
+                    "benefits_probability": "95%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Bringing cooking knives to the school without prior approval",
+                    "benefits": "Saves time and effort, able to conduct the demonstration immediately",
+                    "costs": "Potential legal defense if caught, risk of damaging professional reputation",
+                    "benefits_probability": "90%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Sarah Lee",
+                "age": 29,
+                "gender": "female",
+                "education": "bachelor's degree",
+                "moral_level": "high",
+                "profession": "school administrator",
+                "income": 3500,
+                "temperament": "strict but fair",
+                "hobby": "reading",
+                "goal": "to ensure school safety and compliance with regulations"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Ensuring John Doe has proper approval for bringing knives to the school",
+                    "benefits": "Maintains school safety and compliance with regulations",
+                    "costs": "Time spent reviewing and approving requests",
+                    "benefits_probability": "90%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Allowing John Doe to bring knives without proper approval",
+                    "benefits": "Saves time and avoids bureaucratic delays",
+                    "costs": "Risk of legal consequences if an incident occurs",
+                    "benefits_probability": "80%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "average",
+                "profession": "janitor",
+                "income": 2500,
+                "temperament": "easygoing",
+                "hobby": "gardening",
+                "goal": "to complete his daily tasks efficiently"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Reporting any unauthorized possession of knives or weapons on school premises",
+                    "benefits": "Contributes to school safety and avoids personal liability",
+                    "costs": "Potential conflict with colleagues or visitors",
+                    "benefits_probability": "85%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignoring unauthorized possession of knives or weapons on school premises",
+                    "benefits": "Avoids conflict and saves time",
+                    "costs": "Risk of being held accountable if an incident occurs",
+                    "benefits_probability": "90%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where building security is taken very seriously and strict regulations are in place for security agents",
+    "norm_base": "Building Security Agents Not wearing uniform and professional card while on duty Warning and administrative sanctions",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 30,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "high",
+                "profession": "building security agent",
+                "income": 4000,
+                "temperament": "responsible, diligent",
+                "hobby": "reading",
+                "goal": "maintain building security and comply with regulations"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "wearing uniform and professional card while on duty",
+                    "benefits": "compliance with regulations, maintaining professional image",
+                    "costs": "none",
+                    "benefits_probability": "100%",
+                    "costs_probability": "0%"
+                },
+                "illegal": {
+                    "illegal_action": "not wearing uniform and professional card while on duty",
+                    "benefits": "comfort, less restrictive clothing",
+                    "costs": "warning and administrative sanctions",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "medium",
+                "profession": "building security agent",
+                "income": 3500,
+                "temperament": "easy-going, cooperative",
+                "hobby": "watching movies",
+                "goal": "perform duties effectively"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "wearing uniform and professional card while on duty",
+                    "benefits": "compliance with regulations, maintaining professional image",
+                    "costs": "none",
+                    "benefits_probability": "100%",
+                    "costs_probability": "0%"
+                },
+                "illegal": {
+                    "illegal_action": "not wearing uniform and professional card while on duty",
+                    "benefits": "comfort, less restrictive clothing",
+                    "costs": "warning and administrative sanctions",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "high",
+                "profession": "building security supervisor",
+                "income": 5000,
+                "temperament": "strict, authoritative",
+                "hobby": "playing chess",
+                "goal": "ensure all security agents comply with regulations"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "ensuring all security agents wear uniform and professional card while on duty",
+                    "benefits": "maintaining order and compliance, avoiding administrative issues",
+                    "costs": "time and effort in monitoring",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring non-compliance of security agents",
+                    "benefits": "less effort in monitoring, avoiding potential conflicts",
+                    "costs": "warning and administrative sanctions if discovered",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

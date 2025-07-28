@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where there is a mix of affluent and less affluent neighborhoods, leading to occasional conflicts over property",
+    "norm_base": "Citizens Forcibly taking or arbitrarily damaging/occupying public or private property Detention for 5-10 days with possible fine up to 500 yuan; for serious cases, detention for 10-15 days with possible fine up to 1000 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "freelance artist",
+                "income": 2000,
+                "temperament": "creative, impulsive",
+                "hobby": "street art",
+                "goal": "create a large mural on a public wall"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "seeking permission from the city council to create the mural",
+                    "benefits": "legal permission to create the mural, positive recognition",
+                    "costs": "time-consuming process, possible rejection",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "creating the mural without permission",
+                    "benefits": "immediate creation of the mural, emotional satisfaction",
+                    "costs": "detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 35,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "city council member",
+                "income": 4000,
+                "temperament": "strict, responsible",
+                "hobby": "gardening",
+                "goal": "maintain city order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reviewing and approving John Doe's mural request",
+                    "benefits": "maintains city order, supports local art",
+                    "costs": "time spent reviewing requests",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's mural request",
+                    "benefits": "saves time, avoids potential controversy",
+                    "costs": "if discovered, possible reprimand or job risk",
+                    "benefits_probability": "90%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "local business owner",
+                "income": 5000,
+                "temperament": "pragmatic, cautious",
+                "hobby": "reading",
+                "goal": "protect his business property"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting unauthorized mural creation to authorities",
+                    "benefits": "protects his property, maintains order",
+                    "costs": "time spent reporting, potential conflict with John Doe",
+                    "benefits_probability": "60%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "confronting John Doe directly and forcibly stopping him",
+                    "benefits": "immediate protection of property",
+                    "costs": "possible legal consequences for using force",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

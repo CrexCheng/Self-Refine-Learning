@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where the Civil Security Reserves are frequently called upon for various emergency missions",
+    "norm_base": "Civil Security Reserves Serving without corresponding capabilities and skills for missions Prohibition from participating in missions",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "high",
+                "profession": "civil security officer",
+                "income": 40000,
+                "temperament": "brave, responsible",
+                "hobby": "volunteering",
+                "goal": "to serve in the Civil Security Reserves effectively"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "undergoing proper training before participating in missions",
+                    "benefits": "ensures readiness and effectiveness in missions, maintains safety",
+                    "costs": "time and effort spent in training",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "participating in missions without proper training",
+                    "benefits": "immediate participation in missions, gaining experience",
+                    "costs": "risk of failure, prohibition from participating in future missions",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 35,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "training officer",
+                "income": 35000,
+                "temperament": "strict, diligent",
+                "hobby": "reading",
+                "goal": "to ensure all officers are properly trained"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "ensuring John Doe completes his training",
+                    "benefits": "maintains high standards, ensures mission success",
+                    "costs": "time and effort spent on training John Doe",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "allowing John Doe to participate without completing training",
+                    "benefits": "reduces training workload, immediate mission participation",
+                    "costs": "risk of mission failure, prohibition from participating in future missions",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "medium",
+                "profession": "mission coordinator",
+                "income": 45000,
+                "temperament": "calm, strategic",
+                "hobby": "chess",
+                "goal": "to ensure mission success"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "verifying the training status of all participants",
+                    "benefits": "ensures mission readiness, maintains safety",
+                    "costs": "time and effort spent on verification",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "overlooking the training status of participants",
+                    "benefits": "saves time, immediate mission deployment",
+                    "costs": "risk of mission failure, prohibition from participating in future missions",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

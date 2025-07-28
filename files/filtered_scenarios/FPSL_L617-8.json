@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where private security companies are in high demand due to increasing crime rates",
+    "norm_base": "Private Security Company Employing person without professional card Fine of 30,000 euros",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 40,
+                "gender": "male",
+                "education": "bachelor's degree in criminal justice",
+                "moral_level": "high",
+                "profession": "owner of a private security company",
+                "income": 80000,
+                "temperament": "calm, strategic",
+                "hobby": "reading crime novels",
+                "goal": "expand his security company"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "employing only individuals with professional cards",
+                    "benefits": "compliance with the law, avoiding fines, maintaining company reputation",
+                    "costs": "higher recruitment costs, longer hiring process",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "employing individuals without professional cards",
+                    "benefits": "lower recruitment costs, faster hiring process, immediate availability of staff",
+                    "costs": "risk of a fine of 30,000 euros, potential damage to company reputation",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 35,
+                "gender": "female",
+                "education": "master's degree in business administration",
+                "moral_level": "medium",
+                "profession": "HR manager",
+                "income": 50000,
+                "temperament": "practical, detail-oriented",
+                "hobby": "yoga",
+                "goal": "ensure efficient staffing"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "verifying professional cards of all applicants",
+                    "benefits": "compliance with the law, avoiding fines, maintaining company reputation",
+                    "costs": "time-consuming verification process, potential delays in hiring",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "overlooking the verification of professional cards",
+                    "benefits": "faster hiring process, immediate availability of staff",
+                    "costs": "risk of a fine of 30,000 euros, potential damage to company reputation",
+                    "benefits_probability": "90%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 28,
+                "gender": "male",
+                "education": "associate degree in security management",
+                "moral_level": "low",
+                "profession": "security guard",
+                "income": 30000,
+                "temperament": "ambitious, opportunistic",
+                "hobby": "playing video games",
+                "goal": "secure a job quickly"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "obtaining a professional card before applying for jobs",
+                    "benefits": "compliance with the law, higher chances of being hired by reputable companies",
+                    "costs": "time and money spent on obtaining the card",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "applying for jobs without a professional card",
+                    "benefits": "immediate job application, potential quick hiring",
+                    "costs": "risk of being rejected, potential legal issues for the employer",
+                    "benefits_probability": "70%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

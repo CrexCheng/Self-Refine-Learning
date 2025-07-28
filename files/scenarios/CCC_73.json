@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, Suburban neighborhood where disputes over property boundaries are common due to unclear land demarcations.",
+    "norm_base": "Citizens Committing forcible entry or forcible detainer Imprisonment up to 2 years or punishable on summary conviction",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Smith",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "real estate agent",
+                "income": 45000,
+                "temperament": "assertive, ambitious",
+                "hobby": "gardening",
+                "goal": "expand his backyard by claiming disputed land"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Filing a legal claim to resolve the property dispute",
+                    "benefits": "Potentially gains legal ownership of the disputed land, avoids legal trouble",
+                    "costs": "Legal fees, time-consuming process, potential stress",
+                    "benefits_probability": "70%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Forcibly erecting a fence on the disputed land without legal resolution",
+                    "benefits": "Immediate use of the land, emotional satisfaction of claiming the area",
+                    "costs": "Imprisonment up to 2 years or punishable on summary conviction, potential conflict with neighbors",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Emily Johnson",
+                "age": 40,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "teacher",
+                "income": 35000,
+                "temperament": "calm, empathetic",
+                "hobby": "reading",
+                "goal": "maintain peace in the neighborhood"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Mediating between John and the other party to resolve the dispute peacefully",
+                    "benefits": "Maintains neighborhood harmony, avoids escalation of conflict",
+                    "costs": "Time and emotional energy spent on mediation",
+                    "benefits_probability": "50%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "Encouraging John to forcibly claim the land to avoid prolonged disputes",
+                    "benefits": "Quick resolution of the issue, avoids prolonged legal battles",
+                    "costs": "If discovered, could face legal consequences for incitement",
+                    "benefits_probability": "60%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 50,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "low",
+                "profession": "contractor",
+                "income": 60000,
+                "temperament": "opportunistic, pragmatic",
+                "hobby": "woodworking",
+                "goal": "secure a contract for building fences"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Advising John to resolve the dispute legally and offering to build the fence after legal resolution",
+                    "benefits": "Earns income from the contract without legal risks",
+                    "costs": "Delays in starting the project, potential loss of the contract if John decides otherwise",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "Agreeing to build the fence on the disputed land without legal resolution",
+                    "benefits": "Immediate income from the project, strengthens business relationship with John",
+                    "costs": "If discovered, could face legal consequences for aiding in forcible entry",
+                    "benefits_probability": "90%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

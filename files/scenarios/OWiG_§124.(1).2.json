@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where there is a high level of patriotism and strict regulations regarding the use of national symbols",
+    "norm_base": "Offender Unauthorized use of service flag of federation or state Fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "questionable",
+                "profession": "graphic designer",
+                "income": 40000,
+                "temperament": "creative, rebellious",
+                "hobby": "designing",
+                "goal": "to create a unique design using the federation's flag"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "seeking permission to use the federation's flag in his design",
+                    "benefits": "legal use of the flag, no risk of fine",
+                    "costs": "time-consuming process, possible rejection",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "using the federation's flag without authorization",
+                    "benefits": "immediate use of the flag in his design, potential increase in popularity",
+                    "costs": "risk of fine",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "law enforcement officer",
+                "income": 35000,
+                "temperament": "strict, diligent",
+                "hobby": "reading",
+                "goal": "to enforce the law"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "monitoring and reporting unauthorized use of the federation's flag",
+                    "benefits": "upholding the law, maintaining order",
+                    "costs": "time and effort spent on monitoring",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring unauthorized use of the federation's flag",
+                    "benefits": "saving time and effort",
+                    "costs": "risk of disciplinary action if discovered",
+                    "benefits_probability": "50%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "moderate",
+                "profession": "business owner",
+                "income": 60000,
+                "temperament": "pragmatic",
+                "hobby": "networking",
+                "goal": "to support local designers"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising John to seek permission for using the flag",
+                    "benefits": "maintaining legal compliance, avoiding fines",
+                    "costs": "potential delay in project completion",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging John to use the flag without authorization",
+                    "benefits": "quick project completion, potential increase in business",
+                    "costs": "risk of fine for John, potential damage to reputation",
+                    "benefits_probability": "60%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

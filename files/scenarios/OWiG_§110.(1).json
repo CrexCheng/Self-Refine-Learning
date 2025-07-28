@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where financial crimes are prevalent and the legal system is strict about compensation for damages caused by prosecution measures",
+    "norm_base": "Offender Compensation obligation for financial damage caused by prosecution measure in administrative offense proceedings Fine corresponding to damage",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "low",
+                "profession": "financial advisor",
+                "income": 50000,
+                "temperament": "calculative, ambitious",
+                "hobby": "investing",
+                "goal": "maximize personal wealth"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising clients within legal boundaries",
+                    "benefits": "steady income, no legal issues",
+                    "costs": "slower wealth accumulation",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "engaging in fraudulent financial activities",
+                    "benefits": "quick wealth accumulation",
+                    "costs": "fine corresponding to financial damage caused by prosecution measure",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 40,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "compliance officer",
+                "income": 40000,
+                "temperament": "diligent, ethical",
+                "hobby": "reading",
+                "goal": "ensure company compliance"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "monitoring financial activities for compliance",
+                    "benefits": "maintains company integrity, avoids legal issues",
+                    "costs": "time-consuming, potential conflicts with colleagues",
+                    "benefits_probability": "90%",
+                    "costs_probability": "80%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring suspicious financial activities",
+                    "benefits": "avoids conflict, less workload",
+                    "costs": "if discovered, could face fines or job loss",
+                    "benefits_probability": "50%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 50,
+                "gender": "male",
+                "education": "MBA",
+                "moral_level": "medium",
+                "profession": "CEO",
+                "income": 150000,
+                "temperament": "strategic, risk-taker",
+                "hobby": "golf",
+                "goal": "increase company profits"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "implementing ethical business strategies",
+                    "benefits": "long-term company growth, positive reputation",
+                    "costs": "slower profit increase",
+                    "benefits_probability": "80%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging aggressive financial tactics",
+                    "benefits": "rapid profit increase",
+                    "costs": "fine corresponding to financial damage caused by prosecution measure",
+                    "benefits_probability": "60%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

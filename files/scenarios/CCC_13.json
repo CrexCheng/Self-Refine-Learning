@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "A suburban neighborhood in Country B, where children often play unsupervised in parks and streets, and peer influence is common.",
+    "norm_base": "Children Committing any offense while under age 12 No criminal conviction possible",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Tommy",
+                "age": 11,
+                "gender": "male",
+                "education": "elementary school",
+                "moral_level": "developing",
+                "profession": "student",
+                "income": 0,
+                "temperament": "curious, adventurous",
+                "hobby": "exploring the neighborhood",
+                "goal": "to impress his friends by doing something daring"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Playing a game of tag with friends in the park",
+                    "benefits": "Having fun, building friendships, staying safe",
+                    "costs": "No thrill of doing something daring",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Stealing candy from a local convenience store",
+                    "benefits": "Gaining candy and impressing friends with a daring act",
+                    "costs": "Potential scolding from parents or store owner, no criminal conviction",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Billy",
+                "age": 12,
+                "gender": "male",
+                "education": "middle school",
+                "moral_level": "immature",
+                "profession": "student",
+                "income": 0,
+                "temperament": "mischievous, persuasive",
+                "hobby": "pranking others",
+                "goal": "to encourage Tommy to do something daring for fun"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Encouraging Tommy to play tag or hide-and-seek in the park",
+                    "benefits": "Having fun with friends, staying out of trouble",
+                    "costs": "No excitement from risky behavior",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "Daring Tommy to steal candy from the store",
+                    "benefits": "Amusement from Tommy's actions, gaining candy if successful",
+                    "costs": "Potential scolding from adults, no criminal conviction for Tommy",
+                    "benefits_probability": "70%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Sarah",
+                "age": 10,
+                "gender": "female",
+                "education": "elementary school",
+                "moral_level": "developing",
+                "profession": "student",
+                "income": 0,
+                "temperament": "kind, cautious",
+                "hobby": "reading books",
+                "goal": "to keep her friends out of trouble"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Convincing Tommy and Billy to play a safe game in the park",
+                    "benefits": "Keeping everyone safe and out of trouble",
+                    "costs": "Potential conflict with Billy for being 'boring'",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignoring Billy's dare and not intervening when Tommy considers stealing candy",
+                    "benefits": "Avoiding conflict with Billy, staying uninvolved",
+                    "costs": "Feeling guilty if Tommy gets into trouble",
+                    "benefits_probability": "90%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

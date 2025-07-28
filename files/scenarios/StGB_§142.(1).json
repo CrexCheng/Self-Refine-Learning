@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where traffic accidents are common and the legal system is strict about hit-and-run incidents",
+    "norm_base": "Offender as Accident Participant Leaving accident scene without enabling necessary determinations Imprisonment up to 3 years or fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "salesman",
+                "income": 40000,
+                "temperament": "nervous, cautious",
+                "hobby": "driving",
+                "goal": "avoid legal consequences after a minor accident"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "staying at the accident scene and enabling necessary determinations",
+                    "benefits": "avoiding legal consequences, fulfilling moral and legal obligations",
+                    "costs": "potential financial loss, time-consuming, possible increase in insurance premium",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "leaving the accident scene without enabling necessary determinations",
+                    "benefits": "avoiding immediate confrontation, saving time",
+                    "costs": "imprisonment up to 3 years or fine if caught",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "nurse",
+                "income": 35000,
+                "temperament": "calm, responsible",
+                "hobby": "reading",
+                "goal": "ensure everyone is safe and legal procedures are followed"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "encouraging John Doe to stay at the accident scene",
+                    "benefits": "ensuring legal procedures are followed, maintaining moral integrity",
+                    "costs": "potential conflict with John Doe, time-consuming",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's decision to leave the accident scene",
+                    "benefits": "avoiding conflict, saving time",
+                    "costs": "moral guilt, potential legal consequences if discovered",
+                    "benefits_probability": "90%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 45,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "insurance agent",
+                "income": 50000,
+                "temperament": "practical, indifferent",
+                "hobby": "golf",
+                "goal": "minimize insurance payouts"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising John Doe to stay at the accident scene and report the incident",
+                    "benefits": "ensuring proper insurance procedures, avoiding legal issues",
+                    "costs": "potential increase in insurance claims, time-consuming",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "advising John Doe to leave the accident scene to avoid immediate insurance claims",
+                    "benefits": "minimizing immediate insurance payouts, saving time",
+                    "costs": "legal consequences if discovered, potential loss of job",
+                    "benefits_probability": "60%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

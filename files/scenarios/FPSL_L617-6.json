@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where private security companies are highly competitive and often exaggerate their credentials to attract clients",
+    "norm_base": "Private Security Company Claiming status of former civil servant or military personnel Fine of 3,750 euros",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 35,
+                "gender": "male",
+                "education": "bachelor's degree in criminal justice",
+                "moral_level": "questionable",
+                "profession": "security consultant",
+                "income": 45000,
+                "temperament": "ambitious, persuasive",
+                "hobby": "networking",
+                "goal": "to secure a high-profile contract for his security company"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "promoting the company's actual credentials and services",
+                    "benefits": "builds a trustworthy reputation, attracts clients who value honesty",
+                    "costs": "may lose out to competitors who exaggerate their credentials",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "claiming to be a former military personnel to impress potential clients",
+                    "benefits": "increases chances of securing high-profile contracts quickly",
+                    "costs": "fine of 3,750 euros if discovered, damage to personal and company reputation",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "master's degree in business administration",
+                "moral_level": "high",
+                "profession": "marketing manager",
+                "income": 40000,
+                "temperament": "ethical, strategic",
+                "hobby": "reading",
+                "goal": "to maintain the company's ethical standards while increasing client base"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "creating marketing campaigns based on the company's true strengths",
+                    "benefits": "attracts clients who value integrity, builds long-term trust",
+                    "costs": "may not be as immediately effective as exaggerated claims",
+                    "benefits_probability": "60%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "supporting John's false claims in marketing materials",
+                    "benefits": "quickly attracts high-profile clients, boosts short-term revenue",
+                    "costs": "fine of 3,750 euros if discovered, potential loss of job and reputation",
+                    "benefits_probability": "70%",
+                    "costs_probability": "4%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 50,
+                "gender": "male",
+                "education": "high school diploma",
+                "moral_level": "moderate",
+                "profession": "security guard",
+                "income": 30000,
+                "temperament": "loyal, pragmatic",
+                "hobby": "fishing",
+                "goal": "to ensure job security and support his family"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "performing his duties diligently and honestly",
+                    "benefits": "maintains job security, earns respect from colleagues",
+                    "costs": "may not stand out for promotions or bonuses",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "supporting John's false claims by corroborating his story",
+                    "benefits": "potential for bonuses or promotions if the company secures high-profile contracts",
+                    "costs": "fine of 3,750 euros if discovered, potential job loss",
+                    "benefits_probability": "50%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

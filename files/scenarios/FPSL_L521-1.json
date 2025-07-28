@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, a rural area where guards are responsible for maintaining order and reporting incidents",
+    "norm_base": "Rural Guards Drawing up reports without being sworn in Nullity of acts",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "high",
+                "profession": "rural guard",
+                "income": 4000,
+                "temperament": "calm, responsible",
+                "hobby": "reading",
+                "goal": "maintain order and ensure proper reporting procedures"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "swearing in before drawing up reports",
+                    "benefits": "reports are valid and legally binding",
+                    "costs": "takes additional time to swear in",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "drawing up reports without being sworn in",
+                    "benefits": "saves time and effort",
+                    "costs": "reports are nullified and legally invalid",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "medium",
+                "profession": "assistant guard",
+                "income": 3000,
+                "temperament": "energetic, diligent",
+                "hobby": "gardening",
+                "goal": "assist John Doe in maintaining order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "ensuring John Doe swears in before drawing up reports",
+                    "benefits": "reports are valid and legally binding",
+                    "costs": "takes additional time to ensure proper procedure",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring the swearing-in procedure",
+                    "benefits": "saves time and effort",
+                    "costs": "reports are nullified and legally invalid",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 42,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "high",
+                "profession": "senior guard",
+                "income": 5000,
+                "temperament": "strict, disciplined",
+                "hobby": "fishing",
+                "goal": "ensure all guards follow proper procedures"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "monitoring and enforcing the swearing-in procedure",
+                    "benefits": "maintains the integrity of reports and legal processes",
+                    "costs": "requires constant vigilance and effort",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "neglecting to enforce the swearing-in procedure",
+                    "benefits": "reduces workload and stress",
+                    "costs": "reports are nullified and legally invalid",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

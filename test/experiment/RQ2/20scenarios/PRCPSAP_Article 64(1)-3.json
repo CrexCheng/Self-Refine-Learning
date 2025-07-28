@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where vehicle theft is a common issue and citizens are vigilant about their vehicles",
+    "norm_base": "Citizens Operating vehicle for 2-12 hours causing wear/fuel consumption might face Fine 750-900 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 25,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "questionable",
+                "profession": "unemployed",
+                "income": 0,
+                "temperament": "impulsive, opportunistic",
+                "hobby": "driving",
+                "goal": "to drive a car without owning one"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "renting a car legally",
+                    "benefits": "able to drive a car legally, no legal consequences",
+                    "costs": "spending money on car rental",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Taking another person's motor vehicle without permission, resulting in a fine within the range of 750-900 yuan.",
+                    "benefits": "able to drive a car without spending money",
+                    "costs": "Fine 750-900 yuan",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 30,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "police officer",
+                "income": 4000,
+                "temperament": "diligent, responsible",
+                "hobby": "reading",
+                "goal": "maintain law and order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "patrolling the streets and preventing vehicle theft",
+                    "benefits": "maintains law and order, prevents crime",
+                    "costs": "time and effort spent on patrolling",
+                    "benefits_probability": "70%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring suspicious activities",
+                    "benefits": "less effort and time spent on patrolling",
+                    "costs": "if discovered, disciplinary action and potential job loss",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "moderate",
+                "profession": "car owner",
+                "income": 5000,
+                "temperament": "cautious",
+                "hobby": "gardening",
+                "goal": "protect his car from theft"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "installing a car alarm system",
+                    "benefits": "reduces the risk of car theft",
+                    "costs": "spending money on the alarm system",
+                    "benefits_probability": "80%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "leaving the car unattended and unlocked",
+                    "benefits": "saves money on security measures",
+                    "costs": "high risk of car theft, potential loss of vehicle",
+                    "benefits_probability": "100%",
+                    "costs_probability": "10%"
+                }
+            }
+        }
+    }
+}

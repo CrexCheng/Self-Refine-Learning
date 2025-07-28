@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, Suburban area where many residents own large properties and some keep exotic or dangerous animals",
+    "norm_base": "Offender Allowing dangerous wild animal or vicious animal to roam freely Fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "zookeeper",
+                "income": 40000,
+                "temperament": "calm, responsible",
+                "hobby": "animal training",
+                "goal": "to train his exotic animals"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "keeping his dangerous animals in secure enclosures",
+                    "benefits": "ensures safety of the community, avoids legal consequences",
+                    "costs": "requires time and money to maintain enclosures",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "allowing his dangerous animals to roam freely",
+                    "benefits": "animals get more exercise, less effort in maintaining enclosures",
+                    "costs": "risk of harm to community, fine",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 40,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "teacher",
+                "income": 35000,
+                "temperament": "caring, vigilant",
+                "hobby": "gardening",
+                "goal": "to ensure the safety of her neighborhood"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting John Doe if she sees his animals roaming freely",
+                    "benefits": "ensures safety of the community, fulfills civic duty",
+                    "costs": "potential conflict with John Doe",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring the situation if she sees John Doe's animals roaming freely",
+                    "benefits": "avoids conflict with John Doe",
+                    "costs": "risk to community safety, personal guilt",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 50,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "lawyer",
+                "income": 60000,
+                "temperament": "pragmatic, cautious",
+                "hobby": "hiking",
+                "goal": "to maintain a peaceful neighborhood"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising John Doe to keep his animals secured",
+                    "benefits": "maintains neighborhood safety, avoids legal issues",
+                    "costs": "time and effort to advise John Doe",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "not advising John Doe and ignoring the situation",
+                    "benefits": "avoids personal involvement, saves time",
+                    "costs": "risk to community safety, potential legal issues",
+                    "benefits_probability": "100%",
+                    "costs_probability": "1%"
+                }
+            }
+        }
+    }
+}

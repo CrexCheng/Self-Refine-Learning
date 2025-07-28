@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "A bustling financial district in City X, where employees of financial institutions work under strict regulations and ethical guidelines.",
+    "norm_base": "Financial institution employees Accepting legitimate salary and business expenses No penalty - explicitly allowed",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Emily Carter",
+                "age": 32,
+                "gender": "female",
+                "education": "Master's in Finance",
+                "moral_level": "high",
+                "profession": "Investment Banker",
+                "income": 120000,
+                "temperament": "ambitious, diligent",
+                "hobby": "reading financial news",
+                "goal": "to excel in her career while maintaining ethical standards"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Accepting legitimate salary and business expenses",
+                    "benefits": "Maintains professional integrity, complies with company policies, and receives stable income",
+                    "costs": "None",
+                    "benefits_probability": "100%",
+                    "costs_probability": "0%"
+                },
+                "illegal": {
+                    "illegal_action": "Refusing legitimate salary and business expenses",
+                    "benefits": "None",
+                    "costs": "Financial instability, inability to meet personal expenses, and potential confusion among colleagues and HR",
+                    "benefits_probability": "0%",
+                    "costs_probability": "100%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "James Miller",
+                "age": 45,
+                "gender": "male",
+                "education": "Bachelor's in Accounting",
+                "moral_level": "high",
+                "profession": "Finance Manager",
+                "income": 90000,
+                "temperament": "practical, detail-oriented",
+                "hobby": "playing chess",
+                "goal": "to ensure compliance with financial regulations within the company"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Encouraging employees to accept legitimate salary and business expenses",
+                    "benefits": "Ensures smooth financial operations and compliance with regulations",
+                    "costs": "Time spent explaining policies to employees",
+                    "benefits_probability": "100%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignoring employees who refuse legitimate salary and business expenses",
+                    "benefits": "Saves time and effort in addressing the issue",
+                    "costs": "Potential disruption in financial operations and confusion among staff",
+                    "benefits_probability": "50%",
+                    "costs_probability": "50%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Sophia Lee",
+                "age": 29,
+                "gender": "female",
+                "education": "Bachelor's in Business Administration",
+                "moral_level": "high",
+                "profession": "HR Specialist",
+                "income": 60000,
+                "temperament": "empathetic, organized",
+                "hobby": "yoga",
+                "goal": "to ensure employee satisfaction and adherence to company policies"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Clarifying the importance of accepting legitimate salary and business expenses to employees",
+                    "benefits": "Improves employee understanding and compliance with company policies",
+                    "costs": "Time and effort spent in communication",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "Overlooking employees who refuse legitimate salary and business expenses",
+                    "benefits": "Avoids immediate confrontation or additional workload",
+                    "costs": "Potential HR issues and confusion among employees",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                }
+            }
+        }
+    }
+}

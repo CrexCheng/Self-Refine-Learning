@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where economic disparity is high and crime rates are increasing",
+    "norm_base": "Citizens Theft of public/private property with value 500-1000 yuan might face Detention 5-7 days; fine 200 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "questionable",
+                "profession": "unemployed",
+                "income": 0,
+                "temperament": "desperate, impulsive",
+                "hobby": "gambling",
+                "goal": "quickly obtain money to pay off gambling debts"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "seeking a legitimate job",
+                    "benefits": "stable income, legal security",
+                    "costs": "time-consuming, may not get job immediately",
+                    "benefits_probability": "80%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Committing theft of public property valued at a moderate amount, not considered a serious case.",
+                    "benefits": "quick money to pay off debts",
+                    "costs": "Detention 5-7 days; fine 200 yuan",
+                    "benefits_probability": "70%",
+                    "costs_probability": "8%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "store owner",
+                "income": 20000,
+                "temperament": "cautious, responsible",
+                "hobby": "reading",
+                "goal": "protect her store from theft"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "installing security systems in her store",
+                    "benefits": "reduces risk of theft, peace of mind",
+                    "costs": "financial cost of security systems",
+                    "benefits_probability": "90%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring security measures",
+                    "benefits": "saves money on security systems",
+                    "costs": "higher risk of theft, potential financial loss",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "moderate",
+                "profession": "police officer",
+                "income": 15000,
+                "temperament": "diligent, strict",
+                "hobby": "fitness",
+                "goal": "reduce crime in the city"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "patrolling high-risk areas",
+                    "benefits": "prevents crime, maintains public order",
+                    "costs": "time-consuming, physically demanding",
+                    "benefits_probability": "70%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "neglecting patrol duties",
+                    "benefits": "more free time, less physical strain",
+                    "costs": "increase in crime, potential disciplinary action",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

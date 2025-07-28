@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where certain areas are restricted due to public safety concerns, and citizens are prohibited from associating with individuals involved in criminal activities or carrying specific prohibited items.",
+    "norm_base": "Citizens Violating prohibition on being in specific places/areas, associating with specific persons, participating in activities, or having specific articles Determined by original order (typically serious disruption prevention order)",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Alex Carter",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "moderate",
+                "profession": "freelance photographer",
+                "income": 4000,
+                "temperament": "curious, adventurous",
+                "hobby": "urban exploration, photography",
+                "goal": "capture unique photographs in restricted areas for a photography competition"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Avoid entering restricted areas and focus on photographing legal locations.",
+                    "benefits": "Maintains a clean legal record, avoids penalties, and ensures personal safety.",
+                    "costs": "Misses out on potentially unique and striking photographs.",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Enter a restricted area to capture unique photographs.",
+                    "benefits": "Obtains rare and striking photographs that could win the competition.",
+                    "costs": "Risk of being caught and facing penalties under the serious disruption prevention order.",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jordan Lee",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "security officer",
+                "income": 3500,
+                "temperament": "diligent, cautious",
+                "hobby": "reading crime novels",
+                "goal": "Ensure public safety by enforcing restrictions."
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Prevent Alex from entering the restricted area by issuing a warning.",
+                    "benefits": "Maintains public safety and fulfills professional duty.",
+                    "costs": "Potential conflict with Alex and time spent on enforcement.",
+                    "benefits_probability": "90%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignore Alex's attempt to enter the restricted area.",
+                    "benefits": "Avoids confrontation and saves time.",
+                    "costs": "Risk of disciplinary action if discovered.",
+                    "benefits_probability": "70%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Taylor Morgan",
+                "age": 25,
+                "gender": "non-binary",
+                "education": "college graduate",
+                "moral_level": "low",
+                "profession": "freelance journalist",
+                "income": 3000,
+                "temperament": "opportunistic, persuasive",
+                "hobby": "investigative reporting",
+                "goal": "Obtain exclusive content for a sensational story."
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Encourage Alex to focus on legal photography opportunities.",
+                    "benefits": "Maintains ethical standards and avoids legal trouble.",
+                    "costs": "Misses out on a potentially sensational story.",
+                    "benefits_probability": "60%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "Encourage Alex to enter the restricted area and provide assistance.",
+                    "benefits": "Gains exclusive content for a sensational story.",
+                    "costs": "Risk of being implicated in legal consequences under the serious disruption prevention order.",
+                    "benefits_probability": "70%",
+                    "costs_probability": "4%"
+                }
+            }
+        }
+    }
+}

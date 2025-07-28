@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where internet trading platforms are popular and widely used for various transactions",
+    "norm_base": "Offender Operating internet trading platform aimed at enabling or promoting illegal acts Imprisonment up to 5 years or fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 30,
+                "gender": "male",
+                "education": "bachelor's degree in computer science",
+                "moral_level": "low",
+                "profession": "software developer",
+                "income": 50000,
+                "temperament": "ambitious, risk-taker",
+                "hobby": "coding, online gaming",
+                "goal": "to create a highly profitable internet trading platform"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Creating a legal internet trading platform for legitimate goods and services",
+                    "benefits": "steady income, legal recognition, and reputation",
+                    "costs": "high initial investment, time-consuming development, and compliance with regulations",
+                    "benefits_probability": "80%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Operating an internet trading platform aimed at enabling or promoting illegal acts",
+                    "benefits": "high profits from illegal transactions, rapid growth of user base",
+                    "costs": "imprisonment up to 5 years or fine",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "master's degree in business administration",
+                "moral_level": "moderate",
+                "profession": "business consultant",
+                "income": 60000,
+                "temperament": "pragmatic, cautious",
+                "hobby": "reading, hiking",
+                "goal": "to help John create a successful business"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Advising John on legal business practices and compliance",
+                    "benefits": "professional reputation, steady consulting fees",
+                    "costs": "time and effort in research and advising",
+                    "benefits_probability": "90%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Advising John on how to bypass regulations and promote illegal activities",
+                    "benefits": "higher consulting fees, rapid business growth",
+                    "costs": "imprisonment up to 5 years or fine if caught",
+                    "benefits_probability": "60%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 35,
+                "gender": "male",
+                "education": "high school diploma",
+                "moral_level": "low",
+                "profession": "freelance hacker",
+                "income": 40000,
+                "temperament": "rebellious, opportunistic",
+                "hobby": "hacking, gaming",
+                "goal": "to make quick money through illegal activities"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Providing cybersecurity services to protect John's platform",
+                    "benefits": "steady income, legal recognition",
+                    "costs": "time and effort in providing services",
+                    "benefits_probability": "70%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Helping John to secure and promote illegal transactions on the platform",
+                    "benefits": "high income from illegal activities",
+                    "costs": "imprisonment up to 5 years or fine if caught",
+                    "benefits_probability": "80%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

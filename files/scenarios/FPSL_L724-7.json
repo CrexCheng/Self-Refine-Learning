@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where many employees are required to serve in the reserve forces but must obtain their employer's agreement",
+    "norm_base": "Employee Not obtaining employer's agreement to serve in reserve Refusal of participation",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 30,
+                "gender": "male",
+                "education": "bachelor's degree",
+                "moral_level": "high",
+                "profession": "software engineer",
+                "income": 80000,
+                "temperament": "responsible, diligent",
+                "hobby": "volunteering",
+                "goal": "serve in the reserve forces"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "obtaining employer's agreement to serve in reserve",
+                    "benefits": "able to serve in the reserve forces, gaining experience and fulfilling civic duty",
+                    "costs": "may need to negotiate with employer, possible delay in work projects",
+                    "benefits_probability": "90%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "serving in reserve without obtaining employer's agreement",
+                    "benefits": "immediate participation in reserve forces, gaining experience and fulfilling civic duty",
+                    "costs": "refusal of participation, potential conflict with employer",
+                    "benefits_probability": "10%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 45,
+                "gender": "female",
+                "education": "master's degree",
+                "moral_level": "high",
+                "profession": "HR manager",
+                "income": 90000,
+                "temperament": "strict, fair",
+                "hobby": "reading",
+                "goal": "ensure company policies are followed"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "approving John's request to serve in reserve",
+                    "benefits": "maintains company compliance, supports employee's civic duty",
+                    "costs": "temporary loss of employee, need to find a temporary replacement",
+                    "benefits_probability": "80%",
+                    "costs_probability": "60%"
+                },
+                "illegal": {
+                    "illegal_action": "denying John's request without valid reason",
+                    "benefits": "retains employee for work projects, avoids disruption",
+                    "costs": "potential legal issues, employee dissatisfaction",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 50,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "moderate",
+                "profession": "team leader",
+                "income": 70000,
+                "temperament": "pragmatic, supportive",
+                "hobby": "fishing",
+                "goal": "maintain team productivity"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "supporting John's request to serve in reserve",
+                    "benefits": "fosters team morale, supports employee's goals",
+                    "costs": "temporary loss of team member, need to redistribute workload",
+                    "benefits_probability": "70%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "discouraging John from serving in reserve",
+                    "benefits": "maintains team productivity, avoids disruption",
+                    "costs": "potential conflict with John, ethical concerns",
+                    "benefits_probability": "60%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

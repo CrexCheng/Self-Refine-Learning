@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where a new regime has recently taken control, and citizens are uncertain about the legitimacy of the new laws being enforced.",
+    "norm_base": "Citizens Acting in compliance with de facto laws enforced by those in possession of sovereign power No criminal conviction possible",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Alex Carter",
+                "age": 32,
+                "gender": "male",
+                "education": "bachelor's degree in political science",
+                "moral_level": "high",
+                "profession": "journalist",
+                "income": 45000,
+                "temperament": "curious, principled",
+                "hobby": "investigative reporting",
+                "goal": "to expose the legitimacy of the new regime's laws"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Investigating and reporting on the new regime's laws without violating them",
+                    "benefits": "Maintains professional integrity, avoids personal risk, and informs the public",
+                    "costs": "Limited access to sensitive information, slower progress in exposing the truth",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "Defying the new regime's laws by publishing classified information obtained through unauthorized means",
+                    "benefits": "Quickly exposes the regime's questionable practices, gains public recognition",
+                    "costs": "Risk of detention, harassment, or other non-criminal consequences from the regime",
+                    "benefits_probability": "60%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jordan Lee",
+                "age": 40,
+                "gender": "female",
+                "education": "master's degree in law",
+                "moral_level": "moderate",
+                "profession": "lawyer",
+                "income": 60000,
+                "temperament": "calm, analytical",
+                "hobby": "reading legal cases",
+                "goal": "to ensure the norm of law is upheld"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Advising Alex on how to navigate the new regime's laws without breaking them",
+                    "benefits": "Helps Alex stay safe and maintain credibility, builds professional reputation",
+                    "costs": "Time-consuming, potential scrutiny from the regime",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "Providing Alex with legal loopholes to bypass the new regime's laws",
+                    "benefits": "Enables Alex to gather critical information more effectively",
+                    "costs": "Risk of losing legal license or facing non-criminal repercussions from the regime",
+                    "benefits_probability": "50%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Sam Rivera",
+                "age": 28,
+                "gender": "non-binary",
+                "education": "high school diploma",
+                "moral_level": "low",
+                "profession": "freelance hacker",
+                "income": 20000,
+                "temperament": "rebellious, resourceful",
+                "hobby": "coding and gaming",
+                "goal": "to undermine the new regime"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Refusing to assist Alex in any illegal activities but offering technical advice",
+                    "benefits": "Avoids personal risk, maintains a low profile",
+                    "costs": "Misses an opportunity to actively challenge the regime",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "Hacking into the regime's systems to provide Alex with classified information",
+                    "benefits": "Directly undermines the regime, gains recognition among anti-regime groups",
+                    "costs": "Risk of being tracked and facing non-criminal consequences from the regime",
+                    "benefits_probability": "40%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

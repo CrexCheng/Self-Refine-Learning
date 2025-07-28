@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where a state of emergency has been declared due to a natural disaster",
+    "norm_base": "Citizens Refusing to execute government decisions or orders issued under emergency situations Warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 30,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "engineer",
+                "income": 60000,
+                "temperament": "rational, cautious",
+                "hobby": "reading",
+                "goal": "ensure the safety of his family during the emergency"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "following government orders to evacuate the area",
+                    "benefits": "ensures the safety of his family, avoids legal consequences",
+                    "costs": "temporary displacement, potential property damage",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "refusing to evacuate and staying at home",
+                    "benefits": "avoids the inconvenience of evacuation, protects property",
+                    "costs": "risk of injury or death, warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "nurse",
+                "income": 40000,
+                "temperament": "compassionate, responsible",
+                "hobby": "volunteering",
+                "goal": "helping others during the emergency"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "encouraging John to follow government orders and evacuate",
+                    "benefits": "ensures the safety of John and his family, fulfills her duty as a nurse",
+                    "costs": "spends time persuading John, potential conflict",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John's refusal to evacuate",
+                    "benefits": "avoids conflict, saves time",
+                    "costs": "if John's refusal leads to serious consequences, she may face moral guilt",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "police officer",
+                "income": 50000,
+                "temperament": "authoritative, disciplined",
+                "hobby": "sports",
+                "goal": "maintain order during the emergency"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "enforcing the evacuation order and ensuring John complies",
+                    "benefits": "maintains public order, ensures safety",
+                    "costs": "potential conflict with John, time-consuming",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "allowing John to stay despite the evacuation order",
+                    "benefits": "avoids immediate conflict, saves time",
+                    "costs": "risk of disciplinary action if discovered, potential harm to John",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

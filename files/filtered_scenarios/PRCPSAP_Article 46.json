@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where street vendors and small businesses are common, and there is a high level of competition among sellers",
+    "norm_base": "Citizens Forcing others to buy or sell goods, provide services or accept services Detention for 5-10 days and fine of 200-500 yuan; for minor cases, detention up to 5 days or fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 30,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "street vendor",
+                "income": 2000,
+                "temperament": "ambitious, competitive",
+                "hobby": "reading business books",
+                "goal": "increase sales and expand business"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "attracting customers through promotions and quality service",
+                    "benefits": "increased customer satisfaction, potential for repeat business",
+                    "costs": "investment in promotions, time spent on customer service",
+                    "benefits_probability": "70%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "forcing passersby to buy goods",
+                    "benefits": "immediate increase in sales",
+                    "costs": "detention for 5-10 days and fine of 200-500 yuan; for minor cases, detention up to 5 days or fine up to 500 yuan",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "street vendor",
+                "income": 1800,
+                "temperament": "friendly, cooperative",
+                "hobby": "cooking",
+                "goal": "maintain a good reputation and steady income"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "collaborating with John Doe to create joint promotions",
+                    "benefits": "shared customer base, increased sales for both",
+                    "costs": "sharing profits, time spent on coordination",
+                    "benefits_probability": "60%",
+                    "costs_probability": "80%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's aggressive tactics",
+                    "benefits": "avoiding conflict with John Doe, maintaining own sales",
+                    "costs": "potential loss of reputation if associated with John Doe's actions",
+                    "benefits_probability": "80%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "local shop owner",
+                "income": 3000,
+                "temperament": "pragmatic, cautious",
+                "hobby": "gardening",
+                "goal": "protect business from unfair competition"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting John Doe's aggressive tactics to authorities",
+                    "benefits": "eliminating unfair competition, maintaining fair business environment",
+                    "costs": "time spent on reporting, potential backlash from John Doe",
+                    "benefits_probability": "50%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "confronting John Doe directly and threatening him to stop",
+                    "benefits": "immediate cessation of unfair competition",
+                    "costs": "potential escalation of conflict, legal consequences for threats",
+                    "benefits_probability": "40%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

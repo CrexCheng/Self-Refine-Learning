@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where citizens are generally law-abiding but there are occasional incidents of public disturbances",
+    "norm_base": "Citizens Unwanted following might face detention",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "office worker",
+                "income": 4000,
+                "temperament": "impulsive",
+                "hobby": "jogging",
+                "goal": "to catch a thief who stole his wallet"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting the theft to the police",
+                    "benefits": "police handle the situation, personal safety maintained",
+                    "costs": "time spent reporting, possible delay in recovering wallet",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "Chasing or intercepting another person, resulting in detention for a period of 5-10 days.",
+                    "benefits": "potentially recovering the stolen wallet quickly",
+                    "costs": "detention",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "shop owner",
+                "income": 3000,
+                "temperament": "calm",
+                "hobby": "reading",
+                "goal": "to maintain peace in her shop"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "calling the police to report the theft",
+                    "benefits": "police handle the situation, shop remains peaceful",
+                    "costs": "time spent calling the police, potential disruption in shop",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring the situation and not calling the police",
+                    "benefits": "avoids disruption in shop, saves time",
+                    "costs": "if the thief is not caught, potential increase in theft incidents",
+                    "benefits_probability": "70%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "security guard",
+                "income": 3500,
+                "temperament": "alert",
+                "hobby": "watching sports",
+                "goal": "to ensure safety in the area"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "detaining the thief until the police arrive",
+                    "benefits": "thief is caught, area remains safe",
+                    "costs": "potential physical confrontation, time spent detaining the thief",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "chasing the thief himself",
+                    "benefits": "potentially catching the thief quickly",
+                    "costs": "detention for 5-10 days with possible fine up to 500 yuan; for serious cases, detention for 10-15 days with possible fine up to 1000 yuan",
+                    "benefits_probability": "60%",
+                    "costs_probability": "4%"
+                }
+            }
+        }
+    }
+}

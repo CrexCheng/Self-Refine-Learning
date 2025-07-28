@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "City B, a bustling urban area with a mix of law enforcement officers and civilians, where occasional disputes arise in public spaces.",
+    "norm_base": "Officers/Citizens Multiple arrests in single operation might face Exemption with supervisor review",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Officer John",
+                "age": 35,
+                "gender": "male",
+                "education": "Bachelor's degree in Criminal Justice",
+                "moral_level": "high",
+                "profession": "police officer",
+                "income": 50000,
+                "temperament": "calm, analytical",
+                "hobby": "reading crime novels",
+                "goal": "maintain public safety and enforce the law"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Making an arrest with reasonable grounds and using appropriate force",
+                    "benefits": "Ensures public safety, upholds the law, avoids legal consequences",
+                    "costs": "Physical and emotional stress, potential risk of injury",
+                    "benefits_probability": "90%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "Making an arrest with reasonable grounds and using reasonable force during the arrest, resulting in exemption from criminal responsibility pending supervisor review.",
+                    "benefits": "Quick resolution of the situation, perceived authority",
+                    "costs": "Exemption with supervisor review",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Mark Smith",
+                "age": 28,
+                "gender": "male",
+                "education": "High school diploma",
+                "moral_level": "moderate",
+                "profession": "delivery driver",
+                "income": 30000,
+                "temperament": "impulsive, outspoken",
+                "hobby": "playing video games",
+                "goal": "defend himself in a public altercation"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Complying with Officer John's instructions and resolving the situation peacefully",
+                    "benefits": "Avoids legal trouble, maintains personal safety",
+                    "costs": "Temporary inconvenience, potential embarrassment",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "Resisting arrest or escalating the situation",
+                    "benefits": "Momentary sense of defiance or control",
+                    "costs": "Risk of injury, legal charges, potential arrest",
+                    "benefits_probability": "30%",
+                    "costs_probability": "7%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Sarah Lee",
+                "age": 42,
+                "gender": "female",
+                "education": "Master's degree in Sociology",
+                "moral_level": "high",
+                "profession": "social worker",
+                "income": 45000,
+                "temperament": "empathetic, composed",
+                "hobby": "volunteering at shelters",
+                "goal": "mediate and de-escalate public disputes"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Intervening to mediate the situation and support Officer John in a lawful manner",
+                    "benefits": "Helps resolve the conflict peacefully, maintains public order",
+                    "costs": "Personal time and effort, potential risk of being involved in the altercation",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "Interfering with Officer John's arrest or escalating the situation",
+                    "benefits": "Momentary sense of control or influence over the situation",
+                    "costs": "Legal consequences, loss of professional credibility",
+                    "benefits_probability": "40%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

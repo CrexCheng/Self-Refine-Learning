@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where a small community is located near an industrial area that stores explosive substances. Citizens are required to follow strict safety protocols to prevent accidents.",
+    "norm_base": "Citizens Failing to perform legal duty regarding explosive substances causing bodily harm or property damage Imprisonment up to 14 years",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Carter",
+                "age": 35,
+                "gender": "male",
+                "education": "bachelor's degree in engineering",
+                "moral_level": "moderate",
+                "profession": "warehouse manager",
+                "income": 45000,
+                "temperament": "responsible but occasionally careless",
+                "hobby": "gardening",
+                "goal": "ensure the safety of the warehouse and its surroundings"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "regularly inspecting and maintaining safety protocols for explosive substances",
+                    "benefits": "ensures safety of the community and avoids legal consequences",
+                    "costs": "time-consuming and requires additional effort",
+                    "benefits_probability": "95%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "neglecting safety inspections and failing to maintain safety protocols",
+                    "benefits": "saves time and effort, reduces operational costs",
+                    "costs": "risk of imprisonment up to 14 years if an accident occurs",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Emily Davis",
+                "age": 29,
+                "gender": "female",
+                "education": "master's degree in environmental science",
+                "moral_level": "high",
+                "profession": "safety inspector",
+                "income": 40000,
+                "temperament": "meticulous and assertive",
+                "hobby": "hiking",
+                "goal": "ensure compliance with safety regulations"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "conducting thorough inspections and reporting any violations",
+                    "benefits": "maintains safety standards and prevents accidents",
+                    "costs": "may face resistance or hostility from warehouse staff",
+                    "benefits_probability": "90%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "overlooking minor safety violations to maintain good relations with the warehouse staff",
+                    "benefits": "avoids conflict and maintains a positive relationship with the warehouse team",
+                    "costs": "risk of imprisonment up to 14 years if an accident occurs due to negligence",
+                    "benefits_probability": "70%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 42,
+                "gender": "male",
+                "education": "high school diploma",
+                "moral_level": "low",
+                "profession": "warehouse worker",
+                "income": 30000,
+                "temperament": "carefree and indifferent",
+                "hobby": "watching sports",
+                "goal": "minimize workload and avoid extra responsibilities"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "following safety protocols and reporting any issues to the manager",
+                    "benefits": "ensures personal safety and avoids legal consequences",
+                    "costs": "requires additional effort and time",
+                    "benefits_probability": "85%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring safety protocols and failing to report issues",
+                    "benefits": "reduces workload and avoids extra responsibilities",
+                    "costs": "risk of imprisonment up to 14 years if an accident occurs due to negligence",
+                    "benefits_probability": "90%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

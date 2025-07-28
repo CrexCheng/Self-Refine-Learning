@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "City B, a bustling urban area where citizens often carry tools for work or personal use, but there is a growing concern about public safety.",
+    "norm_base": "Citizens Carrying a folding pocketknife with cutting edge not exceeding 3 inches Legal - exempt from offense",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "carpenter",
+                "income": 4000,
+                "temperament": "practical and cautious",
+                "hobby": "woodworking",
+                "goal": "carry a pocketknife for work purposes"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Carry a folding pocketknife with a cutting edge not exceeding 3 inches",
+                    "benefits": "Able to use the tool for work and personal tasks without legal issues",
+                    "costs": "Limited functionality for larger tasks requiring a bigger blade",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Carry a folding pocketknife with a cutting edge exceeding 3 inches",
+                    "benefits": "Greater utility for work and personal tasks requiring a larger blade",
+                    "costs": "Potential legal scrutiny and confiscation of the knife",
+                    "benefits_probability": "90%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 35,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "police officer",
+                "income": 5000,
+                "temperament": "strict but fair",
+                "hobby": "reading crime novels",
+                "goal": "ensure public safety by enforcing regulations"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Inspect and verify that John Doe's pocketknife complies with regulations",
+                    "benefits": "Maintains public safety and fulfills professional duty",
+                    "costs": "Time and effort spent on inspections",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignore John Doe's pocketknife, regardless of its size",
+                    "benefits": "Saves time and avoids potential conflict",
+                    "costs": "Neglect of duty and potential public safety risks",
+                    "benefits_probability": "90%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "vocational training",
+                "moral_level": "average",
+                "profession": "hardware store owner",
+                "income": 4500,
+                "temperament": "friendly and business-minded",
+                "hobby": "fishing",
+                "goal": "sell pocketknives to customers"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Sell pocketknives that comply with the legal size limit",
+                    "benefits": "Avoids legal issues and maintains a good reputation",
+                    "costs": "Potential loss of customers seeking larger knives",
+                    "benefits_probability": "95%",
+                    "costs_probability": "5%"
+                },
+                "illegal": {
+                    "illegal_action": "Sell pocketknives exceeding the legal size limit",
+                    "benefits": "Increased sales and profit from customers seeking larger knives",
+                    "costs": "Risk of fines or legal action if discovered",
+                    "benefits_probability": "70%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

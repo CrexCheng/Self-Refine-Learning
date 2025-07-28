@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where citizens are passionate about sports and often attend mass events",
+    "norm_base": "Citizens Displaying insulting banners, slogans or other items, disturbing order at cultural, sports and other mass events Warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "marketing specialist",
+                "income": 8000,
+                "temperament": "enthusiastic, impulsive",
+                "hobby": "watching sports events",
+                "goal": "support his favorite sports team"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "cheering for his team without displaying insulting banners or slogans",
+                    "benefits": "enjoys the event, supports his team, avoids legal trouble",
+                    "costs": "may not fully express his emotions",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "displaying insulting banners against the rival team",
+                    "benefits": "fully expresses his emotions, gains attention from fellow supporters",
+                    "costs": "warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "event organizer",
+                "income": 6000,
+                "temperament": "responsible, calm",
+                "hobby": "organizing events",
+                "goal": "ensure the event runs smoothly"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "monitoring the crowd and stopping any inappropriate behavior",
+                    "benefits": "maintains order, avoids legal issues for the event",
+                    "costs": "requires constant vigilance, potential conflicts with attendees",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring inappropriate behavior to avoid confrontation",
+                    "benefits": "avoids immediate conflict, less stress",
+                    "costs": "if discovered, event may face legal consequences, personal fines",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "security guard",
+                "income": 4000,
+                "temperament": "alert, disciplined",
+                "hobby": "fitness",
+                "goal": "ensure safety at the event"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "patrolling the event and addressing any disturbances",
+                    "benefits": "ensures safety, maintains order",
+                    "costs": "physical and mental effort, potential conflicts",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring minor disturbances to avoid escalation",
+                    "benefits": "less stress, avoids immediate conflict",
+                    "costs": "if discovered, may face disciplinary action, personal fines",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

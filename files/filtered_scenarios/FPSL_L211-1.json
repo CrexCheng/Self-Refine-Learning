@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where public gatherings and parades are common but require prior declaration to authorities",
+    "norm_base": "Any person Organizing parades and gatherings without prior declaration Application of penalties prescribed by law",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "community organizer",
+                "income": 4000,
+                "temperament": "charismatic, persuasive",
+                "hobby": "public speaking",
+                "goal": "organize a community parade"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "declaring the parade to authorities in advance",
+                    "benefits": "parade is legally sanctioned, no risk of penalties",
+                    "costs": "time and effort to complete paperwork, possible delays",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "organizing the parade without prior declaration",
+                    "benefits": "immediate organization of parade, no bureaucratic delays",
+                    "costs": "application of penalties prescribed by law",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "police officer",
+                "income": 3500,
+                "temperament": "strict, disciplined",
+                "hobby": "reading",
+                "goal": "maintain public order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "ensuring all parades have prior declaration",
+                    "benefits": "maintains public order, avoids penalties for herself",
+                    "costs": "time and effort to check declarations, potential conflicts",
+                    "benefits_probability": "100%",
+                    "costs_probability": "70%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring undeclared parades",
+                    "benefits": "saves time and effort, avoids conflicts",
+                    "costs": "risk of penalties if discovered, potential public disorder",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "local politician",
+                "income": 5000,
+                "temperament": "ambitious, pragmatic",
+                "hobby": "networking",
+                "goal": "gain public support"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "supporting declared parades",
+                    "benefits": "gains public support legally, avoids penalties",
+                    "costs": "time and effort to ensure declarations, potential delays",
+                    "benefits_probability": "100%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "supporting undeclared parades",
+                    "benefits": "immediate public support, no bureaucratic delays",
+                    "costs": "risk of penalties if discovered, potential public disorder",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

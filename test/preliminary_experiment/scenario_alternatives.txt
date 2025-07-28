@@ -1,0 +1,20 @@
+CCC_22(1).json
+POAE_Section 22(4).json
+OWiG_§121.(1).2.json
+CCC_12.json
+USCODE_§114.json
+CLAE_Section 9(1)(a).json
+CLAE_Section 12(1).json
+OWiG_§110.(1).json
+OWiG_§111.(1).json
+OWiG_§113.(1).json
+CCC_80.json
+PRCPSAP_Article 57(1).json
+CCC_17.json
+CCC_64.json
+StGB_§127.(1).json
+PRCPSAP_Article 42(4).json
+CCC_81(1)(c).json
+USCODE_922(a)(5).json
+CCC_25.4.json
+CCC_66(1).json

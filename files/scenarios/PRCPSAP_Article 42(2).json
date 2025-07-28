@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where social media usage is prevalent and online interactions are common",
+    "norm_base": "Citizens Publicly insulting others or fabricating facts to defame others Detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Alice Johnson",
+                "age": 28,
+                "gender": "female",
+                "education": "bachelor's degree",
+                "moral_level": "average",
+                "profession": "marketing specialist",
+                "income": 45000,
+                "temperament": "outspoken, impulsive",
+                "hobby": "blogging",
+                "goal": "increase her social media following"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "creating engaging and positive content",
+                    "benefits": "gains followers and positive reputation",
+                    "costs": "requires time and creativity",
+                    "benefits_probability": "80%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "publicly insulting a rival blogger",
+                    "benefits": "quickly gains attention and followers",
+                    "costs": "detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Bob Smith",
+                "age": 35,
+                "gender": "male",
+                "education": "master's degree",
+                "moral_level": "high",
+                "profession": "lawyer",
+                "income": 60000,
+                "temperament": "calm, rational",
+                "hobby": "reading",
+                "goal": "maintain professional integrity"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising Alice to avoid defamatory content",
+                    "benefits": "helps Alice stay out of legal trouble, maintains professional integrity",
+                    "costs": "may strain friendship with Alice",
+                    "benefits_probability": "90%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring Alice's defamatory content",
+                    "benefits": "avoids conflict with Alice",
+                    "costs": "if discovered, could face professional repercussions",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Carol Lee",
+                "age": 30,
+                "gender": "female",
+                "education": "bachelor's degree",
+                "moral_level": "average",
+                "profession": "social media influencer",
+                "income": 50000,
+                "temperament": "ambitious, competitive",
+                "hobby": "photography",
+                "goal": "increase her social media influence"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "collaborating with Alice on positive content",
+                    "benefits": "mutual growth in followers and positive reputation",
+                    "costs": "requires coordination and effort",
+                    "benefits_probability": "70%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging Alice to insult a rival blogger",
+                    "benefits": "quickly gains attention and followers for both",
+                    "costs": "if discovered, both could face legal consequences",
+                    "benefits_probability": "60%",
+                    "costs_probability": "4%"
+                }
+            }
+        }
+    }
+}

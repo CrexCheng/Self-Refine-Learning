@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where many people are engaged in various professions and are required to adhere to strict work regulations",
+    "norm_base": "Engaged Persons Exceeding fifteen working days per calendar year in reserve Administrative sanction",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 30,
+                "gender": "male",
+                "education": "bachelor's degree",
+                "moral_level": "average",
+                "profession": "engineer",
+                "income": 60000,
+                "temperament": "diligent, responsible",
+                "hobby": "reading",
+                "goal": "maintain a good work-life balance"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "not exceeding fifteen working days per calendar year in reserve",
+                    "benefits": "compliance with work regulations, no risk of administrative sanction",
+                    "costs": "limited time for personal projects or rest",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "exceeding fifteen working days per calendar year in reserve",
+                    "benefits": "more time for personal projects or rest",
+                    "costs": "risk of administrative sanction",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "master's degree",
+                "moral_level": "high",
+                "profession": "HR manager",
+                "income": 50000,
+                "temperament": "strict, organized",
+                "hobby": "yoga",
+                "goal": "ensure company compliance with regulations"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "monitoring and ensuring employees do not exceed fifteen working days per calendar year in reserve",
+                    "benefits": "maintains company compliance, avoids administrative sanctions",
+                    "costs": "time-consuming, potential conflicts with employees",
+                    "benefits_probability": "100%",
+                    "costs_probability": "70%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring employees exceeding fifteen working days per calendar year in reserve",
+                    "benefits": "less time spent on monitoring, avoids conflicts with employees",
+                    "costs": "risk of company facing administrative sanctions",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 35,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "average",
+                "profession": "technician",
+                "income": 40000,
+                "temperament": "easy-going",
+                "hobby": "fishing",
+                "goal": "maximize personal time"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "not exceeding fifteen working days per calendar year in reserve",
+                    "benefits": "compliance with work regulations, no risk of administrative sanction",
+                    "costs": "limited time for personal activities",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "exceeding fifteen working days per calendar year in reserve",
+                    "benefits": "more time for personal activities",
+                    "costs": "risk of administrative sanction",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

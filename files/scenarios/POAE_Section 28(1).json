@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where a recent rise in public disturbances has led to the implementation of serious disruption prevention orders for certain individuals.",
+    "norm_base": "Citizens Engaging in conduct while under serious disruption prevention order requiring variation Court may vary, renew or discharge the order",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Alex Carter",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "moderate",
+                "profession": "freelance writer",
+                "income": 2500,
+                "temperament": "rebellious, creative",
+                "hobby": "protesting, writing opinion pieces",
+                "goal": "to challenge the restrictions imposed by the serious disruption prevention order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Filing a legal appeal to vary or discharge the serious disruption prevention order",
+                    "benefits": "Potentially regains freedom to engage in public activities, avoids legal consequences",
+                    "costs": "Time-consuming legal process, potential legal fees",
+                    "benefits_probability": "50%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Engaging in a public protest despite the serious disruption prevention order",
+                    "benefits": "Raises awareness for their cause, emotional satisfaction from defiance",
+                    "costs": "Court may vary, renew, or discharge the order, potential legal penalties",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jordan Lee",
+                "age": 35,
+                "gender": "female",
+                "education": "law degree",
+                "moral_level": "high",
+                "profession": "civil rights lawyer",
+                "income": 6000,
+                "temperament": "calm, analytical",
+                "hobby": "reading legal cases, volunteering",
+                "goal": "to help Alex navigate the legal system"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Advising Alex to file a legal appeal and representing them in court",
+                    "benefits": "Strengthens their reputation as a civil rights lawyer, helps Alex regain their rights",
+                    "costs": "Time and effort spent on the case, potential backlash from authorities",
+                    "benefits_probability": "60%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "Encouraging Alex to defy the order and join a protest",
+                    "benefits": "Strengthens their bond with Alex, aligns with their personal beliefs",
+                    "costs": "Risk of professional misconduct charges, damage to reputation",
+                    "benefits_probability": "50%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Chris Morgan",
+                "age": 40,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "low",
+                "profession": "event organizer",
+                "income": 4000,
+                "temperament": "charismatic, opportunistic",
+                "hobby": "networking, organizing rallies",
+                "goal": "to use Alex's situation to draw attention to their own events"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Organizing a lawful rally to support individuals under serious disruption prevention orders",
+                    "benefits": "Raises awareness for their cause, avoids legal trouble",
+                    "costs": "Time and resources spent organizing the rally",
+                    "benefits_probability": "70%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "Encouraging Alex to join an unauthorized protest to draw media attention",
+                    "benefits": "Increased media coverage for their events, personal satisfaction",
+                    "costs": "Court may vary, renew, or discharge Alex's order, potential legal penalties for incitement",
+                    "benefits_probability": "80%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

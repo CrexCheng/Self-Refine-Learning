@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where there is a strict regulation against unauthorized wearing of professional dress or badge of religious associations",
+    "norm_base": "Offender Unauthorized wearing of professional dress or badge of religious association Fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "questionable",
+                "profession": "freelancer",
+                "income": 2000,
+                "temperament": "rebellious, adventurous",
+                "hobby": "cosplay",
+                "goal": "to wear a religious association's badge for a cosplay event"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "not wearing the religious association's badge",
+                    "benefits": "avoiding legal consequences, maintaining a clean record",
+                    "costs": "feeling disappointed, not achieving the desired cosplay look",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "wearing the religious association's badge",
+                    "benefits": "achieving the desired cosplay look, gaining admiration from peers",
+                    "costs": "facing a fine if caught",
+                    "benefits_probability": "90%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 30,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "event organizer",
+                "income": 3000,
+                "temperament": "responsible, cautious",
+                "hobby": "organizing events",
+                "goal": "ensuring the event runs smoothly and legally"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising John not to wear the badge",
+                    "benefits": "ensuring the event complies with regulations, avoiding legal issues",
+                    "costs": "potential conflict with John, spending time persuading him",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John's intention to wear the badge",
+                    "benefits": "avoiding conflict with John, saving time",
+                    "costs": "facing legal consequences if the event is inspected",
+                    "benefits_probability": "90%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "moderate",
+                "profession": "security guard",
+                "income": 2500,
+                "temperament": "vigilant, strict",
+                "hobby": "reading",
+                "goal": "ensuring security and compliance at the event"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "stopping John from wearing the badge",
+                    "benefits": "ensuring compliance with regulations, maintaining order",
+                    "costs": "potential conflict with John, spending time enforcing norms",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "allowing John to wear the badge",
+                    "benefits": "avoiding conflict with John, saving time",
+                    "costs": "facing legal consequences if the event is inspected",
+                    "benefits_probability": "90%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

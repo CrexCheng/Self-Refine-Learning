@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where a new policy mandates that all appointed agents must undergo integration training before exercising their duties",
+    "norm_base": "Appointed Agents Exercising without integration training Suspension of duties",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 30,
+                "gender": "male",
+                "education": "Master's degree",
+                "moral_level": "high",
+                "profession": "appointed agent",
+                "income": 50000,
+                "temperament": "responsible, diligent",
+                "hobby": "reading",
+                "goal": "to effectively perform his duties as an appointed agent"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "completing the integration training before exercising duties",
+                    "benefits": "ensures compliance with policy, gains necessary skills and knowledge",
+                    "costs": "time and effort required to complete the training",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "exercising duties without completing the integration training",
+                    "benefits": "immediate start of duties, saving time",
+                    "costs": "suspension of duties if discovered",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "Bachelor's degree",
+                "moral_level": "moderate",
+                "profession": "appointed agent",
+                "income": 45000,
+                "temperament": "ambitious, competitive",
+                "hobby": "sports",
+                "goal": "to quickly advance in her career"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "completing the integration training before exercising duties",
+                    "benefits": "ensures compliance with policy, gains necessary skills and knowledge",
+                    "costs": "time and effort required to complete the training",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "exercising duties without completing the integration training",
+                    "benefits": "immediate start of duties, saving time",
+                    "costs": "suspension of duties if discovered",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 35,
+                "gender": "male",
+                "education": "PhD",
+                "moral_level": "high",
+                "profession": "training supervisor",
+                "income": 60000,
+                "temperament": "strict, methodical",
+                "hobby": "teaching",
+                "goal": "to ensure all agents are properly trained"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "ensuring all agents complete the integration training",
+                    "benefits": "maintains policy compliance, ensures agents are well-prepared",
+                    "costs": "time and effort required to monitor and enforce training",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "allowing agents to exercise duties without completing the integration training",
+                    "benefits": "reduces workload, avoids conflict with agents",
+                    "costs": "suspension of duties if discovered",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

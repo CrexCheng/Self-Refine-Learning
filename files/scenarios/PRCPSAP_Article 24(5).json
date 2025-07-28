@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where public events are frequently held and citizens often gather in large venues",
+    "norm_base": "Citizens Throwing objects into venues and ignoring stop orders Warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 25,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "marketing specialist",
+                "income": 4000,
+                "temperament": "impulsive, outgoing",
+                "hobby": "attending concerts",
+                "goal": "enjoying a concert experience"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "not throwing objects into the venue",
+                    "benefits": "enjoys the concert without any legal issues",
+                    "costs": "none",
+                    "benefits_probability": "100%",
+                    "costs_probability": "0%"
+                },
+                "illegal": {
+                    "illegal_action": "throwing objects into the venue",
+                    "benefits": "momentary thrill and attention from the crowd",
+                    "costs": "warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 30,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "event organizer",
+                "income": 3500,
+                "temperament": "responsible, diligent",
+                "hobby": "organizing events",
+                "goal": "ensuring the event runs smoothly"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "stopping John Doe from throwing objects into the venue",
+                    "benefits": "maintains order and safety at the event",
+                    "costs": "may face resistance or conflict with John Doe",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's behavior",
+                    "benefits": "avoids immediate conflict and continues managing the event",
+                    "costs": "if discovered or if an incident occurs, may face fines or job repercussions",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "security guard",
+                "income": 3000,
+                "temperament": "calm, observant",
+                "hobby": "fitness training",
+                "goal": "ensuring safety at the event"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "intervening to stop John Doe from throwing objects",
+                    "benefits": "prevents potential harm and maintains order",
+                    "costs": "may face physical confrontation or verbal abuse",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's behavior",
+                    "benefits": "avoids immediate confrontation and continues monitoring the event",
+                    "costs": "if discovered or if an incident occurs, may face fines or job repercussions",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

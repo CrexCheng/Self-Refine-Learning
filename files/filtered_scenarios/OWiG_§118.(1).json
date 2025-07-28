@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, known for its bustling nightlife and vibrant public spaces",
+    "norm_base": "Offender Performing a grossly improper act that impairs public order Fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 25,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "questionable",
+                "profession": "bartender",
+                "income": 2500,
+                "temperament": "impulsive, extroverted",
+                "hobby": "partying",
+                "goal": "to have an unforgettable night out"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "enjoying the nightlife without causing disturbances",
+                    "benefits": "having a good time without legal trouble",
+                    "costs": "might not be as thrilling",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "performing a grossly improper act in public, such as vandalism or public intoxication",
+                    "benefits": "thrill and excitement, gaining attention",
+                    "costs": "fine",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "police officer",
+                "income": 3000,
+                "temperament": "calm, authoritative",
+                "hobby": "reading",
+                "goal": "maintaining public order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "patrolling the area and stopping improper acts",
+                    "benefits": "maintaining public order, fulfilling duty",
+                    "costs": "potential confrontation with offenders",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring improper acts to avoid confrontation",
+                    "benefits": "avoiding potential danger and confrontation",
+                    "costs": "risk of disciplinary action if discovered",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 30,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "moderate",
+                "profession": "club promoter",
+                "income": 4000,
+                "temperament": "charismatic, persuasive",
+                "hobby": "networking",
+                "goal": "attracting more people to the club"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "promoting the club responsibly",
+                    "benefits": "increased club attendance, positive reputation",
+                    "costs": "requires more effort to ensure responsible behavior",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging reckless behavior to attract more people",
+                    "benefits": "short-term increase in club attendance",
+                    "costs": "potential fine or legal trouble if incidents occur",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "City B, a bustling urban area with a mix of residential and commercial zones, where public safety is a growing concern due to recent incidents involving weapons in public places.",
+    "norm_base": "Citizens Having an offensive weapon in any public place imprisonment up to 6 months or fine not exceeding statutory maximum, or both",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "freelance graphic designer",
+                "income": 4000,
+                "temperament": "reserved but occasionally impulsive",
+                "hobby": "martial arts",
+                "goal": "to feel safe while commuting late at night"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Carrying a personal alarm or pepper spray for self-defense",
+                    "benefits": "Enhanced personal safety without breaking the law",
+                    "costs": "Limited effectiveness in certain situations",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "Carrying a concealed knife for self-defense",
+                    "benefits": "Increased sense of security and ability to defend oneself",
+                    "costs": "Imprisonment up to 6 months or fine not exceeding statutory maximum, or both if caught",
+                    "benefits_probability": "90%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Emily Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school graduate",
+                "moral_level": "high",
+                "profession": "police officer",
+                "income": 3500,
+                "temperament": "assertive and disciplined",
+                "hobby": "reading crime novels",
+                "goal": "to ensure public safety and enforce the law"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Patrolling public areas and educating citizens about the dangers of carrying offensive weapons",
+                    "benefits": "Improved public awareness and reduced crime rates",
+                    "costs": "Time-consuming and physically demanding",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignoring individuals carrying offensive weapons to avoid confrontation",
+                    "benefits": "Avoids potential conflict and reduces personal stress",
+                    "costs": "If discovered, disciplinary action or dismissal from the police force",
+                    "benefits_probability": "95%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "vocational training",
+                "moral_level": "low",
+                "profession": "street vendor",
+                "income": 2000,
+                "temperament": "opportunistic and cunning",
+                "hobby": "gambling",
+                "goal": "to make quick money by selling prohibited items"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Selling legal self-defense tools like personal alarms",
+                    "benefits": "Steady income without legal risks",
+                    "costs": "Lower profit margins compared to selling prohibited items",
+                    "benefits_probability": "60%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "Selling offensive weapons like knives in public places",
+                    "benefits": "Higher profit margins and quick earnings",
+                    "costs": "Imprisonment up to 6 months or fine not exceeding statutory maximum, or both if caught",
+                    "benefits_probability": "80%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

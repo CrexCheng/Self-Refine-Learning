@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where public facilities are often targeted by vandals and thieves",
+    "norm_base": "Citizens Stealing, damaging road manhole covers, lighting and other public facilities Detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 25,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "low",
+                "profession": "unemployed",
+                "income": 0,
+                "temperament": "impulsive, opportunistic",
+                "hobby": "exploring abandoned places",
+                "goal": "making quick money"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "not stealing or damaging public facilities",
+                    "benefits": "avoiding legal consequences, maintaining public order",
+                    "costs": "no immediate financial gain",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "stealing manhole covers to sell as scrap metal",
+                    "benefits": "quick financial gain from selling stolen items",
+                    "costs": "detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 30,
+                "gender": "female",
+                "education": "college",
+                "moral_level": "high",
+                "profession": "teacher",
+                "income": 4000,
+                "temperament": "responsible, caring",
+                "hobby": "volunteering",
+                "goal": "maintaining community safety"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting suspicious activity to authorities",
+                    "benefits": "helping to prevent crime, maintaining public safety",
+                    "costs": "time and effort spent reporting, potential confrontation",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring suspicious activity",
+                    "benefits": "avoiding confrontation, saving time",
+                    "costs": "potential increase in crime, feeling of guilt",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 40,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "medium",
+                "profession": "security guard",
+                "income": 3000,
+                "temperament": "alert, cautious",
+                "hobby": "watching sports",
+                "goal": "performing job duties effectively"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "patrolling and monitoring public facilities",
+                    "benefits": "preventing theft and vandalism, fulfilling job responsibilities",
+                    "costs": "physical effort, potential danger",
+                    "benefits_probability": "60%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "neglecting patrol duties",
+                    "benefits": "less physical effort, avoiding potential danger",
+                    "costs": "risk of job loss, potential increase in crime",
+                    "benefits_probability": "90%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

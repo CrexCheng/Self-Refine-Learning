@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where underground prize fights are secretly organized in abandoned warehouses, attracting thrill-seekers and gamblers.",
+    "norm_base": "Citizens Participating in, promoting, or being present at an unauthorized prize fight as an aid, second, surgeon, umpire, backer or reporter Punishable on summary conviction",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Alex Carter",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "questionable",
+                "profession": "freelance journalist",
+                "income": 2500,
+                "temperament": "curious, ambitious",
+                "hobby": "investigative reporting",
+                "goal": "write an expos\u00e9 on underground prize fights"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Researching and interviewing people outside the prize fight scene without attending the event",
+                    "benefits": "Gathers information for the expos\u00e9 without breaking the law",
+                    "costs": "Limited access to firsthand information, slower progress on the story",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "Attending an unauthorized prize fight as a reporter to gather firsthand information",
+                    "benefits": "Obtains exclusive, detailed information for the expos\u00e9, potential career boost",
+                    "costs": "Punishable on summary conviction, risk of physical harm at the event",
+                    "benefits_probability": "90%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Mia Lopez",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "moral",
+                "profession": "bartender",
+                "income": 1800,
+                "temperament": "friendly, cautious",
+                "hobby": "reading crime novels",
+                "goal": "stay out of trouble and protect her community"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Warning Alex about the dangers and legal consequences of attending the prize fight",
+                    "benefits": "Helps Alex avoid legal trouble and potential harm",
+                    "costs": "Spends time and effort convincing Alex, risks straining their friendship",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "Providing Alex with information about the location of the prize fight",
+                    "benefits": "Strengthens trust with Alex, avoids conflict",
+                    "costs": "Punishable on summary conviction if discovered",
+                    "benefits_probability": "90%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Jake Thompson",
+                "age": 40,
+                "gender": "male",
+                "education": "college dropout",
+                "moral_level": "low",
+                "profession": "event organizer",
+                "income": 5000,
+                "temperament": "charismatic, manipulative",
+                "hobby": "gambling",
+                "goal": "profit from organizing underground prize fights"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Refusing to allow Alex to attend the prize fight as a reporter",
+                    "benefits": "Reduces the risk of exposure and legal consequences for the event",
+                    "costs": "Loses potential publicity and trust from Alex",
+                    "benefits_probability": "60%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "Allowing Alex to attend the prize fight as a reporter",
+                    "benefits": "Earns additional money and publicity for the event",
+                    "costs": "Punishable on summary conviction if the event is exposed",
+                    "benefits_probability": "80%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

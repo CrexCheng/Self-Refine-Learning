@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where citizens frequently gather in public places such as shopping malls and parks",
+    "norm_base": "Citizens Disturbing order at stations, ports, airports, shopping malls, parks, exhibition halls or other public places Warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "salesman",
+                "income": 4000,
+                "temperament": "outgoing, impulsive",
+                "hobby": "socializing",
+                "goal": "organize a flash mob event"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "organizing the flash mob event with proper permissions",
+                    "benefits": "event goes smoothly, positive public reception",
+                    "costs": "time and effort to obtain permissions",
+                    "benefits_probability": "90%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "organizing the flash mob event without permissions",
+                    "benefits": "event happens quickly, immediate excitement",
+                    "costs": "warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 25,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "security guard",
+                "income": 3000,
+                "temperament": "responsible, cautious",
+                "hobby": "reading",
+                "goal": "maintain public order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "stopping John Doe from organizing the flash mob without permissions",
+                    "benefits": "maintains public order, avoids potential chaos",
+                    "costs": "possible confrontation with John Doe and participants",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's unauthorized flash mob",
+                    "benefits": "avoids confrontation, less immediate work",
+                    "costs": "if discovered or incident occurs, may face disciplinary action",
+                    "benefits_probability": "90%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 32,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "event planner",
+                "income": 5000,
+                "temperament": "creative, pragmatic",
+                "hobby": "organizing events",
+                "goal": "assist John Doe in organizing the flash mob"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "helping John Doe obtain permissions for the flash mob",
+                    "benefits": "event goes smoothly, positive public reception",
+                    "costs": "time and effort to obtain permissions",
+                    "benefits_probability": "90%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "helping John Doe organize the flash mob without permissions",
+                    "benefits": "event happens quickly, immediate excitement",
+                    "costs": "warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

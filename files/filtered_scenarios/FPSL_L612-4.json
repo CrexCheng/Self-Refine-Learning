@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where labor disputes are common and security agents are often present to maintain order",
+    "norm_base": "Security Agents Interfering in labor disputes Disciplinary sanctions",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "high",
+                "profession": "security agent",
+                "income": 40000,
+                "temperament": "calm, professional",
+                "hobby": "reading",
+                "goal": "maintain order without interfering in labor disputes"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "observing the labor dispute without interfering",
+                    "benefits": "maintains professional integrity, avoids disciplinary sanctions",
+                    "costs": "may feel helpless in resolving the dispute",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "interfering in the labor dispute",
+                    "benefits": "may resolve the dispute quickly, gains temporary respect from disputing parties",
+                    "costs": "faces disciplinary sanctions",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "medium",
+                "profession": "security agent",
+                "income": 35000,
+                "temperament": "assertive, proactive",
+                "hobby": "fitness",
+                "goal": "ensure safety during labor disputes"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "supporting John Doe in observing the labor dispute without interfering",
+                    "benefits": "maintains professional integrity, avoids disciplinary sanctions",
+                    "costs": "may feel helpless in resolving the dispute",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging John Doe to interfere in the labor dispute",
+                    "benefits": "may resolve the dispute quickly, gains temporary respect from disputing parties",
+                    "costs": "both face disciplinary sanctions",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "high",
+                "profession": "security supervisor",
+                "income": 50000,
+                "temperament": "strict, disciplined",
+                "hobby": "gardening",
+                "goal": "ensure security agents follow protocols"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "monitoring John Doe and Jane Smith to ensure they do not interfere in the labor dispute",
+                    "benefits": "maintains professional integrity, avoids disciplinary sanctions",
+                    "costs": "may feel helpless in resolving the dispute",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring if John Doe and Jane Smith interfere in the labor dispute",
+                    "benefits": "avoids conflict with subordinates, maintains a good relationship with them",
+                    "costs": "faces disciplinary sanctions if discovered",
+                    "benefits_probability": "80%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

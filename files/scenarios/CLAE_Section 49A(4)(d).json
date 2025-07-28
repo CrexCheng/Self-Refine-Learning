@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where cultural diversity is celebrated, and citizens often wear traditional costumes during festivals, including those that may involve carrying symbolic blades or weapons.",
+    "norm_base": "Citizens Having blade or weapon on school premises as part of national costume Legal defense if proven",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Ayaan Khan",
+                "age": 27,
+                "gender": "male",
+                "education": "graduate",
+                "moral_level": "high",
+                "profession": "teacher",
+                "income": 4000,
+                "temperament": "calm and thoughtful",
+                "hobby": "cultural preservation",
+                "goal": "to promote cultural heritage by wearing traditional attire at a school event"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Wearing traditional attire without carrying the symbolic blade to the school event",
+                    "benefits": "Avoids legal complications and ensures compliance with school safety policies",
+                    "costs": "Cultural expression feels incomplete without the symbolic blade",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Wearing traditional attire with the symbolic blade to the school event",
+                    "benefits": "Complete cultural expression and respect for tradition",
+                    "costs": "Potential legal scrutiny and need to prove cultural significance as a defense",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Priya Sharma",
+                "age": 35,
+                "gender": "female",
+                "education": "postgraduate",
+                "moral_level": "high",
+                "profession": "school principal",
+                "income": 6000,
+                "temperament": "strict but fair",
+                "hobby": "reading",
+                "goal": "to ensure the safety and inclusivity of the school environment"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Advising Ayaan to leave the symbolic blade at home",
+                    "benefits": "Ensures school safety and avoids potential legal issues",
+                    "costs": "May offend Ayaan or appear culturally insensitive",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "Allowing Ayaan to carry the symbolic blade to the school event",
+                    "benefits": "Promotes cultural inclusivity and avoids conflict with Ayaan",
+                    "costs": "Potential legal consequences if an incident occurs or if the act is reported",
+                    "benefits_probability": "80%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Ravi Patel",
+                "age": 40,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "moderate",
+                "profession": "security guard",
+                "income": 2500,
+                "temperament": "pragmatic",
+                "hobby": "watching sports",
+                "goal": "to maintain order and follow school policies"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Stopping Ayaan at the school gate and asking him to remove the symbolic blade",
+                    "benefits": "Ensures compliance with school safety policies",
+                    "costs": "May cause a delay or conflict with Ayaan",
+                    "benefits_probability": "95%",
+                    "costs_probability": "5%"
+                },
+                "illegal": {
+                    "illegal_action": "Allowing Ayaan to enter the school premises with the symbolic blade",
+                    "benefits": "Avoids confrontation and maintains a smooth event entry process",
+                    "costs": "Potential legal consequences if the act is discovered or an incident occurs",
+                    "benefits_probability": "85%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

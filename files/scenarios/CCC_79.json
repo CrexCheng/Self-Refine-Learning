@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, Suburban area, where a small community is hosting a festival that includes fireworks and other explosive displays.",
+    "norm_base": "Citizens Failing to use reasonable care to prevent harm when in possession of explosive substances Legal duty to prevent bodily harm/death/property damage",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Carter",
+                "age": 32,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "event organizer",
+                "income": 45000,
+                "temperament": "responsible but occasionally careless",
+                "hobby": "organizing community events",
+                "goal": "successfully organize the festival and ensure public safety"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Hiring a licensed professional to handle fireworks and ensuring proper safety measures are in place",
+                    "benefits": "Public safety is ensured, no legal consequences, and the festival is a success",
+                    "costs": "Higher expenses for hiring professionals and additional safety equipment",
+                    "benefits_probability": "95%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Handling fireworks personally without proper training or safety measures",
+                    "benefits": "Saves money on hiring professionals and gains personal satisfaction from managing the display",
+                    "costs": "Legal duty to prevent harm if an accident occurs, potential bodily harm, death, or property damage",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Emily Davis",
+                "age": 28,
+                "gender": "female",
+                "education": "high school graduate",
+                "moral_level": "high",
+                "profession": "community volunteer",
+                "income": 20000,
+                "temperament": "cautious and empathetic",
+                "hobby": "volunteering for community events",
+                "goal": "ensure the safety of the community during the festival"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Advising John to hire a licensed professional and assisting in implementing safety measures",
+                    "benefits": "Helps ensure public safety and avoids potential accidents",
+                    "costs": "Spends extra time and effort on safety planning",
+                    "benefits_probability": "90%",
+                    "costs_probability": "80%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignoring John's decision to handle fireworks personally and not intervening",
+                    "benefits": "Avoids conflict with John and saves time",
+                    "costs": "Moral guilt if an accident occurs, potential legal consequences if negligence is proven",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "technical school graduate",
+                "moral_level": "low",
+                "profession": "freelance technician",
+                "income": 30000,
+                "temperament": "opportunistic and pragmatic",
+                "hobby": "tinkering with machinery",
+                "goal": "earn extra money during the festival"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Offering to assist John in finding a licensed professional for the fireworks display",
+                    "benefits": "Earns a small commission and maintains a good reputation in the community",
+                    "costs": "Spends time networking and arranging the professional",
+                    "benefits_probability": "70%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "Offering to handle the fireworks display himself despite lacking proper training",
+                    "benefits": "Earns a higher fee for managing the display personally",
+                    "costs": "Legal duty to prevent harm if an accident occurs, potential bodily harm, death, or property damage",
+                    "benefits_probability": "85%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

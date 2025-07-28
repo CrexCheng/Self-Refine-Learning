@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where the hospitality and entertainment industry is thriving, but there are occasional issues with illegal activities such as drug use, gambling, and prostitution.",
+    "norm_base": "Industry Staff Staff of hotels, catering, entertainment, taxi services tipping off offenders during police investigation of drug use, gambling, prostitution Detention for 10-15 days",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "moderate",
+                "profession": "hotel manager",
+                "income": 40000,
+                "temperament": "calm, strategic",
+                "hobby": "reading, chess",
+                "goal": "maintain hotel reputation and ensure smooth operations"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "cooperating with police during investigations",
+                    "benefits": "maintains legal compliance, avoids legal consequences, upholds hotel reputation",
+                    "costs": "potential loss of some customers involved in illegal activities, possible short-term revenue loss",
+                    "benefits_probability": "100%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "tipping off offenders during police investigations",
+                    "benefits": "retains customers involved in illegal activities, potential short-term revenue gain",
+                    "costs": "detention for 10-15 days if caught, damage to hotel reputation",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 35,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "hotel receptionist",
+                "income": 25000,
+                "temperament": "friendly, diligent",
+                "hobby": "gardening, cooking",
+                "goal": "ensure guest satisfaction and follow hotel policies"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting suspicious activities to the police",
+                    "benefits": "maintains legal compliance, avoids legal consequences, upholds hotel reputation",
+                    "costs": "potential conflict with guests involved in illegal activities, possible short-term revenue loss",
+                    "benefits_probability": "100%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "tipping off offenders during police investigations",
+                    "benefits": "retains customers involved in illegal activities, potential short-term revenue gain",
+                    "costs": "detention for 10-15 days if caught, damage to hotel reputation",
+                    "benefits_probability": "50%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "moderate",
+                "profession": "taxi driver",
+                "income": 30000,
+                "temperament": "pragmatic, cautious",
+                "hobby": "fishing, watching sports",
+                "goal": "earn a stable income and avoid legal trouble"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "refusing to tip off offenders during police investigations",
+                    "benefits": "maintains legal compliance, avoids legal consequences",
+                    "costs": "potential loss of some customers involved in illegal activities, possible short-term revenue loss",
+                    "benefits_probability": "100%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "tipping off offenders during police investigations",
+                    "benefits": "retains customers involved in illegal activities, potential short-term revenue gain",
+                    "costs": "detention for 10-15 days if caught, damage to personal reputation",
+                    "benefits_probability": "50%",
+                    "costs_probability": "4%"
+                }
+            }
+        }
+    }
+}

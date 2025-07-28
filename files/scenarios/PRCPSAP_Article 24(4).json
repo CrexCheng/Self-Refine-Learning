@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where football matches are highly popular and often lead to heated emotions among fans",
+    "norm_base": "Citizens Surrounding and attacking referees, athletes or other staff, disturbing order at cultural, sports and other mass events Warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "salesman",
+                "income": 4000,
+                "temperament": "passionate, impulsive",
+                "hobby": "football",
+                "goal": "support his favorite football team"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "cheering for his team from the stands without causing any disturbance",
+                    "benefits": "enjoys the game, supports his team, avoids legal trouble",
+                    "costs": "may feel frustrated if the team loses and he cannot express his anger",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "rushing onto the field to confront the referee after a controversial decision",
+                    "benefits": "expresses his anger, feels a sense of justice",
+                    "costs": "warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 25,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "security guard",
+                "income": 3000,
+                "temperament": "calm, responsible",
+                "hobby": "reading",
+                "goal": "maintain order at the event"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "preventing John Doe from rushing onto the field",
+                    "benefits": "maintains order, avoids legal trouble for herself",
+                    "costs": "may face resistance or conflict with John Doe",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's actions and not intervening",
+                    "benefits": "avoids immediate conflict, saves effort",
+                    "costs": "if discovered, may face disciplinary action or fine",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "football coach",
+                "income": 6000,
+                "temperament": "strategic, composed",
+                "hobby": "watching sports",
+                "goal": "ensure the game proceeds smoothly"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "calming John Doe down and encouraging him to support the team peacefully",
+                    "benefits": "maintains order, avoids legal trouble for John Doe",
+                    "costs": "may face resistance or conflict with John Doe",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's actions and not intervening",
+                    "benefits": "avoids immediate conflict, saves effort",
+                    "costs": "if discovered, may face disciplinary action or fine",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

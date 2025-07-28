@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where there is a large military base with strict security measures",
+    "norm_base": "Offender Intentionally or negligently entering military facility or installation contrary to prohibition Fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 25,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "photographer",
+                "income": 40000,
+                "temperament": "curious, adventurous",
+                "hobby": "photography",
+                "goal": "taking unique photographs"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "taking photographs outside the military facility",
+                    "benefits": "captures unique photographs legally",
+                    "costs": "limited to external views, may not be as unique",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "entering the military facility to take photographs",
+                    "benefits": "captures unique and exclusive photographs",
+                    "costs": "risk of being fined, potential legal trouble",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 30,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "security guard",
+                "income": 30000,
+                "temperament": "strict, responsible",
+                "hobby": "reading",
+                "goal": "ensuring security of the facility"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "stopping John Doe from entering the military facility",
+                    "benefits": "maintains security, avoids potential breaches",
+                    "costs": "time and effort spent on confrontation",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's attempt to enter the facility",
+                    "benefits": "avoids confrontation, saves time",
+                    "costs": "risk of security breach, potential job consequences",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "journalist",
+                "income": 50000,
+                "temperament": "inquisitive, persuasive",
+                "hobby": "investigative journalism",
+                "goal": "getting an exclusive story"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising John Doe to avoid entering the military facility",
+                    "benefits": "maintains legal integrity, avoids trouble",
+                    "costs": "misses out on potential exclusive story",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging John Doe to enter the military facility for a story",
+                    "benefits": "potential for an exclusive and sensational story",
+                    "costs": "risk of being fined, potential legal trouble",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

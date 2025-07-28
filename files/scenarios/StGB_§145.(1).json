@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where there is a high incidence of prank calls and misuse of emergency services",
+    "norm_base": "Offender Misusing emergency calls or signals Imprisonment up to 1 year or fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 25,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "low",
+                "profession": "unemployed",
+                "income": 0,
+                "temperament": "impulsive, thrill-seeker",
+                "hobby": "pranking",
+                "goal": "to get a thrill from misusing emergency calls"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "not misusing emergency calls or signals",
+                    "benefits": "avoiding legal consequences, maintaining a clean record",
+                    "costs": "missing out on the thrill and excitement",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "making prank emergency calls",
+                    "benefits": "experiencing thrill and excitement",
+                    "costs": "imprisonment up to 1 year or fine",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 30,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "emergency dispatcher",
+                "income": 3500,
+                "temperament": "responsible, diligent",
+                "hobby": "reading",
+                "goal": "to ensure emergency services are used appropriately"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting misuse of emergency calls",
+                    "benefits": "maintaining the integrity of emergency services, avoiding potential harm",
+                    "costs": "spending time and resources on reporting",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring misuse of emergency calls",
+                    "benefits": "saving time and effort",
+                    "costs": "potential job loss or disciplinary action if discovered",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "medium",
+                "profession": "friend of John Doe",
+                "income": 2000,
+                "temperament": "easy-going, follower",
+                "hobby": "gaming",
+                "goal": "to support his friend John"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "discouraging John from misusing emergency calls",
+                    "benefits": "helping John avoid legal trouble, maintaining friendship",
+                    "costs": "potential conflict with John",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging or participating in the misuse of emergency calls",
+                    "benefits": "shared thrill and excitement, strengthening bond with John",
+                    "costs": "imprisonment up to 1 year or fine",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

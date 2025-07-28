@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where organizing events and lotteries is a common practice among local communities",
+    "norm_base": "Organizers Organizing lotteries with stakes higher than 20 euros Fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 35,
+                "gender": "male",
+                "education": "bachelor's degree",
+                "moral_level": "average",
+                "profession": "event organizer",
+                "income": 40000,
+                "temperament": "charismatic, ambitious",
+                "hobby": "networking",
+                "goal": "organize a successful charity event"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "organizing a lottery with stakes of 20 euros or less",
+                    "benefits": "complies with the law, avoids fines, maintains reputation",
+                    "costs": "limited funds raised for charity",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "organizing a lottery with stakes higher than 20 euros",
+                    "benefits": "raises more funds for charity, higher event success",
+                    "costs": "risk of being fined",
+                    "benefits_probability": "90%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "master's degree",
+                "moral_level": "high",
+                "profession": "legal advisor",
+                "income": 50000,
+                "temperament": "cautious, detail-oriented",
+                "hobby": "reading",
+                "goal": "ensure legal compliance"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising John to keep lottery stakes within legal limits",
+                    "benefits": "ensures event complies with the law, avoids fines",
+                    "costs": "may limit the funds raised for charity",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring the stakes limit and advising John to proceed with higher stakes",
+                    "benefits": "potentially raises more funds for charity",
+                    "costs": "risk of being fined, damage to professional reputation",
+                    "benefits_probability": "80%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "high school diploma",
+                "moral_level": "low",
+                "profession": "freelance marketer",
+                "income": 30000,
+                "temperament": "opportunistic, persuasive",
+                "hobby": "gambling",
+                "goal": "maximize event profits"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "promoting the event within legal limits",
+                    "benefits": "avoids legal issues, maintains a clean record",
+                    "costs": "limited promotional impact",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "promoting the event with higher stakes to attract more participants",
+                    "benefits": "increases event popularity and funds raised",
+                    "costs": "risk of being fined, potential legal trouble",
+                    "benefits_probability": "90%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

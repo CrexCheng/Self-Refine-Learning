@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, a bustling city with a high crime rate and a large number of hotels",
+    "norm_base": "Hotel Staff Hotel staff knowing guests are criminal suspects or wanted by police and failing to report to police Fine of 200-500 yuan; for serious cases, detention up to 5 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "hotel receptionist",
+                "income": 4000,
+                "temperament": "calm, observant",
+                "hobby": "reading mystery novels",
+                "goal": "maintain job security and avoid trouble"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting a suspicious guest to the police",
+                    "benefits": "ensures safety, avoids legal consequences, maintains job security",
+                    "costs": "potential conflict with the guest, possible inconvenience to other guests",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "not reporting a suspicious guest to the police",
+                    "benefits": "avoids immediate conflict, maintains a peaceful environment",
+                    "costs": "fine of 200-500 yuan; for serious cases, detention up to 5 days with possible fine up to 500 yuan",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 35,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "hotel manager",
+                "income": 6000,
+                "temperament": "strict, responsible",
+                "hobby": "gardening",
+                "goal": "ensure hotel compliance with laws"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "encouraging John Doe to report suspicious guests",
+                    "benefits": "ensures hotel compliance, avoids legal consequences, maintains safety",
+                    "costs": "potential conflict with staff, possible inconvenience to guests",
+                    "benefits_probability": "85%",
+                    "costs_probability": "15%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring suspicious guests to avoid trouble",
+                    "benefits": "maintains a peaceful environment, avoids immediate conflict",
+                    "costs": "fine of 200-500 yuan; for serious cases, detention up to 5 days with possible fine up to 500 yuan",
+                    "benefits_probability": "70%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "hotel security guard",
+                "income": 3500,
+                "temperament": "alert, cautious",
+                "hobby": "watching sports",
+                "goal": "ensure the safety of hotel guests and staff"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "assisting John Doe in reporting suspicious guests",
+                    "benefits": "ensures safety, avoids legal consequences, maintains job security",
+                    "costs": "potential conflict with the guest, possible inconvenience to other guests",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring suspicious guests to avoid trouble",
+                    "benefits": "maintains a peaceful environment, avoids immediate conflict",
+                    "costs": "fine of 200-500 yuan; for serious cases, detention up to 5 days with possible fine up to 500 yuan",
+                    "benefits_probability": "75%",
+                    "costs_probability": "4%"
+                }
+            }
+        }
+    }
+}

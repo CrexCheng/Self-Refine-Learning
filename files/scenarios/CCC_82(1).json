@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where a recent surge in illegal activities has led to heightened security measures and public awareness campaigns about the dangers of explosives.",
+    "norm_base": "Citizens Making or possessing explosive substances without lawful excuse Imprisonment up to 5 years or summary conviction",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "questionable",
+                "profession": "freelance chemist",
+                "income": 2000,
+                "temperament": "curious, risk-taker",
+                "hobby": "experimenting with chemicals",
+                "goal": "create a unique chemical formula for personal satisfaction"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Conducting chemical experiments with lawful substances and proper permits",
+                    "benefits": "Gains knowledge and satisfaction from safe experimentation, avoids legal trouble",
+                    "costs": "Requires time, effort, and money to obtain permits and follow regulations",
+                    "benefits_probability": "90%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Making explosive substances without lawful excuse",
+                    "benefits": "Achieves personal satisfaction and recognition in underground communities",
+                    "costs": "Imprisonment up to 5 years or summary conviction if caught, risk of personal injury",
+                    "benefits_probability": "20%",
+                    "costs_probability": "7%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Alice Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "community safety officer",
+                "income": 3500,
+                "temperament": "diligent, cautious",
+                "hobby": "volunteering",
+                "goal": "Ensure community safety"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Monitoring and reporting suspicious activities to authorities",
+                    "benefits": "Helps maintain public safety and fulfills professional duties",
+                    "costs": "Consumes time and may lead to confrontations with individuals",
+                    "benefits_probability": "80%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignoring suspicious activities to avoid personal inconvenience",
+                    "benefits": "Saves time and avoids potential conflicts",
+                    "costs": "If negligence is discovered, may face disciplinary action or public backlash",
+                    "benefits_probability": "90%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "vocational training",
+                "moral_level": "moderate",
+                "profession": "hardware store owner",
+                "income": 4000,
+                "temperament": "pragmatic, business-oriented",
+                "hobby": "gardening",
+                "goal": "Increase sales and profits"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Selling chemicals only to customers with proper documentation",
+                    "benefits": "Maintains a good reputation and avoids legal trouble",
+                    "costs": "May lose potential sales from customers without documentation",
+                    "benefits_probability": "95%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "Selling chemicals to customers without proper documentation",
+                    "benefits": "Increases sales and profits",
+                    "costs": "If caught, may face fines, imprisonment, or loss of business license",
+                    "benefits_probability": "50%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where public gatherings are common and often lead to confrontations with law enforcement",
+    "norm_base": "Offender Joining or not leaving a public gathering after three lawful orders to disperse Fine up to 1000 euros",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "freelance journalist",
+                "income": 2000,
+                "temperament": "curious, determined",
+                "hobby": "photography",
+                "goal": "documenting public gatherings for a news article"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "leaving the public gathering after the first lawful order to disperse",
+                    "benefits": "avoiding legal consequences, maintaining personal safety",
+                    "costs": "missing out on documenting the event, potential loss of a good story",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "staying at the public gathering after three lawful orders to disperse",
+                    "benefits": "capturing exclusive footage, potential for a high-impact news story",
+                    "costs": "fine up to 1000 euros, potential arrest",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "police officer",
+                "income": 2500,
+                "temperament": "strict, responsible",
+                "hobby": "reading",
+                "goal": "ensuring public safety and order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "enforcing the lawful orders to disperse the crowd",
+                    "benefits": "maintaining public order, fulfilling duty",
+                    "costs": "potential conflict with the crowd, physical and emotional stress",
+                    "benefits_probability": "90%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring the crowd's refusal to disperse",
+                    "benefits": "avoiding immediate conflict, reducing personal stress",
+                    "costs": "risk of disciplinary action, potential escalation of the situation",
+                    "benefits_probability": "70%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "activist",
+                "income": 1500,
+                "temperament": "passionate, persuasive",
+                "hobby": "public speaking",
+                "goal": "advocating for social change"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "encouraging the crowd to disperse after lawful orders",
+                    "benefits": "avoiding legal consequences for himself and others, maintaining a peaceful protest",
+                    "costs": "potential loss of momentum for the cause, dissatisfaction among the crowd",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging the crowd to stay despite lawful orders to disperse",
+                    "benefits": "maintaining momentum for the cause, gaining media attention",
+                    "costs": "fine up to 1000 euros, potential arrest",
+                    "benefits_probability": "60%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

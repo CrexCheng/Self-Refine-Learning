@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, Capital City, where a new Act has been passed requiring public officials to implement transitional provisions within a strict timeline.",
+    "norm_base": "Public Officials Failing to make transitional provisions for implementing the Act Administrative consequences",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Smith",
+                "age": 42,
+                "gender": "male",
+                "education": "Master's in Public Administration",
+                "moral_level": "high",
+                "profession": "Senior Policy Advisor",
+                "income": 80000,
+                "temperament": "methodical, diligent",
+                "hobby": "reading policy journals",
+                "goal": "Ensure smooth implementation of the new Act"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Drafting and implementing transitional provisions for the Act",
+                    "benefits": "Compliance with the law, professional recognition, and public trust",
+                    "costs": "Increased workload and tight deadlines",
+                    "benefits_probability": "95%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Failing to draft and implement transitional provisions for the Act",
+                    "benefits": "Avoiding immediate workload and stress",
+                    "costs": "Administrative consequences such as reprimand, demotion, or suspension",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Emily Carter",
+                "age": 35,
+                "gender": "female",
+                "education": "Bachelor's in Political Science",
+                "moral_level": "moderate",
+                "profession": "Policy Analyst",
+                "income": 60000,
+                "temperament": "pragmatic, cooperative",
+                "hobby": "volunteering",
+                "goal": "Support the implementation of the Act"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Assisting John Smith in drafting transitional provisions",
+                    "benefits": "Professional growth and recognition",
+                    "costs": "Increased workload and potential conflicts with colleagues",
+                    "benefits_probability": "90%",
+                    "costs_probability": "70%"
+                },
+                "illegal": {
+                    "illegal_action": "Neglecting to assist in drafting transitional provisions",
+                    "benefits": "Avoiding additional workload and stress",
+                    "costs": "Administrative consequences such as a formal warning or reduced performance evaluation",
+                    "benefits_probability": "85%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 50,
+                "gender": "male",
+                "education": "PhD in Law",
+                "moral_level": "high",
+                "profession": "Legal Advisor",
+                "income": 90000,
+                "temperament": "assertive, detail-oriented",
+                "hobby": "playing chess",
+                "goal": "Ensure legal compliance of the Act's implementation"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Providing legal guidance to ensure the transitional provisions comply with the Act",
+                    "benefits": "Maintaining professional integrity and avoiding legal disputes",
+                    "costs": "Time-consuming and requires extensive research",
+                    "benefits_probability": "95%",
+                    "costs_probability": "80%"
+                },
+                "illegal": {
+                    "illegal_action": "Failing to provide legal guidance for the transitional provisions",
+                    "benefits": "Avoiding additional workload and stress",
+                    "costs": "Administrative consequences such as reprimand or loss of credibility",
+                    "benefits_probability": "70%",
+                    "costs_probability": "4%"
+                }
+            }
+        }
+    }
+}

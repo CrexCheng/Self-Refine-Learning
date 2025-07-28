@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City b, where gambling is prevalent and many minors are tempted to participate despite the prohibition",
+    "norm_base": "Minors, even emancipated Participating in gambling and games of chance Prohibition",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Alex Johnson",
+                "age": 17,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "average",
+                "profession": "student",
+                "income": 0,
+                "temperament": "curious, adventurous",
+                "hobby": "video games",
+                "goal": "to experience the thrill of gambling"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "not participating in gambling",
+                    "benefits": "avoiding legal consequences, maintaining a clean record",
+                    "costs": "missing out on the thrill and potential winnings",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "participating in gambling",
+                    "benefits": "experiencing the thrill, potential monetary gain",
+                    "costs": "prohibition from gambling, potential legal trouble",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jamie Smith",
+                "age": 16,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "student",
+                "income": 0,
+                "temperament": "responsible, cautious",
+                "hobby": "reading",
+                "goal": "to keep friends out of trouble"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "convincing Alex not to participate in gambling",
+                    "benefits": "helping a friend avoid legal trouble, maintaining friendship",
+                    "costs": "potential conflict with Alex, time spent persuading",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring Alex's decision to gamble",
+                    "benefits": "avoiding conflict with Alex, saving time",
+                    "costs": "feeling guilty if Alex gets into trouble",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Chris Lee",
+                "age": 18,
+                "gender": "male",
+                "education": "high school graduate",
+                "moral_level": "low",
+                "profession": "part-time worker",
+                "income": 500,
+                "temperament": "reckless, persuasive",
+                "hobby": "gambling",
+                "goal": "to get more people involved in gambling"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "not encouraging Alex to gamble",
+                    "benefits": "avoiding legal trouble, maintaining a clean record",
+                    "costs": "missing out on potential gambling partners",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging Alex to gamble",
+                    "benefits": "having a new gambling partner, potential monetary gain",
+                    "costs": "prohibition from gambling, potential legal trouble",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

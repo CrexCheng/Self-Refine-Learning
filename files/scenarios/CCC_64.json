@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where political tensions are high, and protests frequently escalate into riots.",
+    "norm_base": "Citizens Participating in a riot (unlawful assembly begun to disturb peace tumultuously) Subject to riot charges",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Alex Carter",
+                "age": 28,
+                "gender": "male",
+                "education": "bachelor's degree in political science",
+                "moral_level": "moderate",
+                "profession": "freelance journalist",
+                "income": 4000,
+                "temperament": "curious, passionate",
+                "hobby": "photography, activism",
+                "goal": "document the protest for a news article"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Observing the protest from a safe distance and documenting events without participating in unlawful activities.",
+                    "benefits": "Gathers material for the article, avoids legal trouble, maintains professional integrity.",
+                    "costs": "Limited access to the core of the protest, potentially less compelling material.",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "Joining the riot to capture more dramatic footage and firsthand experiences.",
+                    "benefits": "Captures compelling material for the article, gains recognition for bold reporting.",
+                    "costs": "Subject to riot charges, potential physical harm, loss of professional credibility.",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jordan Lee",
+                "age": 35,
+                "gender": "female",
+                "education": "master's degree in sociology",
+                "moral_level": "high",
+                "profession": "community organizer",
+                "income": 3500,
+                "temperament": "calm, empathetic",
+                "hobby": "volunteering, public speaking",
+                "goal": "Ensure the protest remains peaceful"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Encouraging protesters to remain calm and avoid escalating into a riot.",
+                    "benefits": "Maintains public order, avoids legal consequences for participants.",
+                    "costs": "May face resistance or hostility from more aggressive protesters.",
+                    "benefits_probability": "60%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "Allowing the protest to escalate into a riot without intervening.",
+                    "benefits": "Avoids personal conflict with aggressive protesters, conserves energy.",
+                    "costs": "Subject to riot charges if implicated, damages reputation as a community leader.",
+                    "benefits_probability": "80%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Chris Taylor",
+                "age": 22,
+                "gender": "non-binary",
+                "education": "high school graduate",
+                "moral_level": "low",
+                "profession": "unemployed",
+                "income": 0,
+                "temperament": "impulsive, rebellious",
+                "hobby": "graffiti, street art",
+                "goal": "Express frustration with the government"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Participating in the protest peacefully by holding signs and chanting slogans.",
+                    "benefits": "Expresses frustration without legal consequences, contributes to the cause.",
+                    "costs": "Limited impact compared to more aggressive actions.",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "Throwing objects and vandalizing property during the riot.",
+                    "benefits": "Releases frustration, gains attention for their message.",
+                    "costs": "Subject to riot charges, potential physical harm, damages public perception of the cause.",
+                    "benefits_probability": "50%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

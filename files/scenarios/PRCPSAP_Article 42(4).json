@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where there is a high-profile court case involving a local politician and witnesses are under significant pressure",
+    "norm_base": "Citizens Threatening, insulting, beating or retaliating against witnesses or their close relatives Detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "journalist",
+                "income": 60000,
+                "temperament": "curious, determined",
+                "hobby": "investigative journalism",
+                "goal": "uncover the truth behind the court case"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "interviewing witnesses without threatening, insulting, or retaliating against them",
+                    "benefits": "gaining valuable information for his article, maintaining professional integrity",
+                    "costs": "witnesses may be reluctant to share information, time-consuming process",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "threatening or intimidating witnesses to get information",
+                    "benefits": "obtaining exclusive and sensational information quickly",
+                    "costs": "detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "witness",
+                "income": 30000,
+                "temperament": "nervous, cautious",
+                "hobby": "reading",
+                "goal": "ensure her safety and the safety of her family"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "cooperating with authorities and providing truthful testimony",
+                    "benefits": "contributing to justice being served, personal integrity maintained",
+                    "costs": "risk of being targeted by those involved in the case, emotional stress",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "withholding information or lying to protect herself and her family",
+                    "benefits": "reducing the risk of retaliation, protecting her family",
+                    "costs": "legal consequences for perjury, potential guilt",
+                    "benefits_probability": "60%",
+                    "costs_probability": "10%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "low",
+                "profession": "private investigator",
+                "income": 50000,
+                "temperament": "aggressive, unscrupulous",
+                "hobby": "gambling",
+                "goal": "earn money by any means necessary"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "conducting investigations within the bounds of the law",
+                    "benefits": "maintaining professional reputation, avoiding legal trouble",
+                    "costs": "may not get the desired information quickly, less lucrative",
+                    "benefits_probability": "60%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "threatening or intimidating witnesses to get information for his clients",
+                    "benefits": "obtaining information quickly, earning more money",
+                    "costs": "detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "70%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where public transportation is often crowded and some citizens resort to illegal means to secure a ride",
+    "norm_base": "Citizens Illegally intercepting or forcibly boarding/hitching rides on motor vehicles, ships, aircraft or other transport vehicles Warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 25,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "office worker",
+                "income": 4000,
+                "temperament": "impatient, determined",
+                "hobby": "traveling",
+                "goal": "getting to work on time"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "waiting for the next available bus",
+                    "benefits": "avoids legal trouble, maintains personal safety",
+                    "costs": "risk of being late to work, feeling frustrated",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "forcibly boarding a crowded bus",
+                    "benefits": "gets to work on time, avoids frustration",
+                    "costs": "warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 30,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "bus driver",
+                "income": 3000,
+                "temperament": "calm, responsible",
+                "hobby": "reading",
+                "goal": "ensuring passenger safety"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "preventing John Doe from forcibly boarding the bus",
+                    "benefits": "ensures passenger safety, avoids legal trouble",
+                    "costs": "potential conflict with John Doe, delays in schedule",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "allowing John Doe to forcibly board the bus",
+                    "benefits": "avoids immediate conflict, maintains schedule",
+                    "costs": "risk of legal consequences if discovered, potential safety issues",
+                    "benefits_probability": "70%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "police officer",
+                "income": 5000,
+                "temperament": "strict, diligent",
+                "hobby": "jogging",
+                "goal": "maintaining public order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "stopping John Doe from forcibly boarding the bus",
+                    "benefits": "upholds the law, maintains public order",
+                    "costs": "time-consuming, potential conflict with John Doe",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's illegal action",
+                    "benefits": "avoids immediate conflict, saves time",
+                    "costs": "risk of legal consequences if discovered, undermines public order",
+                    "benefits_probability": "60%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

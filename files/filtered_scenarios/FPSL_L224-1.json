@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "France, during a period of heightened security where travel bans are strictly enforced",
+    "norm_base": "Any French citizen Leaving or attempting to leave territory in violation of travel ban 3 years imprisonment and 45,000 euro fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Jean Dupont",
+                "age": 30,
+                "gender": "male",
+                "education": "university graduate",
+                "moral_level": "average",
+                "profession": "software engineer",
+                "income": 40000,
+                "temperament": "determined, adventurous",
+                "hobby": "traveling",
+                "goal": "visit family abroad despite the travel ban"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "abiding by the travel ban and staying in France",
+                    "benefits": "avoiding legal consequences, maintaining personal safety",
+                    "costs": "unable to visit family, feeling frustrated",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "attempting to leave France in violation of the travel ban",
+                    "benefits": "reuniting with family, emotional satisfaction",
+                    "costs": "3 years imprisonment and 45,000 euro fine if caught",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Marie Lefevre",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "police officer",
+                "income": 30000,
+                "temperament": "responsible, diligent",
+                "hobby": "reading",
+                "goal": "enforce the travel ban"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "preventing Jean from leaving the country",
+                    "benefits": "upholding the law, ensuring national security",
+                    "costs": "potential conflict with Jean, time and effort spent",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "allowing Jean to leave the country",
+                    "benefits": "avoiding conflict, saving time",
+                    "costs": "risk of losing job, legal consequences if discovered",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Pierre Martin",
+                "age": 35,
+                "gender": "male",
+                "education": "college",
+                "moral_level": "low",
+                "profession": "smuggler",
+                "income": 50000,
+                "temperament": "cunning, opportunistic",
+                "hobby": "gambling",
+                "goal": "profit from helping people bypass the travel ban"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "refusing to help Jean leave the country",
+                    "benefits": "avoiding legal consequences, maintaining a low profile",
+                    "costs": "losing potential profit, feeling frustrated",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "helping Jean leave the country",
+                    "benefits": "earning a significant amount of money",
+                    "costs": "3 years imprisonment and 45,000 euro fine if caught",
+                    "benefits_probability": "80%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

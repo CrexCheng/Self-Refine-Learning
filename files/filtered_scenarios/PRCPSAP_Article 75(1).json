@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where many residents keep pets and there are strict regulations regarding pet behavior",
+    "norm_base": "Animal Keepers Keeping animals that disturb others' normal life Warning; if not corrected or allowing animals to frighten others, fine of 200-500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 30,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "software engineer",
+                "income": 80000,
+                "temperament": "calm, responsible",
+                "hobby": "dog training",
+                "goal": "to keep his dog well-behaved and compliant with city regulations"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "training his dog to be well-behaved and not disturb others",
+                    "benefits": "peaceful coexistence with neighbors, no legal issues",
+                    "costs": "time and effort spent on training",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "neglecting to train his dog, allowing it to disturb neighbors",
+                    "benefits": "saves time and effort",
+                    "costs": "warning; if not corrected or allowing animals to frighten others, fine of 200-500 yuan",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "teacher",
+                "income": 40000,
+                "temperament": "patient, kind",
+                "hobby": "gardening",
+                "goal": "to maintain a peaceful neighborhood"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "politely asking John to train his dog if it disturbs her",
+                    "benefits": "maintains good neighborly relations, peaceful environment",
+                    "costs": "time and potential awkwardness",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring the disturbance and not reporting it",
+                    "benefits": "avoids confrontation",
+                    "costs": "continued disturbance, potential escalation",
+                    "benefits_probability": "100%",
+                    "costs_probability": "10%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 45,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "lawyer",
+                "income": 100000,
+                "temperament": "assertive, logical",
+                "hobby": "reading",
+                "goal": "to ensure community norms are followed"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting John's dog to the authorities if it disturbs him",
+                    "benefits": "ensures compliance with regulations, maintains order",
+                    "costs": "time spent reporting, potential conflict with John",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "taking matters into his own hands by scaring the dog away",
+                    "benefits": "immediate resolution of disturbance",
+                    "costs": "potential legal consequences, conflict with John",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where traffic congestion is common and citizens often disregard traffic norms",
+    "norm_base": "Citizens Obstructing emergency vehicles like fire trucks, ambulances, engineering emergency vehicles, police cars Warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 30,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "salesman",
+                "income": 4000,
+                "temperament": "impatient",
+                "hobby": "driving",
+                "goal": "reach work on time"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "yielding to emergency vehicles",
+                    "benefits": "avoiding legal consequences, contributing to public safety",
+                    "costs": "potential delay in reaching destination",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "obstructing emergency vehicles to avoid delay",
+                    "benefits": "reaching destination faster",
+                    "costs": "warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "nurse",
+                "income": 3500,
+                "temperament": "calm",
+                "hobby": "reading",
+                "goal": "promote public safety"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "encouraging John to yield to emergency vehicles",
+                    "benefits": "promoting public safety, avoiding legal consequences",
+                    "costs": "potential conflict with John, delay in reaching destination",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John's obstruction of emergency vehicles",
+                    "benefits": "avoiding conflict with John, reaching destination faster",
+                    "costs": "if discovered, potential fine or legal consequences",
+                    "benefits_probability": "90%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 45,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "police officer",
+                "income": 5000,
+                "temperament": "strict",
+                "hobby": "cycling",
+                "goal": "enforce traffic laws"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "stopping John from obstructing emergency vehicles",
+                    "benefits": "upholding the law, ensuring public safety",
+                    "costs": "time and effort in enforcement, potential conflict",
+                    "benefits_probability": "60%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John's obstruction of emergency vehicles",
+                    "benefits": "saving time and effort, avoiding conflict",
+                    "costs": "if discovered, potential disciplinary action",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

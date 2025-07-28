@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where gun laws are strictly enforced, and schools are designated as gun-free zones.",
+    "norm_base": "Any person Knowingly possess firearm in school zone Fine and/or imprisonment up to 5 years",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Alex Carter",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "moderate",
+                "profession": "security consultant",
+                "income": 45000,
+                "temperament": "calm, analytical",
+                "hobby": "target shooting",
+                "goal": "transport a firearm to a shooting range without violating the law"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Avoid carrying the firearm through the school zone by taking an alternate route.",
+                    "benefits": "Compliance with the law, avoids legal consequences.",
+                    "costs": "Longer travel time and additional fuel expenses.",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Carry the firearm through the school zone knowingly to save time.",
+                    "benefits": "Saves time and fuel by taking the shortest route.",
+                    "costs": "Fine and/or imprisonment up to 5 years if caught.",
+                    "benefits_probability": "95%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jordan Lee",
+                "age": 35,
+                "gender": "female",
+                "education": "law school graduate",
+                "moral_level": "high",
+                "profession": "lawyer",
+                "income": 75000,
+                "temperament": "assertive, detail-oriented",
+                "hobby": "reading legal thrillers",
+                "goal": "Ensure Alex complies with the law"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Advise Alex to avoid carrying the firearm through the school zone.",
+                    "benefits": "Helps Alex avoid legal trouble and maintains professional integrity.",
+                    "costs": "Spends time explaining legal risks to Alex.",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignore Alex's plan to carry the firearm through the school zone.",
+                    "benefits": "Avoids conflict with Alex and saves time.",
+                    "costs": "If Alex is caught, Jordan's reputation as a lawyer may be damaged.",
+                    "benefits_probability": "95%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Chris Morgan",
+                "age": 40,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "low",
+                "profession": "gun shop owner",
+                "income": 40000,
+                "temperament": "pragmatic, opportunistic",
+                "hobby": "hunting",
+                "goal": "Sell firearms and accessories"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Sell Alex a secure firearm case and advise him to follow the law.",
+                    "benefits": "Earns profit from the sale and avoids legal liability.",
+                    "costs": "Spends time explaining firearm transport laws to Alex.",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "Encourage Alex to carry the firearm through the school zone to save time.",
+                    "benefits": "Builds rapport with Alex as a 'helpful' seller.",
+                    "costs": "If Alex is caught, Chris may face legal scrutiny for his advice.",
+                    "benefits_probability": "90%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

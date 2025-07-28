@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where construction projects are ongoing in various parts of the city, and safety regulations are strictly enforced",
+    "norm_base": "Construction Units or Individuals Not providing covers, barriers or warning signs for ditches/wells/pits in vehicle or pedestrian areas, or intentionally damaging/moving such protection Detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "construction site manager",
+                "income": 8000,
+                "temperament": "responsible, cautious",
+                "hobby": "reading safety manuals",
+                "goal": "ensure the construction site meets safety standards"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "providing covers, barriers, and warning signs for ditches/wells/pits",
+                    "benefits": "ensures safety, avoids legal consequences, maintains good reputation",
+                    "costs": "additional time and resources spent on safety measures",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "not providing covers, barriers, or warning signs for ditches/wells/pits",
+                    "benefits": "saves time and resources",
+                    "costs": "risk of accidents, detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "construction worker",
+                "income": 4000,
+                "temperament": "diligent, cooperative",
+                "hobby": "gardening",
+                "goal": "complete tasks efficiently"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "ensuring safety measures are in place as instructed by the site manager",
+                    "benefits": "ensures personal and public safety, avoids legal consequences",
+                    "costs": "additional effort and time spent on safety measures",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring safety measures to save time",
+                    "benefits": "completes tasks faster",
+                    "costs": "risk of accidents, detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "70%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 50,
+                "gender": "male",
+                "education": "vocational training",
+                "moral_level": "average",
+                "profession": "construction site inspector",
+                "income": 6000,
+                "temperament": "strict, meticulous",
+                "hobby": "photography",
+                "goal": "ensure compliance with safety regulations"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "conducting thorough inspections and ensuring safety measures are in place",
+                    "benefits": "ensures compliance, avoids legal consequences, maintains professional integrity",
+                    "costs": "time-consuming, potential conflicts with site workers",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "overlooking minor safety violations to expedite project completion",
+                    "benefits": "faster project completion, less conflict with site workers",
+                    "costs": "risk of accidents, detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "60%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where public transportation is heavily relied upon by citizens for daily commuting",
+    "norm_base": "Citizens Disturbing order on buses, trams, trains, ships, aircraft or other public transportation Warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Liu Wei",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "office worker",
+                "income": 8000,
+                "temperament": "impatient, short-tempered",
+                "hobby": "playing mobile games",
+                "goal": "reach work on time"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "waiting patiently for the bus and following public transportation norms",
+                    "benefits": "maintains public order, avoids legal consequences",
+                    "costs": "may be late to work if the bus is delayed",
+                    "benefits_probability": "100%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "causing a disturbance on the bus by arguing with the driver about delays",
+                    "benefits": "expresses frustration, may get the bus moving faster",
+                    "costs": "warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Chen Ming",
+                "age": 35,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "bus driver",
+                "income": 6000,
+                "temperament": "calm, responsible",
+                "hobby": "reading",
+                "goal": "ensure passenger safety and timely service"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "calmly addressing Liu Wei's concerns and maintaining order on the bus",
+                    "benefits": "maintains public order, avoids legal consequences",
+                    "costs": "may delay the bus further while addressing the issue",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring Liu Wei's disturbance and continuing to drive",
+                    "benefits": "avoids confrontation, keeps the bus on schedule",
+                    "costs": "if discovered or if the disturbance escalates, may face disciplinary action",
+                    "benefits_probability": "90%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Wang Li",
+                "age": 42,
+                "gender": "female",
+                "education": "college graduate",
+                "moral_level": "high",
+                "profession": "teacher",
+                "income": 7000,
+                "temperament": "patient, empathetic",
+                "hobby": "knitting",
+                "goal": "promote a peaceful environment"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "intervening to calm Liu Wei and prevent further disturbance",
+                    "benefits": "maintains public order, promotes a peaceful environment",
+                    "costs": "may face resistance or conflict with Liu Wei",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring the disturbance and focusing on her own activities",
+                    "benefits": "avoids personal involvement and potential conflict",
+                    "costs": "none",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

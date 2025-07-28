@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where many small and medium-sized companies operate in a competitive market",
+    "norm_base": "Companies Operating without professional liability insurance Administrative closure",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 40,
+                "gender": "male",
+                "education": "MBA",
+                "moral_level": "high",
+                "profession": "CEO",
+                "income": 150000,
+                "temperament": "ambitious, strategic",
+                "hobby": "reading business books",
+                "goal": "ensuring company compliance and growth"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "purchasing professional liability insurance for the company",
+                    "benefits": "company operates legally, avoids administrative closure, builds trust with clients",
+                    "costs": "financial expense of purchasing insurance",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "operating without professional liability insurance",
+                    "benefits": "saves money on insurance premiums, short-term financial gain",
+                    "costs": "risk of administrative closure, loss of client trust, potential legal issues",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 35,
+                "gender": "female",
+                "education": "Bachelor's in Finance",
+                "moral_level": "high",
+                "profession": "CFO",
+                "income": 120000,
+                "temperament": "cautious, detail-oriented",
+                "hobby": "budgeting",
+                "goal": "ensuring financial stability of the company"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising John Doe to purchase professional liability insurance",
+                    "benefits": "company operates legally, avoids administrative closure, maintains financial stability",
+                    "costs": "none",
+                    "benefits_probability": "100%",
+                    "costs_probability": "0%"
+                },
+                "illegal": {
+                    "illegal_action": "advising John Doe to skip purchasing professional liability insurance",
+                    "benefits": "short-term financial gain, saving on insurance premiums",
+                    "costs": "risk of administrative closure, potential financial instability",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 50,
+                "gender": "male",
+                "education": "Bachelor's in Law",
+                "moral_level": "high",
+                "profession": "Legal Advisor",
+                "income": 100000,
+                "temperament": "analytical, pragmatic",
+                "hobby": "playing chess",
+                "goal": "ensuring legal compliance of the company"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "ensuring the company has professional liability insurance",
+                    "benefits": "company operates legally, avoids administrative closure, maintains legal compliance",
+                    "costs": "none",
+                    "benefits_probability": "100%",
+                    "costs_probability": "0%"
+                },
+                "illegal": {
+                    "illegal_action": "overlooking the absence of professional liability insurance",
+                    "benefits": "none",
+                    "costs": "risk of administrative closure, potential legal issues",
+                    "benefits_probability": "0%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

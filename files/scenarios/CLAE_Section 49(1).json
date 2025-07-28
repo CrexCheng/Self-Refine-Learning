@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where public safety concerns have led to strict regulations on carrying sharp objects in public places.",
+    "norm_base": "Citizens Having an article with blade or point in a public place imprisonment up to 12 months or fine not exceeding statutory maximum, or both",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "chef",
+                "income": 4000,
+                "temperament": "calm but occasionally reckless",
+                "hobby": "cooking and outdoor activities",
+                "goal": "transporting a professional chef's knife to a cooking competition"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Transporting the knife in a secure, locked container and informing authorities if necessary",
+                    "benefits": "Avoids legal trouble and ensures compliance with the law",
+                    "costs": "Extra effort and time to secure the knife properly",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Carrying the knife openly in a public place without proper precautions",
+                    "benefits": "Saves time and effort in securing the knife",
+                    "costs": "Risk of imprisonment up to 12 months or fine not exceeding statutory maximum, or both",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Emily Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "police officer",
+                "income": 3500,
+                "temperament": "diligent and cautious",
+                "hobby": "reading crime novels",
+                "goal": "ensuring public safety"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Stopping John Doe and advising him to secure the knife properly",
+                    "benefits": "Maintains public safety and fulfills professional duty",
+                    "costs": "Potential conflict with John Doe and time spent on the situation",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignoring John Doe's violation and allowing him to proceed",
+                    "benefits": "Avoids confrontation and saves time",
+                    "costs": "If discovered, could face disciplinary action or public backlash",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 45,
+                "gender": "male",
+                "education": "vocational training",
+                "moral_level": "average",
+                "profession": "street vendor",
+                "income": 2500,
+                "temperament": "pragmatic and observant",
+                "hobby": "people-watching",
+                "goal": "avoiding trouble while running his business"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Reporting John Doe to the authorities if he notices the knife being carried improperly",
+                    "benefits": "Contributes to public safety and avoids potential danger",
+                    "costs": "Time spent reporting and potential conflict with John Doe",
+                    "benefits_probability": "50%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignoring John Doe's violation and continuing with his business",
+                    "benefits": "Avoids involvement and focuses on his own work",
+                    "costs": "If an incident occurs, he might feel guilty for not reporting",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

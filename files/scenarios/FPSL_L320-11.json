@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where online gaming is highly popular and many people spend a significant amount of time and money on games",
+    "norm_base": "Game Operators Failing to inform players of risks related to excessive gambling Administrative sanction",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "bachelor's degree",
+                "moral_level": "average",
+                "profession": "game operator",
+                "income": 50000,
+                "temperament": "ambitious, pragmatic",
+                "hobby": "gaming",
+                "goal": "maximize player engagement and revenue"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "informing players of risks related to excessive gambling",
+                    "benefits": "compliance with regulations, avoiding legal consequences",
+                    "costs": "potential reduction in player engagement and revenue",
+                    "benefits_probability": "100%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "failing to inform players of risks related to excessive gambling",
+                    "benefits": "maintaining high player engagement and revenue",
+                    "costs": "administrative sanction",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "master's degree",
+                "moral_level": "high",
+                "profession": "compliance officer",
+                "income": 60000,
+                "temperament": "cautious, detail-oriented",
+                "hobby": "reading",
+                "goal": "ensure company compliance with regulations"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "ensuring that the game operator informs players of risks related to excessive gambling",
+                    "benefits": "maintaining company compliance, avoiding legal consequences",
+                    "costs": "potential conflict with game operator, additional workload",
+                    "benefits_probability": "100%",
+                    "costs_probability": "70%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring the requirement to inform players of risks related to excessive gambling",
+                    "benefits": "avoiding conflict with game operator, reduced workload",
+                    "costs": "risk of administrative sanction if discovered",
+                    "benefits_probability": "90%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "low",
+                "profession": "marketing manager",
+                "income": 70000,
+                "temperament": "aggressive, persuasive",
+                "hobby": "sports betting",
+                "goal": "increase player spending"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "promoting responsible gaming and informing players of risks",
+                    "benefits": "compliance with regulations, maintaining company reputation",
+                    "costs": "potential reduction in player spending",
+                    "benefits_probability": "100%",
+                    "costs_probability": "60%"
+                },
+                "illegal": {
+                    "illegal_action": "failing to inform players of risks to maximize spending",
+                    "benefits": "increased player spending and revenue",
+                    "costs": "administrative sanction if discovered",
+                    "benefits_probability": "85%",
+                    "costs_probability": "4%"
+                }
+            }
+        }
+    }
+}

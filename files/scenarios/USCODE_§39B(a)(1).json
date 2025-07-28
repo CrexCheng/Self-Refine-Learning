@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, near a small regional airport where citizens often gather to watch planes take off and land.",
+    "norm_base": "Citizens Knowingly interfering with aircraft operation posing imminent safety hazard Fine and/or imprisonment up to 1 year",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Alex Carter",
+                "age": 28,
+                "gender": "male",
+                "education": "bachelor's degree in engineering",
+                "moral_level": "average",
+                "profession": "drone enthusiast",
+                "income": 45000,
+                "temperament": "curious, risk-taker",
+                "hobby": "flying drones and photography",
+                "goal": "capture unique aerial footage of aircraft"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Flying the drone in designated areas far from the airport",
+                    "benefits": "Captures aerial footage legally and safely, avoids penalties",
+                    "costs": "Limited access to interesting shots near the airport",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "Flying the drone near the airport, interfering with aircraft operation",
+                    "benefits": "Captures unique and thrilling footage of aircraft up close",
+                    "costs": "Fine and/or imprisonment up to 1 year, potential confiscation of drone",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jordan Lee",
+                "age": 35,
+                "gender": "female",
+                "education": "high school diploma",
+                "moral_level": "high",
+                "profession": "airport security officer",
+                "income": 32000,
+                "temperament": "diligent, cautious",
+                "hobby": "reading crime novels",
+                "goal": "ensure airport safety"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Confronting Alex and stopping him from flying the drone near the airport",
+                    "benefits": "Prevents potential safety hazards, fulfills job responsibilities",
+                    "costs": "Possible conflict with Alex, time spent on confrontation",
+                    "benefits_probability": "90%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignoring Alex's drone activity near the airport",
+                    "benefits": "Avoids confrontation, saves time and effort",
+                    "costs": "If discovered, could face disciplinary action or job loss",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Chris Morgan",
+                "age": 42,
+                "gender": "male",
+                "education": "associate degree in aviation",
+                "moral_level": "average",
+                "profession": "pilot",
+                "income": 75000,
+                "temperament": "calm, professional",
+                "hobby": "model airplane building",
+                "goal": "ensure safe takeoff and landing"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Reporting Alex's drone activity to air traffic control",
+                    "benefits": "Ensures safety of the aircraft and passengers",
+                    "costs": "Delays in flight schedule, additional stress",
+                    "benefits_probability": "95%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignoring Alex's drone activity and proceeding with the flight",
+                    "benefits": "Avoids delays and maintains flight schedule",
+                    "costs": "If an incident occurs, could face legal and professional consequences",
+                    "benefits_probability": "90%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, a suburban area where many citizens use electric nets to protect their properties",
+    "norm_base": "Citizens Installing or using electric nets without approval, or installing/using electric nets not complying with safety regulations Detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "farmer",
+                "income": 20000,
+                "temperament": "cautious, responsible",
+                "hobby": "gardening",
+                "goal": "protecting his farm from intruders"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "seeking approval and installing electric nets that comply with safety regulations",
+                    "benefits": "farm is protected legally, no legal consequences",
+                    "costs": "time and money spent on approval process and compliant installation",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "installing electric nets without approval or not complying with safety regulations",
+                    "benefits": "immediate protection of farm, saving time and money",
+                    "costs": "detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 35,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "local government officer",
+                "income": 15000,
+                "temperament": "strict, diligent",
+                "hobby": "reading",
+                "goal": "ensuring community safety"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "inspecting and ensuring all electric nets in the area comply with safety regulations",
+                    "benefits": "community safety is maintained, no legal consequences",
+                    "costs": "time and effort spent on inspections",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring non-compliant electric nets",
+                    "benefits": "saving time and effort, avoiding conflicts with citizens",
+                    "costs": "if discovered, possible disciplinary action or job loss",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 50,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "neighboring farmer",
+                "income": 18000,
+                "temperament": "friendly, cooperative",
+                "hobby": "fishing",
+                "goal": "protecting his own farm"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising John Doe to seek approval and install compliant electric nets",
+                    "benefits": "maintains good relationship with John, no legal consequences",
+                    "costs": "time spent on advising",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging John Doe to install electric nets without approval",
+                    "benefits": "quick solution to protect both farms, saving time and money",
+                    "costs": "if discovered, both may face legal consequences",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

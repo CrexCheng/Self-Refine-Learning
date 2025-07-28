@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where a major power plant is located, providing electricity to the entire region. Citizens are aware of its importance but some are tempted to interfere for personal or ideological reasons.",
+    "norm_base": "Citizens Interfering with use/operation of key national infrastructure Up to general limit in magistrates' court, fine, or both; On indictment: Up to 12 months imprisonment, fine, or both",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Alex Carter",
+                "age": 28,
+                "gender": "male",
+                "education": "bachelor's degree in engineering",
+                "moral_level": "questionable",
+                "profession": "freelance technician",
+                "income": 2500,
+                "temperament": "curious, risk-taker",
+                "hobby": "tinkering with electronics",
+                "goal": "gain access to the power plant to test a self-designed energy-saving device"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Requesting permission to test the device through official channels",
+                    "benefits": "Potential approval to test the device legally, gaining recognition for innovation",
+                    "costs": "Time-consuming process, potential rejection of the request",
+                    "benefits_probability": "50%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "Breaking into the power plant to test the device without authorization",
+                    "benefits": "Immediate access to test the device, potential success in proving its efficiency",
+                    "costs": "Up to 12 months imprisonment, fine, or both if caught; risk of damaging critical infrastructure",
+                    "benefits_probability": "30%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jordan Lee",
+                "age": 35,
+                "gender": "female",
+                "education": "master's degree in environmental science",
+                "moral_level": "high",
+                "profession": "environmental consultant",
+                "income": 4000,
+                "temperament": "pragmatic, cautious",
+                "hobby": "reading about sustainable energy",
+                "goal": "ensure the power plant operates safely and sustainably"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Advising Alex to follow proper channels for testing the device",
+                    "benefits": "Maintains safety and security of the power plant, avoids legal issues",
+                    "costs": "May not convince Alex, risking his illegal actions",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "Helping Alex gain unauthorized access to the power plant",
+                    "benefits": "Supports Alex's innovation, potential success of the device",
+                    "costs": "Up to 12 months imprisonment, fine, or both if caught; professional reputation damage",
+                    "benefits_probability": "20%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Chris Morgan",
+                "age": 42,
+                "gender": "male",
+                "education": "high school diploma",
+                "moral_level": "low",
+                "profession": "security guard at the power plant",
+                "income": 2000,
+                "temperament": "apathetic, opportunistic",
+                "hobby": "gambling",
+                "goal": "earn extra money"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Reporting any suspicious activity to the authorities",
+                    "benefits": "Maintains job security, ensures safety of the power plant",
+                    "costs": "Effort required to monitor and report, potential conflict with Alex",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "Accepting a bribe from Alex to allow unauthorized access",
+                    "benefits": "Earns extra money from the bribe",
+                    "costs": "Up to 12 months imprisonment, fine, or both if caught; loss of job",
+                    "benefits_probability": "50%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, known for its rich cultural heritage and numerous state-protected historic sites",
+    "norm_base": "Citizens Carving, defacing or intentionally damaging state-protected cultural relics or historic sites Warning or fine up to 200 yuan; for serious cases, detention for 5-10 days and fine of 200-500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 25,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "tour guide",
+                "income": 4000,
+                "temperament": "curious, adventurous",
+                "hobby": "exploring historic sites",
+                "goal": "to create unique memories and experiences"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "respecting and preserving cultural relics and historic sites",
+                    "benefits": "personal satisfaction from preserving history, no legal consequences",
+                    "costs": "no unique personal mark left on the site",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "carving initials on a historic site",
+                    "benefits": "leaving a personal mark, feeling of uniqueness",
+                    "costs": "warning or fine up to 200 yuan; for serious cases, detention for 5-10 days and fine of 200-500 yuan",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 30,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "security guard",
+                "income": 3000,
+                "temperament": "responsible, vigilant",
+                "hobby": "reading history books",
+                "goal": "to protect cultural heritage"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "preventing John Doe from carving on the historic site",
+                    "benefits": "preservation of the site, fulfilling job responsibilities",
+                    "costs": "potential conflict with John Doe, time spent on prevention",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's actions",
+                    "benefits": "avoiding conflict, less effort required",
+                    "costs": "risk of job loss, fine if discovered",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "historian",
+                "income": 5000,
+                "temperament": "calm, analytical",
+                "hobby": "writing articles on history",
+                "goal": "to document and preserve historical knowledge"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting John Doe's actions to authorities",
+                    "benefits": "preservation of the site, fulfilling civic duty",
+                    "costs": "time spent on reporting, potential conflict with John Doe",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's actions",
+                    "benefits": "avoiding conflict, saving time",
+                    "costs": "guilt for not preserving history, potential fine if discovered",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        }
+    }
+}

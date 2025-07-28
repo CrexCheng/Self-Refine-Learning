@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where there is a high rate of property crimes and a significant presence of law enforcement",
+    "norm_base": "Offender Damaging or destroying property of another Imprisonment up to 2 years or fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "low",
+                "profession": "unemployed",
+                "income": 0,
+                "temperament": "aggressive, impulsive",
+                "hobby": "vandalism",
+                "goal": "to express anger by damaging property"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "attending anger management classes",
+                    "benefits": "improves emotional control, avoids legal consequences",
+                    "costs": "time-consuming, requires effort",
+                    "benefits_probability": "80%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "damaging a neighbor's car",
+                    "benefits": "immediate emotional release, sense of power",
+                    "costs": "imprisonment up to 2 years or fine",
+                    "benefits_probability": "100%",
+                    "costs_probability": "7%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "college",
+                "moral_level": "high",
+                "profession": "social worker",
+                "income": 4000,
+                "temperament": "empathetic, patient",
+                "hobby": "volunteering",
+                "goal": "to help John manage his anger"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "convincing John to attend anger management classes",
+                    "benefits": "helps John improve, fulfills professional duty",
+                    "costs": "time-consuming, emotional strain",
+                    "benefits_probability": "50%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John's behavior",
+                    "benefits": "saves time and effort",
+                    "costs": "if John's behavior escalates, Jane may face professional consequences",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 40,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "medium",
+                "profession": "security guard",
+                "income": 3000,
+                "temperament": "alert, responsible",
+                "hobby": "watching sports",
+                "goal": "to maintain neighborhood safety"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting John's suspicious behavior to the police",
+                    "benefits": "prevents potential crime, fulfills duty",
+                    "costs": "may cause conflict with John, time-consuming",
+                    "benefits_probability": "70%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John's suspicious behavior",
+                    "benefits": "avoids conflict, saves time",
+                    "costs": "if John's behavior escalates, Mike may face professional consequences",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

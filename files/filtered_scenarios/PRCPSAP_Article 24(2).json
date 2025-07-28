@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where citizens enjoy celebrating festivals and attending mass events",
+    "norm_base": "Citizens Setting off fireworks or other items in venues against regulations, disturbing order at cultural, sports and other mass events Warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "event organizer",
+                "income": 40000,
+                "temperament": "enthusiastic, impulsive",
+                "hobby": "fireworks",
+                "goal": "organize a memorable event"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "not setting off fireworks at the event",
+                    "benefits": "compliance with regulations, no legal consequences",
+                    "costs": "event may be less exciting, potential disappointment from attendees",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "setting off fireworks at the event",
+                    "benefits": "event becomes more exciting, attendees are thrilled",
+                    "costs": "warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "90%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 35,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "security officer",
+                "income": 30000,
+                "temperament": "responsible, strict",
+                "hobby": "reading",
+                "goal": "ensure event safety"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "preventing John Doe from setting off fireworks",
+                    "benefits": "ensures event safety, avoids legal consequences",
+                    "costs": "potential conflict with John Doe, extra effort required",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "allowing John Doe to set off fireworks",
+                    "benefits": "avoids conflict with John Doe, less effort required",
+                    "costs": "if discovered, warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "100%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "vendor",
+                "income": 25000,
+                "temperament": "easy-going",
+                "hobby": "music",
+                "goal": "maximize sales at the event"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising John Doe against setting off fireworks",
+                    "benefits": "ensures event safety, maintains good relationship with authorities",
+                    "costs": "potential conflict with John Doe, may affect sales",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging John Doe to set off fireworks",
+                    "benefits": "event becomes more exciting, potentially higher sales",
+                    "costs": "if discovered, warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "90%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

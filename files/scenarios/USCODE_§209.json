@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, Capital City, where government employees are under strict scrutiny for ethical conduct and financial transparency.",
+    "norm_base": "Government employees Receiving salary or supplementation from sources other than US government for official services Fine and/or imprisonment up to 1 year",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Smith",
+                "age": 42,
+                "gender": "male",
+                "education": "Master's degree in Public Administration",
+                "moral_level": "moderate",
+                "profession": "Government Policy Analyst",
+                "income": 75000,
+                "temperament": "ambitious, pragmatic",
+                "hobby": "reading political biographies",
+                "goal": "secure additional income to pay off personal debts"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Seek approval for a part-time teaching position at a local university",
+                    "benefits": "Earn additional income legally, maintain professional reputation",
+                    "costs": "Time-consuming approval process, potential conflict with primary job responsibilities",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "Accept under-the-table payments from a private consulting firm for providing policy advice",
+                    "benefits": "Quick and substantial additional income to pay off debts",
+                    "costs": "Fine and/or imprisonment up to 1 year if discovered, loss of job and reputation",
+                    "benefits_probability": "90%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Emily Davis",
+                "age": 38,
+                "gender": "female",
+                "education": "Bachelor's degree in Accounting",
+                "moral_level": "high",
+                "profession": "Government Auditor",
+                "income": 65000,
+                "temperament": "meticulous, ethical",
+                "hobby": "gardening",
+                "goal": "ensure financial compliance within the department"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Report any suspicious financial activity to the ethics committee",
+                    "benefits": "Maintain integrity of the department, avoid personal liability",
+                    "costs": "Potential conflict with colleagues, additional workload",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "Ignore suspicious financial activity to avoid conflict",
+                    "benefits": "Maintain good relationships with colleagues, avoid additional workload",
+                    "costs": "If discovered, risk of disciplinary action or job loss",
+                    "benefits_probability": "95%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 50,
+                "gender": "male",
+                "education": "PhD in Economics",
+                "moral_level": "low",
+                "profession": "Private Consultant",
+                "income": 120000,
+                "temperament": "persuasive, opportunistic",
+                "hobby": "networking",
+                "goal": "secure insider information to benefit his clients"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "Offer John Smith a legitimate consulting contract with full disclosure to the government",
+                    "benefits": "Build a professional relationship with John Smith, avoid legal risks",
+                    "costs": "Lower likelihood of obtaining sensitive insider information",
+                    "benefits_probability": "60%",
+                    "costs_probability": "40%"
+                },
+                "illegal": {
+                    "illegal_action": "Offer John Smith under-the-table payments for insider policy advice",
+                    "benefits": "Gain access to valuable insider information, satisfy high-paying clients",
+                    "costs": "If discovered, risk of fines, imprisonment, and loss of reputation",
+                    "benefits_probability": "85%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where citizens are known for their active participation in social and political activities, sometimes leading to disturbances in public and private institutions",
+    "norm_base": "Citizens Disturbing order of government agencies, organizations, enterprises, causing work, production, business, medical care, teaching, research unable to proceed normally Warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 30,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "activist",
+                "income": 2000,
+                "temperament": "passionate, outspoken",
+                "hobby": "organizing rallies",
+                "goal": "advocate for social change"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "organizing a peaceful rally with proper permits",
+                    "benefits": "raises awareness for social issues, gains public support",
+                    "costs": "requires time and effort to obtain permits and organize",
+                    "benefits_probability": "80%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "organizing an unauthorized protest that disrupts government office operations",
+                    "benefits": "gains immediate attention and media coverage",
+                    "costs": "warning or fine up to 200 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "government employee",
+                "income": 3000,
+                "temperament": "calm, responsible",
+                "hobby": "reading",
+                "goal": "maintain public order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting unauthorized protest to authorities",
+                    "benefits": "ensures public order, avoids personal liability",
+                    "costs": "may face backlash from protesters",
+                    "benefits_probability": "90%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring the unauthorized protest",
+                    "benefits": "avoids immediate conflict with protesters",
+                    "costs": "if discovered, may face disciplinary action or fine",
+                    "benefits_probability": "80%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 35,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "business owner",
+                "income": 5000,
+                "temperament": "pragmatic",
+                "hobby": "networking",
+                "goal": "ensure business operations run smoothly"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "cooperating with authorities to manage protest impact",
+                    "benefits": "minimizes disruption to business, maintains good relations with authorities",
+                    "costs": "may require additional resources and time",
+                    "benefits_probability": "70%",
+                    "costs_probability": "60%"
+                },
+                "illegal": {
+                    "illegal_action": "taking no action against the protest",
+                    "benefits": "saves resources and avoids immediate conflict",
+                    "costs": "if protest escalates, business operations may be severely disrupted, potential fines",
+                    "benefits_probability": "60%",
+                    "costs_probability": "4%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,183 @@
+# Agent Interaction Scenario Generator
+
+You are an Agent Interaction Scenario Generator. I will provide you with the [Prerequisites], [Behavior Pattern], and [Legal Consequences], and you will generate an interactive scenario design for Agents.
+
+## Output Requirements
+
+The output must be in JSON format and contain the following:
+
+### 1. Number of Agents and Environment
+- `agent_num`: Design 1-5 Agents, requirements:
+  - Must have exactly one protagonist (protagonist_role)
+  - Others are supporting roles (supporting_role)
+- `environment_setting`: Interactive scenario environment based on [Prerequisites]
+
+### 2. Agent Role Design
+Each Agent must include the following information:
+
+#### Character Profile
+- Name (name)
+- Age (age)
+- Gender (gender)
+- Educational background (education)
+- Moral level (moral_level)
+- Profession (profession)
+- Income (income)
+- Temperament (temperament)
+- Hobbies (hobby)
+- Goals (goal): Protagonist's goal must relate to the legal behavior pattern
+
+#### Action Design (action)
+Each Agent must include two behavior paths:
+
+##### Legitimate Action (legitimate_action)
+- Specific behavior description
+- Benefits (benefits)
+- Costs (costs)
+- Benefits probability (benefits_probability)
+- Costs probability (costs_probability)
+
+##### Illegal Action (illegal_action)
+- Specific behavior description
+- Benefits (benefits)
+- Costs (costs): Must correspond to [Legal Consequences]
+- Benefits probability (benefits_probability)
+- Costs probability (costs_probability): Must be between 0.1% and 10%
+
+## Design Principles
+
+### Character Relationships
+- Protagonist's actions must directly relate to [Behavior Pattern]
+- Supporting roles' actions must be associated with the protagonist
+
+### Action Design
+- Legitimate actions: Choices that comply with [Behavior Pattern]
+- Illegal actions: Choices that violate [Behavior Pattern]
+
+### Benefits and Costs
+- Legitimate actions: Design reasonable benefits and costs
+- Illegal actions:
+  - Costs must be based on [Legal Consequences], benefits can be self-designed
+  - Costs probability (costs_probability) must be between 0.1% and 10%, reflecting the low probability of illegal behavior being discovered and punished
+- All other probability settings must be reasonable
+
+## Input Format
+
+[Prerequisites]: {precondition}
+[Behavior Pattern]: {behavior_pattern}
+[Legal Consequences]: {legal_consequence}
+
+## Design Considerations
+
+1. All interactions between Agents must be logical
+2. Probability values must be reasonable, avoid extremes
+3. Protagonist's goals must clearly relate to behavior patterns
+4. Supporting roles' actions must have substantial impact on the protagonist
+5. Cost probability for illegal actions must be limited to between 0.1% and 10%
+
+## Example
+
+Input:
+[Prerequisites]: Adult
+[Behavior Pattern]: Must not "unauthorized enter railway protective networks or walk, sit, lie down on railway tracks when trains are approaching, or rush across railways, affecting traffic safety"
+[Legal Consequences]: Warning or fine of up to 200 yuan
+
+Output:
+```json
+{
+   "agent_num": 3,
+   "environment_setting": "Country A, City a, where many people love adventure and disregard restricted areas in the city",
+   "norm_base": Adult unauthorized enter railway protective networks or walk, sit, lie down on railway tracks when trains are approaching, or rush across railways, affecting traffic safety Warning or fine of up to 200 yuan,
+       "protagonist_role": {
+           "character_profile": {
+               "name": "Zhang San",
+               "age": 19,
+               "gender": "male",
+               "education": "undergraduate",
+               "moral_level": "not very moral",
+               "profession": "programmer",
+               "income": 10000,
+               "temperament": "irritable, impulsive",
+               "hobby": "adventure",
+               "goal": "urban exploration"
+           },
+           "action": {
+               "legitimate": {
+                   "legitimate_action": "not entering railway protective network area",
+                   "benefits": "personal safety guaranteed",
+                   "costs": "unable to explore inside railway protective network area, feeling disappointed",
+                   "benefits_probability": "100%",
+                   "costs_probability": "100%"
+               },
+               "illegal": {
+                   "illegal_action": "entering railway protective network area",
+                   "benefits": "exploring inside railway protective network area, gaining emotional satisfaction",
+                   "costs": "possible personal safety risk, warning or fine up to 200 yuan",
+                   "benefits_probability": "100%",
+                   "costs_probability": "5%"
+               }
+           }
+       },
+       "supporting_role1": {
+           "character_profile": {
+               "name": "Li Si",
+               "age": 34,
+               "gender": "male",
+               "education": "high school",
+               "moral_level": "moral",
+               "profession": "railway administrator",
+               "income": 3000,
+               "temperament": "irritable, dissatisfied",
+               "hobby": "getting off work",
+               "goal": "getting off work"
+           },
+           "action": {
+               "legitimate": {
+                   "legitimate_action": "stopping Zhang San from entering railway protective network area",
+                   "benefits": "if successful in persuasion, maintains city security, avoid punishment",
+                   "costs": "wastes time persuading, may have conflict with Zhang San",
+                   "benefits_probability": "30%",
+                   "costs_probability": "70%"
+               },
+               "illegal": {
+                   "illegal_action": "not stopping Zhang San from entering railway protective network area",
+                   "benefits": "saves time on persuasion, avoids conflict with Zhang San",
+                   "costs": "if discovered or safety incident occurs, will be fined",
+                   "benefits_probability": "100%",
+                   "costs_probability": "3%"
+               }
+           }
+       },
+       "supporting_role2": {
+           "character_profile": {
+               "name": "Wang Wu",
+               "age": 45,
+               "gender": "female",
+               "education": "high school",
+               "moral_level": "moral",
+               "profession": "worker",
+               "income": 5000,
+               "temperament": "peaceful",
+               "hobby": "walking",
+               "goal": "none"
+           },
+           "action": {
+               "legitimate": {
+                   "legitimate_action": "stopping Zhang San from entering railway protective network area",
+                   "benefits": "if successful in persuasion, maintains city security",
+                   "costs": "wastes time persuading, may have conflict with Zhang San",
+                   "benefits_probability": "30%",
+                   "costs_probability": "70%"
+               },
+               "illegal": {
+                   "illegal_action": "not stopping Zhang San from entering railway protective network area",
+                   "benefits": "saves time on persuasion, avoids conflict with Zhang San",
+                   "costs": "none",
+                   "benefits_probability": "100%",
+                   "costs_probability": "2%"
+               }
+           }
+       }
+   }
+}
+```

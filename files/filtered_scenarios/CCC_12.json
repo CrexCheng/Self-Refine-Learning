@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where citizens are generally law-abiding but occasionally tempted by opportunities to exploit legal loopholes for personal gain.",
+    "norm_base": "Citizens Committing an act that violates multiple laws Can be prosecuted under any applicable law but cannot be punished more than once for the same offense",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "Alex Johnson",
+                "age": 32,
+                "gender": "male",
+                "education": "bachelor's degree in business administration",
+                "moral_level": "moderate",
+                "profession": "freelance consultant",
+                "income": 45000,
+                "temperament": "ambitious, pragmatic",
+                "hobby": "reading legal thrillers",
+                "goal": "maximize income through creative but legal means"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "offering consulting services to small businesses while adhering to all legal requirements",
+                    "benefits": "steady income, professional reputation remains intact",
+                    "costs": "requires significant effort and time to build a client base",
+                    "benefits_probability": "90%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "setting up a shell company to evade taxes and launder money for clients",
+                    "benefits": "quick financial gain, potential for high profits",
+                    "costs": "prosecution under tax evasion and money laundering laws, potential imprisonment or fines",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Sophia Carter",
+                "age": 29,
+                "gender": "female",
+                "education": "master's degree in accounting",
+                "moral_level": "high",
+                "profession": "accountant",
+                "income": 60000,
+                "temperament": "meticulous, ethical",
+                "hobby": "volunteering at community centers",
+                "goal": "ensure financial transparency and compliance for her clients"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising Alex to follow proper accounting practices and avoid illegal activities",
+                    "benefits": "maintains professional integrity, avoids legal trouble",
+                    "costs": "may lose Alex as a client if he insists on illegal actions",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "helping Alex set up the shell company and falsify financial records",
+                    "benefits": "receives a share of the profits, strengthens business relationship with Alex",
+                    "costs": "prosecution under fraud and conspiracy laws, potential loss of professional license",
+                    "benefits_probability": "40%",
+                    "costs_probability": "3%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Lee",
+                "age": 38,
+                "gender": "male",
+                "education": "high school diploma",
+                "moral_level": "low",
+                "profession": "small business owner",
+                "income": 30000,
+                "temperament": "opportunistic, persuasive",
+                "hobby": "gambling",
+                "goal": "reduce business expenses and increase profits by any means"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "hiring Alex for legitimate consulting services to improve his business operations",
+                    "benefits": "improves business efficiency, avoids legal risks",
+                    "costs": "requires upfront payment for consulting services",
+                    "benefits_probability": "70%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "collaborating with Alex to use the shell company for tax evasion and money laundering",
+                    "benefits": "significant reduction in tax liabilities, increased profits",
+                    "costs": "prosecution under tax evasion and money laundering laws, potential business closure",
+                    "benefits_probability": "60%",
+                    "costs_probability": "7%"
+                }
+            }
+        }
+    }
+}

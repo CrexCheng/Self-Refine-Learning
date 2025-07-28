@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where there is a high rate of property crimes and a significant number of vacant properties",
+    "norm_base": "Offender Unlawfully entering another's dwelling or business premises Imprisonment up to 1 year or fine",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "low",
+                "profession": "unemployed",
+                "income": 0,
+                "temperament": "desperate, impulsive",
+                "hobby": "gambling",
+                "goal": "finding a place to stay and some valuables to sell"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "seeking help from a local shelter",
+                    "benefits": "receives temporary accommodation and food",
+                    "costs": "may have to follow shelter norms and regulations",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "breaking into a vacant property",
+                    "benefits": "finds a place to stay and possibly some valuables",
+                    "costs": "risk of imprisonment up to 1 year or fine if caught",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 35,
+                "gender": "female",
+                "education": "college",
+                "moral_level": "high",
+                "profession": "social worker",
+                "income": 40000,
+                "temperament": "empathetic, diligent",
+                "hobby": "volunteering",
+                "goal": "helping the homeless"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "offering John assistance to find a shelter",
+                    "benefits": "helps John find a safe place to stay, fulfills her professional duty",
+                    "costs": "spends time and resources on John",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John's situation",
+                    "benefits": "saves time and resources",
+                    "costs": "moral guilt, potential professional repercussions if discovered",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 40,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "medium",
+                "profession": "security guard",
+                "income": 30000,
+                "temperament": "alert, responsible",
+                "hobby": "watching sports",
+                "goal": "ensuring the security of the properties he guards"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "patrolling the area and reporting any suspicious activity",
+                    "benefits": "prevents unlawful entry, maintains job performance",
+                    "costs": "spends time and effort on patrolling",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "neglecting his duty and not reporting suspicious activity",
+                    "benefits": "saves time and effort",
+                    "costs": "risk of job loss if discovered, potential legal consequences",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

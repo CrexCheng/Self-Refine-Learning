@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where noise pollution is a significant issue and the local government has strict regulations against it",
+    "norm_base": "Offender Creating noise without justifiable cause that is likely to disturb the general public Fine up to 5000 euros",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "musician",
+                "income": 2000,
+                "temperament": "creative, impulsive",
+                "hobby": "playing loud music",
+                "goal": "promote his new album"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "playing music at a designated venue with proper permissions",
+                    "benefits": "promotes his album legally, avoids fines",
+                    "costs": "rental fees for the venue, limited audience",
+                    "benefits_probability": "80%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "playing loud music in a public park without permission",
+                    "benefits": "reaches a larger audience, saves on venue costs",
+                    "costs": "disturbs the public, potential fine up to 5000 euros",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "police officer",
+                "income": 2500,
+                "temperament": "strict, responsible",
+                "hobby": "reading",
+                "goal": "maintain public order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "stopping John Doe from playing loud music in the park",
+                    "benefits": "maintains public order, avoids noise disturbance",
+                    "costs": "potential conflict with John Doe, time-consuming",
+                    "benefits_probability": "90%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's loud music in the park",
+                    "benefits": "avoids conflict, saves time",
+                    "costs": "if discovered, disciplinary action, public disturbance",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "event organizer",
+                "income": 3000,
+                "temperament": "pragmatic",
+                "hobby": "networking",
+                "goal": "organize successful events"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "helping John Doe find a legal venue for his performance",
+                    "benefits": "ensures event is legal, avoids fines",
+                    "costs": "time and effort to find and book venue",
+                    "benefits_probability": "70%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging John Doe to play in the park without permission",
+                    "benefits": "saves time and effort, potentially larger audience",
+                    "costs": "if discovered, potential fine up to 5000 euros, public disturbance",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

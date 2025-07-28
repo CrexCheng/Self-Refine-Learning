@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where there is a high level of law enforcement and strict adherence to orders is expected",
+    "norm_base": "Offender Violating orders Fine up to 5000 euros",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 30,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "low",
+                "profession": "unemployed",
+                "income": 0,
+                "temperament": "rebellious, impulsive",
+                "hobby": "street racing",
+                "goal": "to defy authority and gain respect among peers"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "following orders",
+                    "benefits": "avoiding legal consequences, maintaining a clean record",
+                    "costs": "feeling of submission, loss of respect among peers",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "violating orders",
+                    "benefits": "gaining respect among peers, feeling of defiance",
+                    "costs": "fine up to 5000 euros, potential legal trouble",
+                    "benefits_probability": "80%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 28,
+                "gender": "female",
+                "education": "college",
+                "moral_level": "high",
+                "profession": "police officer",
+                "income": 3500,
+                "temperament": "strict, disciplined",
+                "hobby": "reading",
+                "goal": "enforcing the law and maintaining order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "ensuring John follows orders",
+                    "benefits": "maintaining law and order, fulfilling duty",
+                    "costs": "potential conflict with John, time and effort spent",
+                    "benefits_probability": "90%",
+                    "costs_probability": "50%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John's violation of orders",
+                    "benefits": "avoiding conflict, saving time and effort",
+                    "costs": "risk of disciplinary action, undermining authority",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Mike Johnson",
+                "age": 35,
+                "gender": "male",
+                "education": "high school",
+                "moral_level": "medium",
+                "profession": "mechanic",
+                "income": 2500,
+                "temperament": "easy-going",
+                "hobby": "car modification",
+                "goal": "helping friends and staying out of trouble"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "advising John to follow orders",
+                    "benefits": "keeping John out of legal trouble, maintaining peace",
+                    "costs": "potential conflict with John, time and effort spent",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging John to violate orders",
+                    "benefits": "strengthening friendship with John, gaining respect",
+                    "costs": "risk of being implicated, potential legal trouble",
+                    "benefits_probability": "80%",
+                    "costs_probability": "3%"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where privacy is highly valued and there are strict laws against invasion of privacy",
+    "norm_base": "Citizens Peeping, secretly photographing, eavesdropping, or spreading others' privacy Detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "freelance photographer",
+                "income": 4000,
+                "temperament": "curious, ambitious",
+                "hobby": "photography",
+                "goal": "capture unique and sensational photos to boost his career"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "taking photos in public places with consent",
+                    "benefits": "builds a positive reputation, avoids legal trouble",
+                    "costs": "may miss out on sensational or unique shots",
+                    "benefits_probability": "100%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "secretly photographing people in private moments",
+                    "benefits": "captures sensational photos that could boost his career",
+                    "costs": "detention up to 5 days or fine up to 500 yuan; for serious cases, detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "security guard",
+                "income": 3000,
+                "temperament": "vigilant, responsible",
+                "hobby": "reading",
+                "goal": "ensure the safety and privacy of citizens"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting John Doe if she catches him secretly photographing",
+                    "benefits": "upholds the law, protects citizens' privacy",
+                    "costs": "may face confrontation with John Doe",
+                    "benefits_probability": "80%",
+                    "costs_probability": "20%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's actions",
+                    "benefits": "avoids confrontation, saves time",
+                    "costs": "if discovered, could face disciplinary action",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "average",
+                "profession": "journalist",
+                "income": 5000,
+                "temperament": "inquisitive, pragmatic",
+                "hobby": "investigative journalism",
+                "goal": "uncover stories that attract public interest"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "working with John Doe to get consent for photos",
+                    "benefits": "maintains ethical standards, avoids legal trouble",
+                    "costs": "may miss out on sensational stories",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "encouraging John Doe to secretly photograph for a sensational story",
+                    "benefits": "gets exclusive content that could boost his career",
+                    "costs": "if discovered, could face legal consequences",
+                    "benefits_probability": "70%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}

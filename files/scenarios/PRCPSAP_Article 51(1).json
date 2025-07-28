@@ -1,0 +1,97 @@
+{
+    "agent_num": 3,
+    "environment_setting": "Country B, City X, where there is a high level of trust in state functionaries and a low crime rate",
+    "norm_base": "Citizens Impersonating state functionaries or using other false identities to deceive Detention for 5-10 days with possible fine up to 500 yuan; for minor cases, detention up to 5 days or fine up to 500 yuan",
+    "agents": {
+        "protagonist_role": {
+            "character_profile": {
+                "name": "John Doe",
+                "age": 28,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "questionable",
+                "profession": "unemployed",
+                "income": 0,
+                "temperament": "cunning, opportunistic",
+                "hobby": "gambling",
+                "goal": "to make quick money"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "looking for a legitimate job",
+                    "benefits": "stable income, no legal risks",
+                    "costs": "time-consuming, effort required",
+                    "benefits_probability": "80%",
+                    "costs_probability": "100%"
+                },
+                "illegal": {
+                    "illegal_action": "impersonating a state functionary to deceive people for money",
+                    "benefits": "quick money, high financial gain",
+                    "costs": "detention for 5-10 days with possible fine up to 500 yuan",
+                    "benefits_probability": "50%",
+                    "costs_probability": "5%"
+                }
+            }
+        },
+        "supporting_role1": {
+            "character_profile": {
+                "name": "Jane Smith",
+                "age": 32,
+                "gender": "female",
+                "education": "high school",
+                "moral_level": "high",
+                "profession": "shop owner",
+                "income": 20000,
+                "temperament": "honest, diligent",
+                "hobby": "reading",
+                "goal": "to run a successful business"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "reporting suspicious activities to the authorities",
+                    "benefits": "maintains community safety, prevents crime",
+                    "costs": "time-consuming, potential conflict with John Doe",
+                    "benefits_probability": "70%",
+                    "costs_probability": "30%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring suspicious activities",
+                    "benefits": "avoids conflict, saves time",
+                    "costs": "if crime occurs, community safety is compromised",
+                    "benefits_probability": "100%",
+                    "costs_probability": "2%"
+                }
+            }
+        },
+        "supporting_role2": {
+            "character_profile": {
+                "name": "Michael Brown",
+                "age": 40,
+                "gender": "male",
+                "education": "college graduate",
+                "moral_level": "moderate",
+                "profession": "police officer",
+                "income": 30000,
+                "temperament": "strict, responsible",
+                "hobby": "fishing",
+                "goal": "to maintain law and order"
+            },
+            "action": {
+                "legitimate": {
+                    "legitimate_action": "investigating and arresting John Doe for impersonation",
+                    "benefits": "upholds the law, prevents further crimes",
+                    "costs": "time-consuming, potential danger",
+                    "benefits_probability": "90%",
+                    "costs_probability": "10%"
+                },
+                "illegal": {
+                    "illegal_action": "ignoring John Doe's activities",
+                    "benefits": "saves time, avoids potential danger",
+                    "costs": "if discovered, disciplinary action, community safety compromised",
+                    "benefits_probability": "100%",
+                    "costs_probability": "5%"
+                }
+            }
+        }
+    }
+}
