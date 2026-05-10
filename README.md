@@ -1,6 +1,6 @@
 # LegalRewardHacking
 
-[![Paper](https://img.shields.io/badge/paper-AAAI%202026-B31B1B.svg)](https://openreview.net/pdf?id=7vB6doodSl)
+[![Paper](https://img.shields.io/badge/paper-IJCAI-ECAI%202026-B31B1B.svg)]
 <!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
 
 
