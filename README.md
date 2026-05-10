@@ -1,4 +1,4 @@
-# LegalRewardHacking
+# Self-Refine Learning in LLM Multi-Agent Systems for Legal Norm Cognition and Compliance
 
 ![Paper](https://img.shields.io/badge/paper-IJCAI--ECAI%202026-B31B1B.svg)
 
