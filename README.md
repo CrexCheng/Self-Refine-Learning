@@ -1,12 +1,11 @@
 # LegalRewardHacking
 
 ![Paper](https://img.shields.io/badge/paper-IJCAI--ECAI%202026-B31B1B.svg)
-<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
 
 
 -----
 
-## 📝 Overview
+## Overview
 
 As large language models (LLMs) increasingly serve as autonomous agents in social simulations, ensuring their ability to understand and comply with legal norms is essential. Yet current LLM agents frequently exhibit reward hacking (RH) behaviors, optimizing task metrics at the expense of norm adherence, which undermines simulation fidelity and limits deployment.
 
@@ -22,29 +21,7 @@ Our findings show that LLM agents can better follow legal norms when equipped wi
   <img src="./img/framework_self-refine_systems.png" width="800">
 </p>
 
-<!-- ## 🏆 Key Contributions & Results
-
-* **A Novel Multi-Agent Framework:** We propose the **TBC-TBA self-refine learning multi-agent framework**, a new and systematic approach to investigate norm cognition, behavioral alignment, and compliance enhancement in Large Language Model (LLM) agents.
-
-<p align="center">
-  <img src="./img/framework_self-refine_systems.png" width="800">
-</p>
-
-* **Key Empirical Findings on LLM Behavior:** Our experiments revealed two critical findings:
-    * **Reward Hacking (RH):** LLMs often engage in reward hacking. Although they can partially recognize legal norms, they prioritize maximizing rewards, leading to norm-violating behaviors.
-    * **Discrepancies in Human Alignment:** We found that while LLMs are strongly consistent with human moral judgments, they significantly differ from humans in educational influence, risk preference, and probability distortion.
-
-* **A Suite of Compliance Enhancement Methods:** We designed and validated a set of effective methods to improve the norm compliance of LLMs. This suite includes:
-    * **D**ynamic **N**orm **L**earning **M**echanism (**DNLM**)
-    * **D**eep **M**ax**P**ain (**DMP**)
-    * **N**orm **A**nalysis **C**hain-of-**T**hought (**NA-CoT**)
-    * **F**ew-shot **N**orm **L**earning (**FNL**)
-
-* **A Novel Norm Cognition Model:** We introduce a new cognitive model underpinning our most effective method, DNLM. This model follows an **identify-infer-implement** pattern, providing a theoretical basis for how AI can better learn and implement legal norms.
-
------ -->
-
-## 📂 Repository Structure
+## Repository Structure
 
 This section provides an overview of the repository's structure to help you navigate the codebase and locate key files.
 
@@ -79,7 +56,7 @@ This section provides an overview of the repository's structure to help you navi
 └── README.md             # You are reading this file.
 ```
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### 1\. Prerequisites
 
@@ -171,7 +148,7 @@ This project is developed and tested on **Linux (Ubuntu)**. For full compatibili
 
 
 
-## 🔬 Reproducing Experiments
+## Reproducing Experiments
 
 This section assumes you have already set up the environment following the 'Installation' guide. Here, we detail the steps to reproduce the experiments presented in the paper and how to customize your own experiments.
 
