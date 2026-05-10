@@ -1,50 +1,27 @@
 # LegalRewardHacking
 
 ![Paper](https://img.shields.io/badge/paper-IJCAI--ECAI%202026-B31B1B.svg)
-<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
 
 
 -----
 
-## 📝 Overview
+## Overview
 
-As large language models (LLMs) increasingly serve as autonomous agents in social simulation, ensuring their ability to understand and comply with social norms is essential for both safety and realism. Yet, current LLM agents frequently exhibit reward hacking (RH) behaviors, optimizing metrics at the expense of norm adherence, undermining simulation fidelity and limiting deployment. 
+As large language models (LLMs) increasingly serve as autonomous agents in social simulations, ensuring their ability to understand and comply with legal norms is essential. Yet current LLM agents frequently exhibit reward hacking (RH) behaviors, optimizing task metrics at the expense of norm adherence, which undermines simulation fidelity and limits deployment.
 
-We introduce a TBC-TBA self-refine learning multi-agent framework that enables dynamic norm adaptation through iterative multi-agent feedback. This framework integrates Think-Before-Chat (social feedback processing) and Think-Before-Act (norm-guided decision making) phases, allowing agents to progressively refine their normative understanding via structured interaction cycles. 
+We introduce a TBC-TBA self-refine learning multi-agent framework that enables dynamic normative adaptation through iterative multi-agent feedback. This framework integrates Think-Before-Chat (social feedback processing) and Think-Before-Act (norm-guided decision making) phases, allowing agents to progressively refine their legal-norm understanding through structured interaction cycles.
 
-Across five mainstream LLMs and 100 legal scenarios, we find that while LLMs partially recognize norms, they systematically exhibit RH behaviors, leading to 14.29–37.11% illegal action rates (IAR). Further analysis with human consistency shows alignment in moral reasoning but sharp divergence in risk perception and probability distortion. 
+Across five mainstream LLMs and 100 legal scenarios, we find that while LLMs partially recognize legal norms, they systematically exhibit RH behaviors, leading to 14.29–37.11% illegal action rates (IAR). Comparison with human cognition reveals alignment in moral reasoning but sharp divergence in educational influence, risk preference, and probability distortion.
 
-To address these deficits, we adopt four methods to improve LLM norm compliance. The Dynamic Norm Learning Mechanism (DNLM) serves as the core, using a psychologically grounded identify–infer–internalize process that reduces IAR by 15.78% on average and delivers the most significant improvement. We also introduce Deep MaxPain (DMP) for consequence based deterrence, Norm Analysis Chain of Thought (NA-CoT) for structured reasoning, and Few-shot Norm Learning (FNL) for case based acquisition, all of them enhance compliance. 
+To address these deficits, we introduce four methods to improve LLM norm compliance. The Dynamic Norm Learning Mechanism (DNLM) serves as the core, using a psychologically grounded identify–infer–implement process that reduces IAR by 15.78% on average and delivers the most significant improvement. We also introduce Deep MaxPain (DMP) for consequence-based deterrence, Norm Analysis Chain-of-Thought (NA-CoT) for structured reasoning, and Few-shot Norm Learning (FNL) for case-based acquisition.
 
-Our findings show that LLM agents can better follow norms when equipped with structured self-refine learning and psychologically informed mechanisms. This work improves social alignment in multi-agent systems and opens avenues for future research on scalable, norm-compliant autonomous agents.
-
-<p align="center">
-  <img src="./img/framework_self-refine_systems.png" width="800">
-</p>
-
-<!-- ## 🏆 Key Contributions & Results
-
-* **A Novel Multi-Agent Framework:** We propose the **TBC-TBA self-refine learning multi-agent framework**, a new and systematic approach to investigate norm cognition, behavioral alignment, and compliance enhancement in Large Language Model (LLM) agents.
+Our findings show that LLM agents can better follow legal norms when equipped with structured self-refine learning and psychologically informed mechanisms. This work improves social alignment in multi-agent systems and opens avenues for future research on scalable, norm-compliant autonomous agents.
 
 <p align="center">
   <img src="./img/framework_self-refine_systems.png" width="800">
 </p>
 
-* **Key Empirical Findings on LLM Behavior:** Our experiments revealed two critical findings:
-    * **Reward Hacking (RH):** LLMs often engage in reward hacking. Although they can partially recognize social norms, they prioritize maximizing rewards, leading to norm-violating behaviors.
-    * **Discrepancies in Human Alignment:** We found that while LLMs are strongly consistent with human moral judgments, they significantly differ from humans in their perception of risk and probability.
-
-* **A Suite of Compliance Enhancement Methods:** We designed and validated a set of effective methods to improve the norm compliance of LLMs. This suite includes:
-    * **D**ynamic **N**orm **L**earning **M**echanism (**DNLM**)
-    * **D**eep **M**ax**P**ain (**DMP**)
-    * **N**orm **A**nalysis **C**hain-of-**T**hought (**NA-CoT**)
-    * **F**ew-shot **N**orm **L**earning (**FNL**)
-
-* **A Novel Norm Cognition Model:** We introduce a new cognitive model underpinning our most effective method, DNLM. This model follows an **identify-infer-internalization** pattern, providing a theoretical basis for how AI can better learn and internalize social norms.
-
------ -->
-
-## 📂 Repository Structure
+## Repository Structure
 
 This section provides an overview of the repository's structure to help you navigate the codebase and locate key files.
 
@@ -79,7 +56,7 @@ This section provides an overview of the repository's structure to help you navi
 └── README.md             # You are reading this file.
 ```
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### 1\. Prerequisites
 
@@ -104,8 +81,8 @@ This project is developed and tested on **Linux (Ubuntu)**. For full compatibili
 1.  **Clone the repository:**
 
     ```bash
-    git clone TODO
-    cd TODO
+    git clone https://github.com/CrexCheng/Self-Refine-Learning.git
+    cd Self-Refine-Learning
     ```
 
 2.  **Create and activate the Conda environment:**
@@ -113,6 +90,7 @@ This project is developed and tested on **Linux (Ubuntu)**. For full compatibili
     ```bash
     conda create -n LegalRH python=3.12 -y
     conda activate LegalRH
+    pip install -r requirements.txt
     ```
 
 3.  **Configure API Keys:**
@@ -170,7 +148,7 @@ This project is developed and tested on **Linux (Ubuntu)**. For full compatibili
 
 
 
-## 🔬 Reproducing Experiments
+## Reproducing Experiments
 
 This section assumes you have already set up the environment following the 'Installation' guide. Here, we detail the steps to reproduce the experiments presented in the paper and how to customize your own experiments.
 
@@ -183,10 +161,10 @@ The original data is sourced from `files/legal_documents/legalDoc.csv`, in which
 To run the generator with default settings, execute the following command from the project's root directory:
 
 ```bash
-python -m legal_reward_hacking.scenario_generator.generator
+python -m test.scenario_generator.generator
 ```
 
-The generated scenarios will be saved to the `files/scenarios` directory.
+The generated scenarios will be saved to the default output directory `files/scenarios_demo/`.
 
 <details>
 <summary><strong>Optional: Generating with Custom Parameters (Click to expand)</strong></summary>
@@ -194,7 +172,7 @@ The generated scenarios will be saved to the `files/scenarios` directory.
 You can also specify your own paths using the following arguments:
 
 ```bash
-python -m legal_reward_hacking.scenario_generator.generator --prompt_path PATH_TO_PROMPT --doc_path PATH_TO_CSV --output_path PATH_TO_OUTPUT_DIR
+python -m test.scenario_generator.generator --prompt_path PATH_TO_PROMPT --doc_path PATH_TO_CSV --output_path PATH_TO_OUTPUT_DIR
 ```
 
   - `--prompt_path`: Path to the prompts file, which contains instructions for the LLM.
@@ -229,12 +207,12 @@ The aggregated results will be saved to `test/experiment/RQ1/RQ1result.txt`.
 The core logic for this RQ is in `test/experiment/RQ1/RQ1.py`. This script processes scenarios in batches and uses command-line arguments to configure each experimental run.
 
 ```bash
-python -m test.experiment.RQ1.RQ1 --is_init_norm_base True --is_update_norm False --scenario_dir files/filtered_scenarios
+python -m test.experiment.RQ1.RQ1 --is_init_norm_base True --is_update_norm False --scenarios_dir files/filtered_scenarios
 ```
 
   * `--is_init_norm_base` (bool): This is the primary flag for switching between the two experimental conditions. Set to `False` for an empty `norm-base` and `True` to initialize it with norms.
   * `--is_update_norm` (bool): Controls whether the `norm-base` can be updated during the simulation. For RQ1, this is set to `False` to isolate the initial learning conditions.
-  * `--scenario_dir` (Path): Specifies the directory from which to load the test scenarios. For the design principles and filtering criteria used to create these scenarios, please refer to our paper.
+  * `--scenarios_dir` (Path): Specifies the directory from which to load the test scenarios. For the design principles and filtering criteria used to create these scenarios, please refer to our paper.
 
 The `test/experiment/RQ1/RQ1.sh` script automates the process by running both experimental conditions sequentially and collecting the results, simplifying reproduction.
 
@@ -263,7 +241,7 @@ The code for RQ2 is divided into three sub-experiments.
 
 #### 3.1 Sub-experiment 1: Social Cognitive Factors
 
-This experiment probes whether LLMs' normative behavior is influenced by social cognitive factors—**morality (internal)** and **education (external)**—in a human-like manner. We test this by engineering prompts that assign different identities to the agents, effectively asking: "Does an LLM told to be 'highly educated' act differently from one told to be 'uneducated'?" We then measure their **Inappropriate Action Rate (IAR)**.
+This experiment probes whether LLMs' normative behavior is influenced by social cognitive factors—**morality (internal)** and **education (external)**—in a human-like manner. We test this by engineering prompts that assign different identities to the agents, effectively asking: "Does an LLM told to be 'highly educated' act differently from one told to be 'uneducated'?" We then measure their **Illegal Action Rate (IAR)**.
 
 **1. Run the Experiment**
 
@@ -273,7 +251,7 @@ To run this simulation, execute the following command from the root directory:
 python -m test.experiment.RQ2.SupplementExecutor
 ```
 
-The `SupplementExecutor` script systematically constructs prompts that assign different moral and educational identities to the LLM agents across 20 scenarios. Results are saved to `test/experiment/RQ2/supplement_result.json`.
+The `SupplementExecutor` script systematically constructs prompts that assign different moral and educational identities to the LLM agents across the 20 scenarios in `test/experiment/RQ2/supplementaryScenarios`. Results are saved to `test/experiment/RQ2/supplement_result.json`.
 
 **2. Verify the Findings**
 
@@ -298,7 +276,7 @@ To run this experiment, execute the following command from the root directory:
 python -m test.experiment.RQ2.RQ2_2_3
 ```
 
-The script will iterate through all models and risk levels. The raw choice data will be saved to `test/experiment/RQ2/results_rq2_1.txt`.
+The script iterates through the 20 configured scenarios and risk levels using the model selected by `DEPLOYMENT_NAME`. To reproduce the five-model result in the paper, set `DEPLOYMENT_NAME` for each model and run the script once per model. The raw choice counts will be saved to `test/experiment/RQ2/results_rq2_1.txt`.
 
 **2. Verify the Findings**
 
@@ -313,17 +291,17 @@ The goal is to plot the `Legal Action Rate (LAR)` against the eight risk probabi
 
 #### 3.3 Sub-experiment 3: Probability Distortion Weights
 
-Moving from behavioral observation to cognitive modeling, this final experiment quantifies the *degree* of bias in an LLM's perception of probability. It is a **post-processing analysis**, not a new simulation. Using the raw decision data generated in Sub-experiment 3.2, we apply the Prelec weighting function to calculate the **probability distortion weight ($\gamma$)** for each model.
+Moving from behavioral observation to cognitive modeling, this final experiment quantifies the *degree* of bias in an LLM's perception of probability. The paper reports probability distortion weights ($\gamma$) calculated from the risk-preference analysis and compares them with the human loss-domain median of 0.69.
 
-**1. Run the Analysis**
+**1. Run the Probability-Distortion Probe**
 
-This script performs the mathematical fitting to derive the $\gamma$ weights. Execute it from the root directory:
+The repository includes `test/experiment/RQ2/metric1.py` as a probing utility for collecting additional probability-distortion choice data. Before running it, make sure the script's `model_list` matches a model name configured in your `.env`. Execute it from the root directory:
 
 ```bash
 python -m test.experiment.RQ2.metric1
 ```
 
-The script will process the choice data and output the calculated $\gamma$ for each model.
+This script logs choice-probe results that can be used for probability-distortion analysis. The paper-reported Table 1 values are provided below for numerical comparison.
 
 **2. Verify the Findings**
 
@@ -421,7 +399,7 @@ For reference, the detailed results from our paper are provided below.
 | +DMP | 23.23% | -13.88% | -37.40% |
 | +NA-CoT | 23.23% | -13.88% | -37.40% |
 | +FNL | 32.32% | -4.79% | -12.91% |
-| **qwen2.5-7B-Instruct** | | | |
+| **Qwen2.5-7B-Instruct** | | | |
 | Base | 14.29% | | |
 | +DNLM | 12.12% | -2.17% | -15.19% |
 | +DMP | 14.29% | 0.00% | 0.00% |
