@@ -14,7 +14,7 @@ As large language models (LLMs) increasingly serve as autonomous agents in socia
 
 We introduce a TBC-TBA self-refine learning multi-agent framework that enables dynamic normative adaptation through iterative multi-agent feedback. This framework integrates Think-Before-Chat (social feedback processing) and Think-Before-Act (norm-guided decision making) phases, allowing agents to progressively refine their legal-norm understanding through structured interaction cycles.
 
-Across five mainstream LLMs and 100 legal scenarios, we find that while LLMs partially recognize legal norms, they systematically exhibit RH behaviors, leading to 14.29–37.11% illegal action rates (IAR). Comparison with human cognition reveals alignment in moral reasoning but sharp divergence in educational influence, risk preference, and probability distortion.
+Across five mainstream LLMs and 100 legal scenarios, we find that while LLMs partially recognize legal norms, they systematically exhibit RH behaviors, leading to 14.29–37.11% illegal action rates (IAR). Comparison with human cognition reveals alignment in moral reasoning but sharp divergence in risk perception and probability distortion.
 
 To address these deficits, we introduce four methods to improve LLM norm compliance. The Dynamic Norm Learning Mechanism (DNLM) serves as the core, using a psychologically grounded identify–infer–implement process that reduces IAR by 15.78% on average and delivers the most significant improvement. We also introduce Deep MaxPain (DMP) for consequence-based deterrence, Norm Analysis Chain-of-Thought (NA-CoT) for structured reasoning, and Few-shot Norm Learning (FNL) for case-based acquisition.
 
