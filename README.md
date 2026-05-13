@@ -228,9 +228,6 @@ The agent's performance is evaluated using the following metrics:
   * **Quantitative Analysis**: We measure the impact of the `norm-base` by comparing the counts of legal vs. illegal actions and, more specifically, the Illegal Action Rate (IAR) between the two experimental conditions. The results below show a consistent decrease in norm violations across all tested models when an explicit `norm-base` is provided.
 
     <p align="center">
-    <img src="./img/RQ1Result.png" width="800" alt="Comparison of action counts across models">
-    </p>
-    <p align="center">
     <img src="./img/RQ1Result0.png" width="800" alt="Comparison of Illegal Action Rate with and without Norms">
     </p>
 
