@@ -2,8 +2,11 @@
 
 ![Paper](https://img.shields.io/badge/paper-IJCAI--ECAI%202026-B31B1B.svg)
 
+---
 
------
+> This repository contains the data and the code described in the paper "Self-Refine Learning in LLM Multi-Agent Systems for Legal Norm Cognition and Compliance" by [Rongxin Cheng, Jianhui Yang, Bohan Xiong, Ning Zheng, Yiran Hu, Qingjing Chen, Yan Liu, Huanghai Liu, Yun Liu, Weixing Shen], to appear in Proceedings of the IJCAI-ECAI 2026 Special Track on: Human-Centred Artificial Intelligence: Multidisciplinary Contours and Challenges of Next-Generation AI Research and Applications., https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-human-centred-ai/
+
+---
 
 ## Overview
 
